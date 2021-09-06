@@ -1,0 +1,266 @@
+cohort	trait	description	definition	model_marginal	n_samples	n_cases	n_controls	mean	sd	unit	domain	trait_cohort
+BBJ	AD	Atopic dermatitis (Eczema)	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	168103	4296	163807	NA	NA	NA	Other	AD_Combined
+FG	AD	Atopic dermatitis	FinnGen: L12_ATOPIC	SAIGE	244544	8383	236161	NA	NA	NA	Other	L12_ATOPIC
+UKBB	AD	Atopic dermatitis	Phecode 939	SAIGE	357633	1865	355768	NA	NA	NA	Other	Eczema
+BBJ	AFib	Atrial fibrillation	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	164561	9021	155540	NA	NA	NA	Cardiovascular	AFib_Combined
+FG	AFib	Atrial fibrillation and flutter	FinnGen: I9_AF	SAIGE	164491	28670	135821	NA	NA	NA	Cardiovascular	I9_AF
+UKBB	AFib	Atrial fibrillation	Phecode 427.2	SAIGE	349512	12975	336537	NA	NA	NA	Cardiovascular	AFib
+BBJ	AG	Albumin/Globulin ratio	Albumin / (Total Protein - Albumin)	BOLT	117733	NA	NA	1.470930323	0.317795042	[ratio]	Other	AG
+UKBB	AG	Albumin/Globulin ratio	Albumin (UKBB: 30600) / (Total Protein [UKBB: 30860] - Albumin)	BOLT	316549	NA	NA	1.698676846	0.255770315	[ratio]	Other	AG
+BBJ	Age_at_Menarche	Age at menarche	Retrieved from medical records (PMID: 29773799)	BOLT	70394	NA	NA	13.93419633	1.931145317	years	Other	Age_at_Menarche
+UKBB	Age_at_Menarche	Age at menarche	UKBB: 2714	BOLT	188645	NA	NA	12.95461846	1.602657976	years	Other	Age_at_Menarche
+BBJ	Age_at_Menopause	Age at menopause	Retrieved from medical records (PMID: 29773799)	BOLT	53063	NA	NA	49.70959363	3.897334975	years	Other	Age_at_Menopause
+UKBB	Age_at_Menopause	Age at menopause	UKBB: 3581	BOLT	109110	NA	NA	50.33615617	4.147966287	years	Other	Age_at_Menopause
+BBJ	AID	Autoimmune disease	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	178726	6326	172400	NA	NA	NA	Immunological	AID
+FG	AID	Autoimmune diseases	FinnGen: AUTOIMMUNE	SAIGE	260405	52657	207748	NA	NA	NA	Immunological	AUTOIMMUNE
+UKBB	AID	Autoimmune disease (Phecode + Self-reported)	Combination of Phecodes (242.1, 244, 250.1, 335, 358.1, 446.4, 555, 557.1, 564.1, 694.1, 695.42, 704.1, 709.2, 709.3, 714.1, 715.2, 717) and non-cancer self-reported illness codes (1154, 1222, 1224, 1225, 1226, 1256, 1260, 1261, 1313, 1372, 1377, 1378, 1381, 1382, 1384, 1437, 1453, 1456, 1461, 1462, 1463, 1464, 1477, 1522, 1661, 1667)	SAIGE	293798	57091	236707	NA	NA	NA	Immunological	AID_Combined
+BBJ	Alb	Albumin	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	120539	NA	NA	41.91158828	4.41833593	g/L	Other	Alb
+UKBB	Alb	Albumin	UKBB: 30600	BOLT	317006	NA	NA	45.23837158	2.61178197	g/L	Other	Alb
+BBJ	ALP	Alkaline phosphatase	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	118886	NA	NA	236.7780305	85.22999113	IU/L	Hepatic	ALP
+UKBB	ALP	Alkaline phosphatase	UKBB: 30610	BOLT	345247	NA	NA	83.57396212	26.46268544	U/L	Hepatic	ALP
+BBJ	ALT	Alanine aminotransferase	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	150545	NA	NA	22.88153203	12.72380754	IU/L	Hepatic	ALT
+UKBB	ALT	Alanine aminotransferase	UKBB: 30620	BOLT	345091	NA	NA	23.53506985	14.04347346	U/L	Hepatic	ALT
+FG	Alzheimer	Alzheimer’s disease, wide definition	FinnGen: G6_AD_WIDE	SAIGE	260208	7329	252879	NA	NA	NA	Neurological	G6_AD_WIDE
+UKBB	Alzheimer	Alzheimer disease (LTFH)	Alzheimer LT-FH (see Hujoel et al. bioRxiv, 2019)	BOLT	360661	NA	NA	NA	NA	NA	Neurological	Alzheimer_LTFH
+FG	AMD	Age-related macular degeneration (whether dry or wet)	FinnGen: H7_AMD	SAIGE	248596	4645	243951	NA	NA	NA	Other	H7_AMD
+UKBB	AMD	Age-related macular degeneration	Combination of Phecode (362.29) and self-reported eye problems/disorders (6148)	SAIGE	352371	4426	347945	NA	NA	NA	Other	AMD_Combined
+FG	Amyloidosis	Amyloidosis, other/unspecified	FinnGen: E4_AMYLNAS	SAIGE	231680	232	231448	NA	NA	NA	Neurological	E4_AMYLNAS
+UKBB	ApoA	Apolipoprotein A	UKBB: 30630	BOLT	315139	NA	NA	1.542280949	0.270603288	g/L	Lipids	ApoA
+UKBB	ApoB	Apolipoprotein B	UKBB: 30640	BOLT	343572	NA	NA	1.033981212	0.238024163	g/L	Lipids	ApoB
+FG	AS	Ankylosing spondylitis	FinnGen: M13_ANKYLOSPON	SAIGE	196135	1846	194289	NA	NA	NA	Immunological	M13_ANKYLOSPON
+BBJ	AST	Aspartate aminotransferase	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	150068	NA	NA	23.42840172	8.502779957	IU/L	Hepatic	AST
+UKBB	AST	Aspartate aminotransferase	UKBB: 30650	BOLT	343988	NA	NA	26.21393072	10.62157663	U/L	Hepatic	AST
+BBJ	Asthma	Asthma	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	175948	13015	162933	NA	NA	NA	Immunological	Asthma_Combined
+FG	Asthma	Asthma	FinnGen: J10_ASTHMA	SAIGE	183996	25544	158452	NA	NA	NA	Immunological	J10_ASTHMA
+UKBB	Asthma	Asthma	Phecode 495	SAIGE	354883	45665	309218	NA	NA	NA	Immunological	Asthma_Combined
+UKBB	Balding_Type4	Balding Type 4	2395 (Pattern 4 as cases vs others)	SAIGE	167000	30876	136124	NA	NA	NA	Other	Balding_Type4
+BBJ	Baso	Basophil count	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	91908	NA	NA	0.03420663605	0.02523146923	10^9 cells/L	Hematopoietic	Baso
+UKBB	Baso	Basophil count	UKBB: 30160	BOLT	350726	NA	NA	0.03390222	0.051381354	10^9 cells/L	Hematopoietic	Baso
+FG	Benign_Neoplasms	Benign neoplasms (controls excluding all cancers)	FinnGen: CD2_BENIGN_EXALLC	SAIGE	228682	62983	165699	NA	NA	NA	Other	CD2_BENIGN_EXALLC
+UKBB	Benign_Neoplasms	Benign neoplasms	ICD-10 D10-D36, ICD-9 210-229	SAIGE	328234	40415	287819	NA	NA	NA	Other	Benign_Neoplasms
+UKBB	BFP	Body fat percentage	UKBB: 23099	BOLT	354844	NA	NA	31.33932038	8.517441649	%	Metabolic	BFP
+FG	Blood_Clot_Lung	Pulmonary embolism	FinnGen: I9_PULMEMB	SAIGE	259901	5130	254771	NA	NA	NA	Other	I9_PULMEMB
+UKBB	Blood_Clot_Lung	Blood clot in the lung	UKBB: 6152	SAIGE	361144	3055	358089	NA	NA	NA	Other	Blood_Clot_Lung
+BBJ	BMI	Body mass index	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	163835	NA	NA	23.29715232	3.564805049	kg/m^2	Metabolic	BMI
+FG	BMI	Body mass index	FinnGen: BMI_IRN	BOLT	178966	NA	NA	27.29132878	5.367449214	kg/m^2	Metabolic	BMI_IRN
+UKBB	BMI	Body mass index	UKBB: 21001	BOLT	360023	NA	NA	27.38679712	4.75735027	kg/m^2	Metabolic	BMI
+BBJ	BrC	Breast cancer	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	79550	6325	73225	NA	NA	NA	Other	BrC_Combined
+FG	BrC	Malignant neoplasm of breast (other cancers excluded from controls)	FinnGen: C3_BREAST_EXALLC	SAIGE	128554	11573	116981	NA	NA	NA	Other	C3_BREAST_EXALLC
+UKBB	BrC	Breast cancer	Phecode 174	SAIGE	182281	11300	170981	NA	NA	NA	Other	BrC_F
+BBJ	BUN	Blood urea nitrogen	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	148767	NA	NA	15.47042832	4.912446892	mg/dL	Renal	BUN
+BBJ	BW	Body weight	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	165419	NA	NA	59.64885486	11.54756662	kg	Metabolic	BW
+FG	BW	Body weight	FinnGen: WEIGHT_IRN	BOLT	184876	NA	NA	79.11366538	17.84687077	kg	Metabolic	WEIGHT_IRN
+UKBB	BW	Body weight	UKBB: 21002	BOLT	360153	NA	NA	78.28689474	15.89420791	kg	Metabolic	BW
+BBJ	Ca	Calcium	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	83980	NA	NA	2.288776824	0.132498574	mmol/L	Other	Ca
+UKBB	Ca	Calcium	UKBB: 30680	BOLT	316888	NA	NA	2.380307251	0.093845784	mmol/L	Other	Ca
+BBJ	CAD	Coronary artery disease	Combination of myocardial infarction, unstable angina, and stable angina	SAIGE	178726	32512	146214	NA	NA	NA	Cardiovascular	CAD_Combined
+FG	CAD	Major coronary heart disease event	FinnGen: I9_CHD	SAIGE	260405	25707	234698	NA	NA	NA	Cardiovascular	I9_CHD
+UKBB	CAD	Coronary artery disease	Phecode 411	SAIGE	360710	27244	333466	NA	NA	NA	Cardiovascular	CAD
+FG	Carpal_Tunnel_Syndrome	Carpal tunnel syndrome	FinnGen: G6_CARPTU	SAIGE	245120	13813	231307	NA	NA	NA	Other	G6_CARPTU
+UKBB	Carpal_Tunnel_Syndrome	Carpal tunnel syndrome	Phecode 351	SAIGE	356657	10982	345675	NA	NA	NA	Other	Carpal_Tunnel_Syndrome
+BBJ	Cataract	Cataract	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	178726	38194	140532	NA	NA	NA	Other	Cataract_Combined
+FG	Cataract	Senile cataract	FinnGen: H7_CATARACTSENILE	SAIGE	257504	32692	224812	NA	NA	NA	Other	H7_CATARACTSENILE
+UKBB	Cataract	Cataract	Phecode 366	SAIGE	361144	17827	343317	NA	NA	NA	Other	Cataract
+FG	CD	Crohn disease (strict definition, require KELA, min 2 HDR)	FinnGen: K11_CD_STRICT2	SAIGE	260248	1020	259228	NA	NA	NA	Immunological	K11_CD_STRICT2
+UKBB	CD	Crohn's disease	Phecode 555.1	SAIGE	297740	1510	296230	NA	NA	NA	Immunological	Crohn
+BBJ	CeAn	Cerebral aneurysm	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	155154	3132	152022	NA	NA	NA	Cardiovascular	CeAn_Combined
+BBJ	Cholelithiasis	Cholelithiasis	Past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	177558	9305	168253	NA	NA	NA	Hepatic	Cholelithiasis
+FG	Cholelithiasis	Cholelithiasis	FinnGen: K11_CHOLELITH	SAIGE	254733	23089	231644	NA	NA	NA	Hepatic	K11_CHOLELITH
+UKBB	Cholelithiasis	Cholelithiasis	Phecode 574.1	SAIGE	358546	12630	345916	NA	NA	NA	Hepatic	Cholelithiasis
+FG	Chronic_Tonsillitis	Chronic diseases of tonsils and adenoids	FinnGen: J10_CHRONTONSADEN	SAIGE	228343	29135	199208	NA	NA	NA	Other	J10_CHRONTONSADEN
+BBJ	Cirrhosis	Cirrhosis	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	178726	2551	176175	NA	NA	NA	Hepatic	Cirrhosis_Combined
+FG	Cirrhosis	Cirrhosis, broad definition used in the article https://doi.org/10.1101/594523	FinnGen: CIRRHOSIS_BROAD	SAIGE	260405	2380	258025	NA	NA	NA	Hepatic	CIRRHOSIS_BROAD
+UKBB	Cirrhosis	Cirrhosis	Phecode 571	SAIGE	355644	2603	353041	NA	NA	NA	Hepatic	Cirrhosis
+UKBB	College	College completion	UKBB: 6138	SAIGE	361144	173691	187453	NA	NA	NA	Other	College
+BBJ	COPD	Chronic obstructive pulmonary disease	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	166670	4017	162653	NA	NA	NA	Other	COPD_Final
+FG	COPD	COPD	FinnGen: J10_COPD	SAIGE	230024	9566	220458	NA	NA	NA	Other	J10_COPD
+UKBB	COPD	Chronic obstructive pulmonary disease	Phecode 496.21	SAIGE	339262	8085	331177	NA	NA	NA	Other	COPD_Combined
+FG	Coxarthrosis	Coxarthrosis	FinnGen: M13_ARTHTROSIS_COX	SAIGE	186533	13119	173414	NA	NA	NA	Immunological	M13_ARTHTROSIS_COX
+UKBB	Coxarthrosis	Coxarthrosis	Phecode 740.1	SAIGE	351668	15420	336248	NA	NA	NA	Immunological	Coxarthrosis
+BBJ	CRC	Colorectal cancer	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	167691	8305	159386	NA	NA	NA	Other	CRC_Combined
+FG	CRC	Colorectal cancer (other cancers excluded from controls)	FinnGen: C3_COLORECTAL_EXALLC	SAIGE	208471	4401	204070	NA	NA	NA	Other	C3_COLORECTAL_EXALLC
+UKBB	CRC	Colorectal cancer	Phecode 153	SAIGE	342123	3977	338146	NA	NA	NA	Other	CRC
+BBJ	CRP	C-reactive protein	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	83025	NA	NA	2.64107966	3.10948265	mg/L	Immunological	CRP
+UKBB	CRP	C-reactive protein	UKBB: 30710	BOLT	344503	NA	NA	2.587855461	4.383538514	mg/L	Immunological	CRP
+BBJ	DBP	Diastolic blood pressure	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	145515	NA	NA	79.19159537	12.18898334	mmHg	Cardiovascular	DBP
+UKBB	DBP	Diastolic blood pressure	UKBB: 4079	BOLT	360865	NA	NA	82.99292533	10.46891869	mmHg	Cardiovascular	DBP
+FG	Depression	Depression	FinnGen: F5_DEPRESSIO	SAIGE	256915	28098	228817	NA	NA	NA	Behavioral	F5_DEPRESSIO
+UKBB	Depression	Seen doctor (GP) for nerves, anxiety, tension or depression	UKBB: 2090	SAIGE	361144	124906	236238	NA	NA	NA	Behavioral	Depression_GP
+FG	Depression_medications	Depression medications	FinnGen: ANTIDEPRESSANTS	SAIGE	140016	74560	65456	NA	NA	NA	Behavioral	ANTIDEPRESSANTS
+FG	Diverticulosis	Diverticular disease of intestine	FinnGen: K11_DIVERTIC	SAIGE	233807	17851	215956	NA	NA	NA	Other	K11_DIVERTIC
+UKBB	Diverticulosis	Diverticulosis	Phecode 562.1	SAIGE	320165	23935	296230	NA	NA	NA	Other	Diverticulosis
+FG	DVT	DVT of lower extremities	FinnGen: I9_PHLETHROMBDVTLOW	SAIGE	231367	5632	225735	NA	NA	NA	Other	I9_PHLETHROMBDVTLOW
+UKBB	DVT	Blood clot in the leg	UKBB: 6152	SAIGE	361144	84610	276534	NA	NA	NA	Other	DVT
+UKBB	eBMD	Estimated heel bone mineral density	Mean of left and right heel bone mineral density (UKBB: 4105, 4124)	BOLT	326159	NA	NA	0.542695141	0.134054681	g/cm^2	Skeletal	eBMD
+UKBB	EduYears	Number of years of education	UKBB: 6138	BOLT	297172	NA	NA	16.58552286	3.964930951	years	Other	EduYears
+BBJ	eGFR	Estimated glomerular filtration rate (serum creatinine)	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	154633	NA	NA	70.00696024	22.05976901	mL/min/1.73 m^2	Renal	eGFR
+UKBB	eGFR	Estimated glomerular filtration rate (serum creatinine)	eGFR based on serum creatinine (UKBB: 30700) using the CKD-EPI formula	BOLT	345067	NA	NA	90.51609834	13.22068274	mL/min/1.73 m^2	Renal	eGFR
+UKBB	eGFRcys	Estimated glomerular filtration rate (cystain C)	eGFR based on cystain C (UKBB: 30720) using the CKD-EPI formula	BOLT	345219	NA	NA	305.5869976	28.98449814	mL/min/1.73 m^2	Renal	eGFRcys
+BBJ	Endometriosis	Endometriosis	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	82761	1786	80975	NA	NA	NA	Other	Endometriosis_Combined
+FG	Endometriosis	Endometriosis	FinnGen: N14_ENDOMETRIOSIS	SAIGE	91622	10029	81593	NA	NA	NA	Other	N14_ENDOMETRIOSIS
+BBJ	Eosino	Eosinophil count	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	93063	NA	NA	0.1730615715	0.1389530796	10^9 cells/L	Hematopoietic	Eosino
+UKBB	Eosino	Eosinophil count	UKBB: 30150	BOLT	350726	NA	NA	0.17413431	0.135822295	10^9 cells/L	Hematopoietic	Eosino
+BBJ	EsC	Esophageal cancer	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	160589	1388	159201	NA	NA	NA	Other	EsC_Combined
+UKBB	FedUp_Feelings	Fed-up feelings	UKBB: 1960	SAIGE	353716	143312	210404	NA	NA	NA	Behavioral	FedUp_Feelings
+UKBB	FEV1FVC	FEV1/FVC ratio	FEV1 (20150) divided by FVC (20151)	BOLT	272338	NA	NA	0.754058663	0.066311301	[ratio]	Other	FEV1FVC
+FG	Fibroblastic_Disorders	Fibroblastic disorders	FinnGen: M13_FIBROBLASTIC	SAIGE	202777	5053	197724	NA	NA	NA	Skeletal	M13_FIBROBLASTIC
+UKBB	Fibroblastic_Disorders	Fibroblastic disorders	ICD10: M72	SAIGE	361144	3439	357705	NA	NA	NA	Skeletal	Fibroblastic_Disorders
+BBJ	GaC	Gastric cancer	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	167122	7921	159201	NA	NA	NA	Other	GaC_Combined
+FG	GaC	Malignant neoplasm of stomach (controls excluding all cancers)	FinnGen: C3_STOMACH_EXALLC	SAIGE	204959	889	204070	NA	NA	NA	Other	C3_STOMACH_EXALLC
+BBJ	Gastric_Ulcer	Gastric ulcer	Past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	173877	12650	161227	NA	NA	NA	Other	Gastric_Ulcer
+BBJ	GD	Graves' disease	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	175465	2809	172656	NA	NA	NA	Immunological	GD_Combined
+FG	GD	Thyrotoxicosis with diffuse goitr	FinnGen: E4_THYTOXGOITDIF	SAIGE	224753	2778	221975	NA	NA	NA	Immunological	E4_THYTOXGOITDIF
+BBJ	GGT	Gamma-glutamyl transferase	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	133471	NA	NA	35.50356872	26.10347486	IU/L	Hepatic	GGT
+UKBB	GGT	Gamma-glutamyl transferase	UKBB: 30730	BOLT	345062	NA	NA	37.3975074	42.29722956	U/L	Hepatic	GGT
+BBJ	Glaucoma	Glaucoma	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	177351	8448	168903	NA	NA	NA	Other	Glaucoma_Combined
+FG	Glaucoma	Primary open-angle glaucoma	FinnGen: H7_GLAUCPRIMOPEN	SAIGE	255283	5363	249920	NA	NA	NA	Other	H7_GLAUCPRIMOPEN
+UKBB	Glaucoma	Glaucoma (Phecode + Self-reported)	Combination of Phecode (365) and self-reported eye problems/disorders (UKBB: 6148)	SAIGE	354399	7143	347256	NA	NA	NA	Other	Glaucoma_Combined
+BBJ	Glucose	Glucose	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	133336	NA	NA	6.588479398	2.030137603	mmol/L	Metabolic	Glucose
+UKBB	Glucose	Glucose	UKBB: 30740	BOLT	316666	NA	NA	5.116997442	1.207129223	mmol/L	Metabolic	Glucose
+FG	Gout	Gout	FinnGen: GOUT	SAIGE	245732	4502	241230	NA	NA	NA	Other	GOUT
+UKBB	Guilty_Feelings	Guilty feelings	UKBB: 2030	SAIGE	351860	100115	251745	NA	NA	NA	Behavioral	Guilty_Feelings
+BBJ	Hb	Hemoglobin	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	152447	NA	NA	13.42143958	1.783144592	g/dL	Hematopoietic	Hb
+UKBB	Hb	Hemoglobin	UKBB: 30020	BOLT	351327	NA	NA	14.20806149	1.228780911	g/dL	Hematopoietic	Hb
+BBJ	HbA1c	Hemoglobin A1c	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	71221	NA	NA	60.29289269	11.32076527	mmol/mol	Metabolic	HbA1c
+UKBB	HbA1c	Hemoglobin A1c	UKBB: 30750	BOLT	345271	NA	NA	35.93836175	6.50929274	mmol/mol	Metabolic	HbA1c
+BBJ	HDLC	High density lipoprotein cholesterol	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	74970	NA	NA	1.419911351	0.40481675	mmol/L	Lipids	HDLC
+UKBB	HDLC	High density lipoprotein cholesterol	UKBB: 30760	BOLT	316875	NA	NA	1.453310419	0.382789604	mmol/L	Lipids	HDLC
+BBJ	Height	Adult height	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	165056	NA	NA	159.6884523	8.993135911	cm	Skeletal	Height
+FG	Height	Adult height	FinnGen: HEIGHT_IRN	BOLT	180544	NA	NA	169.8801179	10.0980524	cm	Skeletal	HEIGHT_IRN
+UKBB	Height	Adult height	UKBB: 50	BOLT	360415	NA	NA	168.8335732	9.239904627	cm	Skeletal	Height
+FG	Hereditary_Retinal_Dystrophy	Hereditary retinal dystrophy	FinnGen: H7_HEREDRETINADYST	SAIGE	241433	243	241190	NA	NA	NA	Other	H7_HEREDRETINADYST
+BBJ	Ht	Hematocrit	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	153015	NA	NA	40.19628847	4.948091691	%	Hematopoietic	Ht
+UKBB	Ht	Hematocrit	UKBB: 30030	BOLT	351328	NA	NA	41.14752667	3.519955997	%	Hematopoietic	Ht
+FG	Hypertension	Hypertensive diseases	FinnGen: I9_HYPERTENSION	SAIGE	260405	68050	192355	NA	NA	NA	Cardiovascular	I9_HYPERTENSION
+FG	Hypothyroidism	Hypothyroidism, strict autoimmune	FinnGen: E4_HYTHY_AI_STRICT	SAIGE	235230	28688	206542	NA	NA	NA	Immunological	E4_HYTHY_AI_STRICT
+UKBB	Hypothyroidism	Hypothyroidism	Phecode 244	SAIGE	358851	12916	345935	NA	NA	NA	Immunological	Hypothyroidism
+FG	IBD	Inflammatory bowel disease, strict (require KELA)	FinnGen: K11_IBD_STRICT	SAIGE	254316	4611	249705	NA	NA	NA	Immunological	K11_IBD_STRICT
+UKBB	IBD	Inflammatory bowel disease	Phecode 555	SAIGE	300205	3975	296230	NA	NA	NA	Immunological	IBD
+FG	ICP	Intrahepatic Cholestasis of Pregnancy (ICP)	FinnGen: O15_ICP	SAIGE	147061	1177	145884	NA	NA	NA	Hepatic	O15_ICP
+UKBB	IGF1	Insulin-like growth factor 1	UKBB: 30770	BOLT	343465	NA	NA	21.39280336	5.662345642	nmol/L	Other	IGF1
+BBJ	Inguinal_Hernia	Inguinal hernia	Past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	178726	1664	177062	NA	NA	NA	Other	Ing_hernia_Text
+FG	Inguinal_Hernia	Inguinal hernia	FinnGen: K11_HERING	SAIGE	246824	20538	226286	NA	NA	NA	Other	K11_HERING
+UKBB	Inguinal_Hernia	Inguinal hernia	Phecode 550.1	SAIGE	333807	14021	319786	NA	NA	NA	Other	Inguinal_Hernia
+UKBB	Insomnia	Insomnia	UKBB: 1200	BOLT	360740	NA	NA	NA	NA	NA	Neurological	Insomnia
+BBJ	IPF	Interstitial lung disease	Past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	178020	1046	176974	NA	NA	NA	Other	ILD_Combined
+FG	IPF	Idiopathic pulmonary fibrosis	FinnGen: IPF	SAIGE	234218	1178	233040	NA	NA	NA	Other	IPF
+FG	Iron_Deficiency_Anaemia	Iron deficiency anaemia	FinnGen: D3_ANAEMIA_IRONDEF	SAIGE	258505	7486	251019	NA	NA	NA	Hematopoietic	D3_ANAEMIA_IRONDEF
+UKBB	Irritability	Irritability	UKBB: 1940	SAIGE	345185	96846	248339	NA	NA	NA	Behavioral	Irritability
+BBJ	IS	Ischemic stroke	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	174686	22664	152022	NA	NA	NA	Cardiovascular	IS_Combined
+FG	IS	STROKE	FinnGen: C_STROKE	SAIGE	213627	22791	190836	NA	NA	NA	Cardiovascular	C_STROKE
+UKBB	IS	Ischemic stroke	Phecode 433.21	SAIGE	353937	1555	352382	NA	NA	NA	Cardiovascular	IS
+BBJ	Keloid	Keloid	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	178726	1055	177671	NA	NA	NA	Other	Keloid_Combined
+FG	Keloid	Hypertrophic scar	FinnGen: L12_HYPETROPHICSCAR	SAIGE	247545	936	246609	NA	NA	NA	Other	L12_HYPETROPHICSCAR
+BBJ	LDLC	Low density lipoprotein cholesterol	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	72866	NA	NA	3.390372199	1.070498964	mmol/L	Lipids	LDLC
+UKBB	LDLC	Low density lipoprotein cholesterol	UKBB: 30780	BOLT	344613	NA	NA	3.757920525	0.844767127	mmol/L	Lipids	LDLC
+UKBB	LipoA	Lipoprotein A	UKBB: 30790	BOLT	275456	NA	NA	44.15985918	49.51709641	nmol/L	Lipids	LipoA
+UKBB	Loneliness	Loneliness	UKBB: 2020	SAIGE	355535	63497	292038	NA	NA	NA	Behavioral	Loneliness
+BBJ	LOY	Mosaic loss of chromosome Y	PAR-LOY (see Terao et al. Nat. Commun. 2019)	BOLT	95380	NA	NA	NA	NA	NA	Other	LOY
+UKBB	LOY	Loss of Y	PAR-LOY (see Thompson et al. Nature, 2019)	BOLT	205011	NA	NA	NA	NA	NA	Other	LOY
+BBJ	LuC	Lung cancer	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	178726	4444	174282	NA	NA	NA	Other	LuC_Combined
+FG	LuC	Malignant neoplasm of bronchus and lung (other cancers excluded from controls)	FinnGen: C3_BRONCHUS_LUNG_EXALLC	SAIGE	207082	3061	204021	NA	NA	NA	Other	C3_BRONCHUS_LUNG_EXALLC
+UKBB	LuC	Lung cancer	Phecode 165.1	SAIGE	360610	1863	358747	NA	NA	NA	Other	LuC
+BBJ	Lym	Lymphocyte count	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	95717	NA	NA	1.778861332	0.7265391929	10^9 cells/L	Hematopoietic	Lym
+UKBB	Lym	Lymphocyte count	UKBB: 30120	BOLT	350726	NA	NA	1.949489545	1.123794981	10^9 cells/L	Hematopoietic	Lym
+BBJ	Malignant_Neoplasms	Cancer	Combination of malignant cancers	SAIGE	162045	39564	122481	NA	NA	NA	Other	Malignant_Tumor_Combined
+FG	Malignant_Neoplasms	Malignant neoplasm	FinnGen: C3_CANCER	SAIGE	260405	51271	209134	NA	NA	NA	Other	C3_CANCER
+UKBB	Malignant_Neoplasms	Cancer	ICD-10: C00-C97, ICD-9: 140-229	SAIGE	361144	40673	320471	NA	NA	NA	Other	Cancer
+BBJ	MAP	Mean arterial pressure	(SBP + 2 * DBP) / 3	BOLT	145502	NA	NA	97.65401621	13.58824517	mmHg	Cardiovascular	MAP
+UKBB	MAP	Mean arterial pressure	(SBP [UKBB: 4080] + 2 * DBP [UKBB: 4079]) / 3	BOLT	360863	NA	NA	101.7519239	12.32564094	mmHg	Cardiovascular	MAP
+BBJ	MCH	Mean corpuscular hemoglobin	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	128028	NA	NA	31.02560848	2.02938431	pg	Hematopoietic	MCH
+UKBB	MCH	Mean corpuscular hemoglobin	UKBB: 30050	BOLT	351324	NA	NA	31.56169581	1.829064527	pg	Hematopoietic	MCH
+BBJ	MCHC	Mean corpuscular hemoglobin concentration	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	135482	NA	NA	33.37116229	1.090171192	%	Hematopoietic	MCHC
+UKBB	MCHC	Mean corpuscular hemoglobin concentration	UKBB: 30060	BOLT	351321	NA	NA	34.54231802	1.064067941	%	Hematopoietic	MCHC
+UKBB	MCP	Multi-site chronic pain	Number of body regions with pain during last 3 months (see Johnston et al. PLoS Genetics, 2019)	BOLT	361187	NA	NA	NA	NA	NA	Neurological	MCP
+BBJ	MCV	Mean corpuscular volume	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	129832	NA	NA	92.81368214	5.287659866	fL	Hematopoietic	MCV
+UKBB	MCV	Mean corpuscular volume	UKBB: 30040	BOLT	351327	NA	NA	91.36956508	4.385641281	fL	Hematopoietic	MCV
+BBJ	MI	Myocardial infarction	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	161206	14992	146214	NA	NA	NA	Cardiovascular	MI_Combined
+FG	MI	Myocardial infarction, strict	FinnGen: I9_MI_STRICT	SAIGE	236856	14305	222551	NA	NA	NA	Cardiovascular	I9_MI_STRICT
+UKBB	MI	Myocardial infarction	Phecode 411.2	SAIGE	343601	10135	333466	NA	NA	NA	Cardiovascular	MI
+FG	Migraine	Migraine, single triptan purchase ok & required. ICD-code if available is included	FinnGen: MIGRAINE_TRIPTAN	SAIGE	260405	25316	235089	NA	NA	NA	Neurological	MIGRAINE_TRIPTAN
+UKBB	Migraine	Migraine (Self-reported)	UKBB: 1265	SAIGE	361144	11380	349764	NA	NA	NA	Neurological	Migraine_Self
+UKBB	Miserableness	Miserableness	UKBB: 1930	SAIGE	355132	151732	203400	NA	NA	NA	Behavioral	Miserableness
+BBJ	Mono	Monocyte count	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	95119	NA	NA	0.3740482512	0.1679396622	10^9 cells/L	Hematopoietic	Mono
+UKBB	Mono	Monocyte count	UKBB: 30130	BOLT	350726	NA	NA	0.478358092	0.221301902	10^9 cells/L	Hematopoietic	Mono
+UKBB	Mood_Swings	Mood swings	UKBB: 1920	SAIGE	352557	158960	193597	NA	NA	NA	Behavioral	Mood_Swings
+UKBB	Morning_Person	Morning person	UKBB: 1180	BOLT	360203	NA	NA	NA	NA	NA	Behavioral	Morning_Person
+FG	MS	MS-disease / Multiple Sclerosis	FinnGen: G6_MS	SAIGE	259704	1364	258340	NA	NA	NA	Immunological	G6_MS
+FG	Mytonic_Disorders	Mytonic disorders	FinnGen: G6_MYOTDIS	SAIGE	258432	126	258306	NA	NA	NA	Neurological	G6_MYOTDIS
+BBJ	NAP	Non-albumin protein	Total Protein - Albumin	BOLT	117608	NA	NA	29.14539435	4.95354772	g/L	Other	NAP
+UKBB	NAP	Non-albumin protein	Total Protein [UKBB: 30860] - Albumin	BOLT	316549	NA	NA	27.11729069	3.558438693	g/L	Other	NAP
+FG	Nephrotic_Syndrome	Nephrotic syndrome	FinnGen: N14_NEPHROTICSYND	SAIGE	257284	555	256729	NA	NA	NA	Renal	N14_NEPHROTICSYND
+UKBB	Nervous_Feelings	Nervous feelings	UKBB: 1970	SAIGE	351779	83110	268669	NA	NA	NA	Behavioral	Nervous_Feelings
+UKBB	Neuroticism	Neuroticism	UKBB: 20127	BOLT	293006	NA	NA	NA	NA	NA	Behavioral	Neuroticism
+BBJ	Neutro	Neutrophil count	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	82810	NA	NA	3.643715136	1.439297514	10^9 cells/L	Hematopoietic	Neutro
+UKBB	Neutro	Neutrophil count	UKBB: 30140	BOLT	350726	NA	NA	4.246336171	1.410963859	10^9 cells/L	Hematopoietic	Neutro
+BBJ	P	Phosphate	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	46848	NA	NA	1.090677277	0.209879862	mmol/L	Other	P
+UKBB	P	Phosphate	UKBB: 30810	BOLT	316407	NA	NA	1.158583097	0.160655892	mmol/L	Other	P
+BBJ	PAD	Peripheral artery disease	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	177713	4112	173601	NA	NA	NA	Cardiovascular	PAD_Combined
+FG	PAD	Peripheral artery disease	FinnGen: I9_PAD	SAIGE	253928	9021	244907	NA	NA	NA	Cardiovascular	I9_PAD
+FG	Parkinsons	Parkinson's disease	FinnGen: G6_PARKINSON	SAIGE	260405	2496	257909	NA	NA	NA	Neurological	G6_PARKINSON
+BBJ	Plt	Platelet count	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	148623	NA	NA	225.00784	68.65285987	10^9 cells/L	Hematopoietic	Plt
+UKBB	Plt	Platelet count	UKBB: 30080	BOLT	351327	NA	NA	253.1349893	59.75614469	10^9 cells/L	Hematopoietic	Plt
+BBJ	PP	Pluse pressure	SBP - DBP	BOLT	145445	NA	NA	55.36253567	14.00917648	mmHg	Cardiovascular	PP
+UKBB	PP	Pulse pressure	SBP (UKBB: 4080) - DBP (UKBB: 4079)	BOLT	360863	NA	NA	56.27628075	13.73826276	mmHg	Cardiovascular	PP
+BBJ	PrC	Prostate cancer	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	90332	5672	84660	NA	NA	NA	Other	PrC_Combined
+FG	PrC	Malignant neoplasm of prostate (other cancers excluded from controls)	FinnGen: C3_PROSTATE_EXALLC	SAIGE	95798	8709	87089	NA	NA	NA	Other	C3_PROSTATE_EXALLC
+UKBB	PrC	Prostate cancer	Phecode 185	SAIGE	155973	5994	149979	NA	NA	NA	Other	PrC_M
+FG	Psoriasis	Psoriasis	FinnGen: L12_PSORIASIS	SAIGE	257944	5621	252323	NA	NA	NA	Immunological	L12_PSORIASIS
+BBJ	RA	Rheumatoid arthritis	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	178616	5348	173268	NA	NA	NA	Immunological	RA_Combined
+FG	RA	Seropositive rheumatoid arthritis	FinnGen: RHEUMA_SEROPOS	SAIGE	209654	5857	203797	NA	NA	NA	Immunological	RHEUMA_SEROPOS
+UKBB	RA	Rheumatoid arthritis	Phecode 714.1	SAIGE	357271	3806	353465	NA	NA	NA	Immunological	RA
+BBJ	RBC	Red blood cell count	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	153512	NA	NA	4.344904307	0.5620500962	10^12 cells/L	Hematopoietic	RBC
+UKBB	RBC	Red blood cell count	UKBB: 30010	BOLT	351328	NA	NA	4.510489776	0.407768974	10^12 cells/L	Hematopoietic	RBC
+UKBB	Risk_Taking	Risk taking	UKBB: 2040	SAIGE	348501	90489	258012	NA	NA	NA	Behavioral	Risk_Taking
+BBJ	SBP	Systolic blood pressure	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	145505	NA	NA	134.586942	19.74006788	mmHg	Cardiovascular	SBP
+UKBB	SBP	Systolic blood pressure	UKBB: 4080	BOLT	360863	NA	NA	139.2694444	19.03718247	mmHg	Cardiovascular	SBP
+BBJ	sCr	Serum creatinine	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	150266	NA	NA	68.4793305	19.82442895	umol/L	Renal	sCr
+UKBB	sCr	Serum creatinine	UKBB: 23478	BOLT	345067	NA	NA	72.31458123	17.83996005	umol/L	Renal	sCr
+UKBB	Sensitivity	Sensitivity	UKBB: 1950	SAIGE	350774	194729	156045	NA	NA	NA	Behavioral	Sensitivity
+FG	Sensorineural_Hearing_Loss	Sensorineural hearing loss	FinnGen: H8_HL_SEN_NAS	SAIGE	252722	19316	233406	NA	NA	NA	Other	H8_HL_SEN_NAS
+UKBB	SHBG	Sex hormone binding globulin	UKBB: 30830	BOLT	313997	NA	NA	51.91519992	27.72122969	nmol/L	Other	SHBG
+FG	SkC	Malignant neoplasm of skin (other cancers excluded from controls)	FinnGen: C3_SKIN_EXALLC	SAIGE	217777	13707	204070	NA	NA	NA	Other	C3_SKIN_EXALLC
+UKBB	SkC	Skin cancer	Phecode 172	SAIGE	361017	12055	348962	NA	NA	NA	Other	SkC
+FG	Sleep_Apnoea	Sleep apnoea, including avohilmo	FinnGen: G6_SLEEPAPNO_INCLAVO	SAIGE	260405	21025	239380	NA	NA	NA	Other	G6_SLEEPAPNO_INCLAVO
+BBJ	Smoking_CPD	Smoking (cigarettes per day)	Retrieved from medical records (PMID: 31089300)	BOLT	74893	NA	NA	23.00596852	14.58137026	cigarettes/day	Other	Smoking_CPD
+UKBB	Smoking_CPD	Smoking (cigarettes per day)	Combination of current/previous number of cigarettes smoked per day (UKBB: 2887 and 3456)	BOLT	111293	NA	NA	18.22848697	10.32830365	cigarettes/day	Other	Smoking_CPD
+BBJ	Smoking_Ever_Never	Smoking (ever vs never)	Retrieved from medical records (PMID: 31089300)	SAIGE	177204	88277	87889	NA	NA	NA	Other	Smoking_Ever_Never
+UKBB	Smoking_Ever_Never	Smoking (ever vs never)	UKBB: 20116	SAIGE	359657	164617	195040	NA	NA	NA	Other	Smoking_Ever_Never
+FG	Statin	Statin medication	FinnGen: RX_STATIN	SAIGE	260405	86466	173939	NA	NA	NA	Lipids	RX_STATIN
+UKBB	Suffer_from_Nerves	Suffer from nerves	UKBB: 2010	SAIGE	348038	73931	274107	NA	NA	NA	Behavioral	Suffer_from_Nerves
+BBJ	T1D	Type 1 diabetes	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	133251	1219	132032	NA	NA	NA	Immunological	T1D
+FG	T1D	Type1 diabetes, definitions combined	FinnGen: T1D	SAIGE	217748	3440	214308	NA	NA	NA	Immunological	T1D
+UKBB	T1D	Type 1 diabetes	Phecode 250.1	SAIGE	346046	2456	343590	NA	NA	NA	Immunological	T1D
+BBJ	T2D	Type 2 diabetes	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	177415	45383	132032	NA	NA	NA	Metabolic	T2D_Combined
+FG	T2D	Type 2 diabetes, definitions combined	FinnGen: T2D	SAIGE	251339	37031	214308	NA	NA	NA	Metabolic	T2D
+UKBB	T2D	Type 2 diabetes	Phecode 250.2	SAIGE	360058	16468	343590	NA	NA	NA	Metabolic	T2D
+BBJ	TBil	Total bilirubin	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	124341	NA	NA	10.60857179	5.118226889	umol/L	Hepatic	TBil
+UKBB	TBil	Total bilirubin	UKBB: 30840	BOLT	343836	NA	NA	9.142489326	4.425071546	umol/L	Hepatic	TBil
+BBJ	TC	Total cholesterol	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	135808	NA	NA	5.161803194	1.011417939	mmol/L	Lipids	TC
+UKBB	TC	Total cholesterol	UKBB: 30690	BOLT	345235	NA	NA	5.710347972	1.142162033	mmol/L	Lipids	TC
+UKBB	Tense	Tense	UKBB: 1990	SAIGE	350111	60500	289611	NA	NA	NA	Behavioral	Tense
+UKBB	Testosterone_F	Testosterone (females)	UKBB: 30850	BOLT	155275	NA	NA	1.116713727	0.6269606807	nmol/L	Other	Testosterone_F
+UKBB	Testosterone_M	Testosterone (males)	UKBB: 30850	BOLT	158230	NA	NA	11.9799887	3.714319879	nmol/L	Other	Testosterone_M
+BBJ	TG	Triglyceride	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	111667	NA	NA	1.502942421	0.812329167	mmol/L	Lipids	TG
+UKBB	TG	Triglyceride	UKBB: 30870	BOLT	344952	NA	NA	1.752566714	1.023500837	mmol/L	Lipids	TG
+BBJ	TP	Total protein	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	133321	NA	NA	71.04352187	5.76557136	g/L	Other	TP
+UKBB	TP	Total protein	UKBB: 30860	BOLT	316664	NA	NA	72.35557218	4.035259814	g/L	Other	TP
+BBJ	UA	Uric acid	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	129405	NA	NA	324.8216358	92.5007082	umol/L	Renal	UA
+UKBB	UA	Uric acid	UKBB: 30880	BOLT	344801	NA	NA	309.5130414	80.39943013	umol/L	Renal	UA
+FG	UC	Ulcerative colitis (strict definition, all Crohn cases excluded)	FinnGen: K11_UC_NOCD	SAIGE	252473	2768	249705	NA	NA	NA	Immunological	K11_UC_NOCD
+BBJ	UF	Uterine fibroids	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	80208	14475	65733	NA	NA	NA	Other	UF_Combined
+FG	UF	Leiomyoma of uterus	FinnGen: CD2_BENIGN_LEIOMYOMA_UTERI	SAIGE	147061	21518	125543	NA	NA	NA	Other	CD2_BENIGN_LEIOMYOMA_UTERI
+UKBB	UF	Uterine fibroids	Phecode 218.1	SAIGE	188543	8992	179551	NA	NA	NA	Other	UF_F
+UKBB	Urea	Urea	UKBB: 30670	BOLT	345014	NA	NA	5.42889161	1.392082228	mmol/L	Renal	Urea
+BBJ	Urolithiasis	Urolithiasis	Diagnosis by professional physicians and past medical history (doi: 10.1101/2020.10.23.20213652)	SAIGE	178726	11699	167027	NA	NA	NA	Other	Urolithiasis_Final
+FG	Urolithiasis	Urolithiasis	FinnGen: N14_UROLITHIASIS	SAIGE	260405	6462	253943	NA	NA	NA	Other	N14_UROLITHIASIS
+UKBB	Urolithiasis	Urolithiasis	Phecode 594	SAIGE	359993	5868	354125	NA	NA	NA	Other	Urolithiasis
+FG	Varicose_Veins	Varicose veins	FinnGen: I9_VARICVE	SAIGE	246160	20425	225735	NA	NA	NA	Other	I9_VARICVE
+UKBB	Varicose_Veins	Varicose veins of lower extremity	Phecode 454.1	SAIGE	336983	10297	326686	NA	NA	NA	Other	Varicose_Veins
+UKBB	VitD	Vitamin D	UKBB: 30890	BOLT	330456	NA	NA	49.67091746	20.9712217	nmol/L	Other	VitD
+FG	VTE	Venous thromboembolism	FinnGen: I9_VTE	SAIGE	260405	11288	249117	NA	NA	NA	Other	I9_VTE
+BBJ	WBC	White blood cell count	Retrieved from medical records (doi: 10.1101/2020.10.23.20213652)	BOLT	154355	NA	NA	6.141575589	1.907689053	10^9 cells/L	Hematopoietic	WBC
+UKBB	WBC	White blood cell count	UKBB: 30000	BOLT	351324	NA	NA	6.888664822	2.034034319	10^9 cells/L	Hematopoietic	WBC
+UKBB	WHRadjBMI	Waist-to-hip ratio (adjusted by BMI)	Waist-to-hip ratio (Waist [UKBB: 48] / Hip [UKBB: 49]) adjusted by BMI (UKBB: 21001)	BOLT	360505	NA	NA	0.87166576	0.090195986	[ratio]	Metabolic	WHRadjBMI
+UKBB	Worrier	Worrier	UKBB: 1980	SAIGE	351785	199435	152350	NA	NA	NA	Behavioral	Worrier
+UKBB	Worry_Too_Long	Worry too long after embarrassment	UKBB: 2000	SAIGE	346479	165287	181192	NA	NA	NA	Behavioral	Worry_Too_Long

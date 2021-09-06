@@ -1,0 +1,1493 @@
+variant	rsid	consequence	most_severe	gene_most_severe	max_pip	pip01_traits
+1:101704577:C:G	rs41287280	Missense	missense_variant	S1PR1	1	Lym
+1:103379918:G:A	rs3753841	Missense	missense_variant	COL11A1	0.12897	eBMD
+1:10699140:CTCGTCG:C	rs201089181	Missense	inframe_deletion	CASZ1	0.12408	Balding_Type4
+1:109955749:T:C	rs181530546	Missense	missense_variant	PSMA5	0.20388	Statin
+1:110232983:A:G	rs140584594	Missense	missense_variant	GSTM1	1	ALT, AST, ApoA, ApoB, HDLC, Mono, Plt, SHBG, TBil
+1:111726213:A:G	rs694180	Missense	splice_region_variant	CEPT1	0.17869	Neutro
+1:11253817:C:T	rs147660927	Missense	missense_variant	ANGPTL7	0.45317	Glaucoma
+1:113254648:A:G	rs78366259	Missense	missense_variant	PPM1J	0.88723	sCr
+1:113255456:C:A	rs34611728	Missense	missense_variant	PPM1J	0.17147	eGFR, sCr
+1:114377568:A:G	rs2476601	Missense	missense_variant	PTPN22	0.99978	AID, AID, ALP, GD, Hypothyroidism, Hypothyroidism, Lym, Neutro, RA, RA, T1D, T1D, WBC
+1:115231254:G:A	rs61752479	Missense	missense_variant	AMPD1	0.17938	eGFR, sCr
+1:115236057:G:A	rs17602729	pLoF	stop_gained	AMPD1	0.84497	eGFR, sCr
+1:118165603:G:A	rs148397151	Missense	missense_variant	FAM46C	0.99994	MCH, MCV
+1:11907648:C:T	rs5063	Missense	missense_variant	NPPA	0.17276	PP
+1:119427467:A:C	rs61730011	Missense	missense_variant	TBX15	0.99977	Height
+1:12175658:G:A	rs2230624	Missense	missense_variant	TNFRSF8	1	Asthma, DVT, Eosino
+1:145586678:AC:A	rs199513201	Missense	frameshift_variant	NUDT17	0.12143	ApoA
+1:149906413:T:C	rs11205303	Missense	missense_variant	MTMR11	1	BFP, FEV1FVC, Height, Height, Height, eBMD
+1:150940625:T:G	rs267738	Missense	missense_variant	CERS2	0.42191	ApoA, HDLC, HbA1c, eGFR, eGFRcys, sCr
+1:150958836:A:G	rs267733	Missense	missense_variant	ANXA9	0.99929	AST, MCV
+1:150972959:A:T	rs140386498	Missense	missense_variant	FAM63A	0.65282	HbA1c
+1:151804213:G:A	rs17582155	pLoF	stop_gained	RORC	0.99995	GGT, RBC
+1:152083325:A:T	rs11803731	Missense	missense_variant	TCHH	0.2561	Balding_Type4
+1:152280023:G:A	rs138726443	Missense	stop_gained	FLG	1	AD, VitD
+1:152285076:CACTG:C	rs558269137	Missense	frameshift_variant	FLG	1	AD
+1:152285861:G:A	rs61816761	Missense	stop_gained	FLG	1	AD, AD, Asthma, DVT, VitD
+1:153662423:G:A	rs35479618	Missense	missense_variant	NPR1	0.9999	DBP, MAP, SBP
+1:153750682:G:A	rs146128753	Missense	missense_variant	SLC27A3	0.99998	Height
+1:154426970:A:C	rs2228145	Missense	missense_variant	IL6R	0.23259	Alb, CRP, DVT, HbA1c
+1:154941263:G:A	rs8191981	Missense	missense_variant	SHC1	0.52959	Eosino
+1:154987704:C:T	rs141845046	Missense	missense_variant	ZBTB7B	0.99981	Height
+1:155033308:G:A	rs11589479	Missense	splice_region_variant	ADAM15	1	Alb, Ca, TP
+1:155145799:CT:C	rs145938518	pLoF	frameshift_variant	RP11-201K10.3	0.14095	BUN
+1:155170392:G:A	rs199935580	Missense	missense_variant	THBS3	0.99958	Carpal_Tunnel_Syndrome
+1:155172725:T:C	rs35154152	Missense	missense_variant	THBS3	0.39039	BFP
+1:155175089:C:T	rs72704117	Missense	missense_variant	THBS3	0.27175	BFP
+1:155178782:A:T	rs760077	Missense	missense_variant	MTX1	0.95842	BUN, Malignant_Neoplasms, RBC, UA, UA
+1:155261636:C:T	rs113403872	Missense	missense_variant	PKLR	0.99349	Hb, Ht
+1:155261649:C:T	rs8177988	Missense	missense_variant	PKLR	0.1122	Ht
+1:155261709:G:A	rs116100695	Missense	missense_variant	PKLR	0.99063	Hb, Ht, RBC
+1:156202173:A:G	rs1052053	Missense	missense_variant	PMF1	0.80956	LOY, Urea
+1:156290656:T:C	rs11548200	Missense	missense_variant	CCT3	0.24032	BFP
+1:156507025:C:T	rs34980426	Missense	missense_variant	IQGAP3	0.11666	Baso
+1:156784982:T:C	rs926103	Missense	missense_variant	SH2D2A	0.23759	Hypothyroidism
+1:156878473:C:T	rs77795865	Missense	missense_variant	PEAR1	0.97831	Plt
+1:158583604:C:A	rs201514157	Missense	missense_variant	SPTA1	1	HbA1c
+1:158607935:T:G	rs857725	Missense	missense_variant	SPTA1	0.47331	HbA1c
+1:158637728:T:C	rs148912436	Missense	missense_variant	SPTA1	0.69552	MCH, MCHC, MCV, RBC
+1:159175354:G:A	rs12075	Missense	missense_variant	DARC	1	Baso, Mono, Neutro, WBC
+1:159175494:C:T	rs34599082	Missense	missense_variant	DARC	1	Mono, Neutro, WBC
+1:159175527:G:A	rs13962	Missense	missense_variant	DARC	0.99976	Mono, WBC
+1:159683814:G:A	rs77832441	Missense	missense_variant	CRP	1	CRP
+1:161019040:G:C	rs3813609	Missense	missense_variant	ARHGAP30	0.18669	Mono
+1:161168189:C:T	rs34448954	Missense	missense_variant	ADAMTS4	0.47163	Eosino, Neutro
+1:161182208:C:G	rs11576415	Missense	missense_variant	NDUFS2	0.27089	Eosino, Neutro
+1:161479745:A:G	rs1801274	Missense	missense_variant	FCGR2A	0.44829	Alb, Baso, IBD, IBD, UC
+1:161518333:A:T	rs10127939	Missense	missense_variant	FCGR3A	0.44972	LDLC, TC
+1:161599779:G:C	rs200688856	Missense	missense_variant	FCGR3B	1	Baso, Mono
+1:16378047:G:T	rs35351345	pLoF	splice_region_variant	CLCNKB	0.14494	Ht
+1:166829522:C:T	rs2272792	Missense	missense_variant	TADA1	0.63365	WBC
+1:169390786:G:A	rs115193935	Missense	missense_variant	CCDC181	0.97369	Alzheimer
+1:169519049:T:C	rs6025	Missense	missense_variant	F5	0.99846	Blood_Clot_Lung, DVT, VTE
+1:171605478:G:A	rs74315329	pLoF	stop_gained	MYOC	1	Glaucoma, Glaucoma
+1:173930928:G:C	rs77941945	Missense	missense_variant	RC3H1	0.45202	Neutro, WBC
+1:17664271:G:T	rs534716024	Missense	missense_variant	AC004824.2	0.99919	Alzheimer
+1:182569626:T:C	rs1144566	Missense	missense_variant	RGS16	0.33209	Morning_Person
+1:183532580:G:T	rs17849502	Missense	missense_variant	NCF2	0.64981	AG, NAP, TP
+1:183938600:T:C	rs35937944	Missense	missense_variant	COLGALT2	0.45129	Coxarthrosis
+1:184020945:G:A	rs2274432	Missense	missense_variant	TSEN15	0.12618	Height
+1:184023529:A:C	rs1046934	Missense	missense_variant	TSEN15	0.1065	Height
+1:184672098:G:A	rs78444298	Missense	missense_variant	EDEM3	0.99986	ALP, Glucose, Height, SHBG, eGFR, sCr
+1:192779303:G:T	rs201233692	Missense	missense_variant	RGS2	0.96206	Statin
+1:201016296:G:A	rs3850625	Missense	missense_variant	CACNA1S	1	AST, eGFR, sCr
+1:201020105:A:G	rs6702590	Missense	splice_region_variant	CACNA1S	0.12776	Lym
+1:20141060:G:A	rs36095412	pLoF	stop_gained	RNF186	1	eGFR, sCr
+1:201437730:T:C	rs192314256	Missense	missense_variant	PHLDA3	0.98874	Keloid
+1:201437832:C:T	rs35383942	Missense	missense_variant	PHLDA3	0.99562	Balding_Type4, Keloid
+1:201869027:C:T	rs199860756	Missense	missense_variant	LMOD1	0.80027	Diverticulosis
+1:201926403:T:G	rs61821487	Missense	splice_region_variant	TIMM17A	0.13243	BW
+1:204230581:G:A	rs3795569	Missense	splice_region_variant	PLEKHA6	0.25493	Hb, RBC, Urea
+1:205130413:A:G	rs3851294	Missense	missense_variant	DSTYK	0.19626	SHBG, WHRadjBMI
+1:205632217:GGCCGACAGCCCTTCTGCTGGCTCGGTGGGGCCCAGC:G	rs71152447	Missense	inframe_deletion	SLC45A3	0.99965	Baso
+1:206669465:C:T	rs3748022	Missense	missense_variant	IKBKE	0.67427	Lym
+1:20915701:A:C	rs2072671	Missense	missense_variant	CDA	0.96792	MCH, MCV, RBC
+1:212553243:AG:A	rs532279691	pLoF	frameshift_variant	TMEM206	0.96493	eGFRcys
+1:2144982:G:T	rs2480714	Missense	missense_variant	AL590822.1	0.48574	UA
+1:218607532:G:C	rs10482810	Missense	missense_variant	TGFB2	0.99995	FEV1FVC
+1:21889760:G:A	rs149344982	Missense	missense_variant	ALPL	1	ALP, P
+1:21890587:G:A	rs121918019	Missense	missense_variant	ALPL	1	ALP, P
+1:21890590:G:A	rs199669988	Missense	missense_variant	ALPL	1	ALP
+1:21890632:G:A	rs121918007	Missense	missense_variant	ALPL	1	ALP, Urolithiasis
+1:21900151:T:C	rs74063111	Missense	splice_region_variant	ALPL	0.1626	P
+1:21900274:T:C	rs121918010	Missense	missense_variant	ALPL	0.99995	ALP
+1:220101499:G:A	rs188273166	Missense	missense_variant	SLC30A10	1	ALT, AST, HDLC
+1:220970028:A:G	rs2642438	Missense	missense_variant	MARC1	1	ALP, ALP, ALT, ApoA, HDLC, SHBG, TC, TG
+1:221053545:T:C	rs12141189	Missense	missense_variant	HLX	0.16858	AG, NAP
+1:221057646:C:T	rs2738755	Missense	missense_variant	HLX	0.25413	ALP, Neutro, SHBG
+1:223178026:T:C	rs144673025	Missense	missense_variant	DISP1	0.41749	Height
+1:226352498:T:G	rs2306120	Missense	missense_variant	ACBD3	0.11374	ALP
+1:228558892:C:T	rs35186354	Missense	missense_variant	OBSCN	0.57678	AST
+1:228559994:C:T	rs500049	Missense	missense_variant	OBSCN	0.80876	eGFR, sCr
+1:231557623:G:C	rs186996510	Missense	missense_variant	EGLN1	1	HDLC, Hb, Ht, RBC, sCr
+1:235095444:A:G	rs2802929	Missense	splice_region_variant	RP11-443B7.2	0.33532	HDLC
+1:23847464:C:A	rs2075995	Missense	missense_variant	E2F2	0.40772	Eosino
+1:23847529:C:T	rs2229297	Missense	missense_variant	E2F2	0.93433	MCH, MCV
+1:240656550:G:C	rs142343894	Missense	missense_variant	GREM2	1	eBMD
+1:242023898:A:G	rs4149909	Missense	missense_variant	EXO1	0.56195	Benign_Neoplasms, BrC, Eosino, MCH, MCV, Malignant_Neoplasms
+1:2444414:G:A	rs7535528	Missense	missense_variant	PANK4	0.23766	FEV1FVC
+1:247607973:C:T	rs139814109	Missense	missense_variant	NLRP3	0.99997	CRP
+1:247719769:G:A	rs56043070	pLoF	splice_donor_variant	GCSAML	0.99967	AG, HbA1c, Lym, NAP, Plt, Plt
+1:248020556:G:C	rs11204523	Missense	missense_variant	TRIM58	0.94354	HbA1c
+1:248039294:G:A	rs1339847	Missense	missense_variant	TRIM58	0.69892	MCV, Plt
+1:248039451:C:T	rs3811444	Missense	missense_variant	TRIM58	1	Hb, LOY, MCHC, MCHC, MCV, MCV, Plt, RBC, WBC
+1:2488153:A:G	rs4870	Missense	missense_variant	TNFRSF14	0.12304	NAP
+1:2494330:G:A	rs2234167	Missense	missense_variant	TNFRSF14	0.17032	Hypothyroidism
+1:25889632:T:C	rs6687605	Missense	missense_variant	LDLRAP1	0.10249	Plt
+1:26487940:A:G	rs3748856	Missense	missense_variant	FAM110D	0.20921	eBMD
+1:26520292:G:T	rs12138368	Missense	missense_variant	CATSPER4	0.13722	Neutro
+1:26883511:A:C	rs2229712	Missense	missense_variant	RPS6KA1	0.15751	Lym
+1:28206250:T:C	rs41284294	Missense	missense_variant	THEMIS2	0.39142	Mono
+1:28598287:C:T	rs74896528	Missense	missense_variant	SESN2	0.83426	UA
+1:29320013:G:A	rs111642750	Missense	missense_variant	EPB41	0.30246	HbA1c
+1:31211894:G:A	rs34101571	Missense	missense_variant	LAPTM5	0.73143	Plt
+1:3328659:C:T	rs2493292	Missense	missense_variant	PRDM16	0.25028	DBP, Hypertension, MAP, SBP
+1:3389757:A:G	rs41315284	Missense	missense_variant	ARHGEF16	1	eGFRcys
+1:36212547:G:T	rs34390044	Missense	missense_variant	CLSPN	0.15218	MCV
+1:36932047:C:T	rs146617729	Missense	missense_variant	CSF3R	0.95679	Mono
+1:36933759:C:T	rs138156467	pLoF	stop_gained	CSF3R	0.14067	Neutro
+1:43770518:C:G	rs12022684	Missense	splice_region_variant	TIE1	0.10824	MCV
+1:43804305:G:C	rs28928907	Missense	missense_variant	MPL	1	Plt
+1:43804340:G:A	rs12731981	Missense	missense_variant	MPL	0.97338	Plt
+1:43818443:A:G	rs756235478	Missense	stop_lost	MPL	0.5301	Plt
+1:46746164:C:T	rs11542623	Missense	missense_variant	LRRC41	0.10353	Eosino
+1:46768864:G:C	rs201408120	Missense	missense_variant	LRRC41	0.39099	AG, NAP
+1:47691568:GCAGA:G	rs145295250	Missense	splice_region_variant	TAL1	0.2268	Eosino, MCV
+1:55505604:G:A	rs564427867	Missense	missense_variant	PCSK9	1	LDLC, MI, TC
+1:55505647:G:T	rs11591147	Missense	missense_variant	PCSK9	1	ApoA, ApoB, CAD, CAD, LDLC, MI, Statin, TC
+1:55509585:C:T	rs151193009	Missense	missense_variant	PCSK9	1	CAD, LDLC, MI, TC
+1:55529187:G:A	rs505151	Missense	missense_variant	PCSK9	0.4491	ApoB
+1:62483623:A:G	rs41313250	Missense	splice_region_variant	INADL	1	BFP, BMI, BW
+1:62579891:G:T	rs12140153	Missense	missense_variant	INADL	1	ALT, BFP, BMI, BMI, BW, BW, Morning_Person
+1:63063738:T:C	rs372257803	Missense	splice_region_variant	ANGPTL3	1	ApoA, LDLC, TC, TG
+1:67635211:G:A	rs76575803	Missense	missense_variant	IL23R	0.15238	IBD
+1:75055749:G:A	rs115339919	Missense	missense_variant	C1orf173	0.5442	Alzheimer
+1:75065422:C:G	rs115922032	Missense	missense_variant	C1orf173	0.44794	Alzheimer
+1:7737799:A:G	rs3011926	Missense	splice_region_variant	CAMTA1	0.11087	BMI
+1:78392446:G:A	rs1166698	Missense	missense_variant	NEXN	0.15269	HbA1c, eGFRcys
+1:7869953:C:G	rs150812083	Missense	missense_variant	PER3	0.41656	Morning_Person
+1:7869960:A:G	rs139315125	Missense	missense_variant	PER3	0.1992	Morning_Person
+1:79358827:G:T	rs1968956	Missense	missense_variant	ELTD1	0.11487	Plt
+1:79411968:C:A	rs41313381	Missense	missense_variant	ELTD1	0.99995	Eosino, Neutro, WBC
+1:86048526:C:G	rs148330006	Missense	missense_variant	CYR61	0.45733	sCr
+1:86210343:A:G	rs147783303	Missense	splice_region_variant	COL24A1	0.2565	Height
+1:89322983:T:A	rs138805281	Missense	missense_variant	GTF2B	0.31939	ApoA, Height, eGFR
+1:90058465:T:C	rs116451319	Missense	missense_variant	LRRC8B	0.12118	eGFR
+1:90179532:A:G	rs12032393	Missense	missense_variant	LRRC8C	0.9973	Height
+1:914852:G:C	rs13303368	Missense	missense_variant	C1orf170	0.1436	FEV1FVC
+1:93159927:G:A	rs117711462	Missense	missense_variant	EVI5	0.40425	TC
+1:93303114:A:G	rs11540832	Missense	missense_variant	RPL5	1	Height
+1:935222:C:A	rs2298214	Missense	missense_variant	HES4	0.36979	ApoA, HDLC
+10:100179851:T:C	rs2296436	Missense	missense_variant	HPS1	0.14884	Ca
+10:101157378:CGTT:C	rs749913156	Missense	inframe_deletion	GOT1	1	AST
+10:101157438:G:C	rs76850691	Missense	missense_variant	GOT1	1	AST
+10:101165607:T:C	rs142860219	Missense	missense_variant	GOT1	0.3196	AST
+10:101165952:C:T	rs146049867	Missense	missense_variant	GOT1	1	AST
+10:101295456:T:G	rs151053941	Missense	missense_variant	NKX2-3	0.99983	MCV
+10:101590486:G:A	rs41318029	Missense	missense_variant	ABCC2	0.45573	AST, TBil
+10:101829514:C:T	rs61751507	Missense	missense_variant	CPN1	0.13743	P
+10:101912064:T:C	rs2862954	Missense	missense_variant	ERLIN1	0.43602	ALT, AST, ApoA, GGT, HDLC, SHBG, TG
+10:102740060:C:T	rs147741050	Missense	missense_variant	SEMA4G	1	GGT
+10:104573017:G:T	rs284859	Missense	missense_variant	WBP1L	0.51338	eGFR, sCr
+10:1065710:C:T	rs1044261	Missense	stop_gained	IDI2	0.17908	RBC
+10:113940329:T:C	rs2792751	Missense	missense_variant	GPAM	0.14304	ALP, ApoA
+10:115348046:G:A	rs7080536	Missense	missense_variant	HABP2	0.99999	Eosino
+10:115485285:T:C	rs141266925	Missense	missense_variant	CASP7	0.99781	Cataract, Cataract
+10:118397884:A:G	rs4751995	pLoF	splice_region_variant	PNLIPRP2	0.24211	LDLC
+10:118397894:A:G	rs4751996	Missense	missense_variant	PNLIPRP2	0.27239	LDLC
+10:121429633:T:C	rs2234962	Missense	missense_variant	BAG3	0.2044	AST, DBP, Height
+10:12143116:A:G	rs147938299	Missense	missense_variant	DHTKD1	0.98807	Testosterone_M
+10:124249044:C:T	rs151165026	Missense	missense_variant	HTRA1	1	Height
+10:12940432:G:T	rs116856516	Missense	missense_variant	CCDC3	0.14981	Height
+10:13040400:A:G	rs199848893	Missense	missense_variant	CCDC3	1	Height
+10:134218269:C:T	rs11146363	Missense	missense_variant	PWWP2B	0.15198	Height
+10:134459388:A:G	rs1133400	Missense	missense_variant	INPP5A	0.99971	Ht, TG, UA, eBMD, eGFRcys
+10:16932384:G:A	rs45551835	Missense	missense_variant	CUBN	0.92839	UA
+10:16967417:T:C	rs144360241	Missense	missense_variant	CUBN	0.14506	sCr
+10:16992011:G:A	rs141640975	Missense	missense_variant	CUBN	0.8808	eGFR, sCr
+10:17156151:A:G	rs1801222	Missense	missense_variant	CUBN	0.27196	Height
+10:17891705:A:G	rs1556465893	Missense	missense_variant	MRC1L1	1	AST, Alb, TP
+10:21157621:G:T	rs2296610	Missense	missense_variant	NEBL	0.99972	AFib
+10:28023688:C:T	rs148956781	Missense	missense_variant	MKX	0.34164	eBMD
+10:44104101:C:T	rs45545532	Missense	missense_variant	ZNF485	0.14734	Height
+10:52573772:C:T	rs41274050	Missense	missense_variant	A1CF	0.9999	ApoB, Ca, GGT, LDLC, TG
+10:5651763:A:G	rs1539445	Missense	splice_region_variant	RP11-336A10.5	0.10231	FEV1FVC
+10:64564892:G:T	rs2236295	Missense	missense_variant	ADO	0.47849	SBP, TP
+10:70332862:C:T	rs12221107	Missense	missense_variant	TET1	0.2271	Height
+10:71883836:C:A	rs41277978	Missense	missense_variant	AIFM2	0.9904	WHRadjBMI
+10:73520632:A:C	rs3747869	Missense	missense_variant	C10orf54	0.99967	Mono, Neutro, WBC, WBC
+10:75415575:C:A	rs766868752	pLoF	splice_donor_variant	SYNPO2L	0.1781	AFib
+10:79580976:G:A	rs41274586	Missense	missense_variant	DLG5	0.17058	Height
+10:91007360:T:G	rs1051338	Missense	missense_variant	LIPA	0.19568	AG, NAP
+10:91066769:C:A	rs1727	Missense	missense_variant	IFIT2	0.49583	ALP
+10:95347041:G:A	rs116454156	Missense	missense_variant	FFAR4	1	IGF1
+10:96039597:G:C	rs2274224	Missense	missense_variant	PLCE1	0.31282	AST, BFP, Ca, Hypertension, IGF1, Neutro
+10:98469693:C:T	rs17112076	Missense	missense_variant	PIK3AP1	0.14887	ALT
+10:98741293:A:G	rs11188980	Missense	missense_variant	C10orf12	0.89686	BW, Height
+11:1018374:T:A	rs7396383	Missense	missense_variant	MUC6	0.39234	GGT
+11:10508903:G:T	rs117706710	Missense	missense_variant	AMPD3	1	Hb, HbA1c
+11:108143456:C:G	rs1800057	Missense	missense_variant	ATM	0.31654	Benign_Neoplasms, MCH, MCV, Malignant_Neoplasms, UF
+11:108357137:G:A	rs74911261	Missense	missense_variant	KDELC2	0.22304	Benign_Neoplasms, MCV, UF
+11:115080365:G:A	rs141892754	Missense	missense_variant	CADM1	0.88868	eBMD
+11:116661392:C:A	rs2075291	Missense	missense_variant	APOA5	0.30788	LDLC, Plt
+11:116661394:G:C	rs201229911	Missense	missense_variant	APOA5	0.99998	HDLC, TG
+11:116701354:G:A	rs138326449	pLoF	splice_donor_variant	APOC3	0.11698	ApoB
+11:116701560:G:A	rs147210663	Missense	missense_variant	APOC3	1	ApoA, HDLC, TG
+11:116707736:C:T	rs12718465	Missense	missense_variant	APOA1	0.6796	HDLC
+11:117267884:A:G	rs573455	Missense	missense_variant	CEP164	0.99856	Hb, PP, RBC
+11:118081270:C:T	rs143034248	Missense	missense_variant	AMICA1	1	Mono, Neutro, WBC
+11:118765283:G:A	rs665648	Missense	missense_variant	CXCR5	0.99944	AG, NAP
+11:118967758:T:C	rs643788	Missense	missense_variant	DPAGT1	0.17485	NAP
+11:119185748:G:A	rs35929108	Missense	splice_region_variant	MCAM	0.98974	Plt
+11:120340060:A:T	rs2305013	Missense	missense_variant	ARHGEF12	0.23538	FEV1FVC, Glaucoma
+11:126278203:T:C	rs2298475	Missense	splice_region_variant	ST3GAL4	0.99999	ALP, Height
+11:14865399:C:T	rs150090666	pLoF	stop_gained	PDE3B	1	ApoA, BW, HDLC, Height, TG, WHRadjBMI
+11:15243059:G:A	rs17507577	Missense	missense_variant	INSC	1	eBMD
+11:15247307:C:A	rs61748861	Missense	missense_variant	INSC	0.43974	eBMD
+11:15247310:T:G	rs61748860	Missense	missense_variant	INSC	0.30975	eBMD
+11:17408630:C:T	rs5215	Missense	missense_variant	KCNJ11	0.20464	T2D
+11:17409572:T:C	rs5219	Missense	missense_variant	KCNJ11	0.16189	Glucose, T2D
+11:17418477:C:A	rs757110	Missense	missense_variant	ABCC8	0.38911	HbA1c, T2D
+11:1887806:T:A	rs7938342	Missense	missense_variant	LSP1	0.12982	DBP, MAP
+11:1902768:G:A	rs621679	Missense	missense_variant	LSP1	0.1331	BrC
+11:20129311:G:A	rs35891966	Missense	missense_variant	NAV2	0.9985	Smoking_Ever_Never
+11:2169014:A:G	rs10770125	Missense	missense_variant	INS-IGF2	0.56856	eGFRcys
+11:2182224:A:T	rs689	Missense	splice_region_variant	INS-IGF2	0.51551	AID, Glucose, T1D
+11:22257752:G:T	rs137854523	Missense	missense_variant	ANO5	0.58149	AST
+11:22271870:A:T	rs7481951	Missense	missense_variant	ANO5	0.99963	AST
+11:22296266:C:T	rs61910685	Missense	missense_variant	ANO5	0.99783	AST
+11:2325427:T:C	rs61744929	Missense	missense_variant	TSPAN32	0.99663	Hb, Mono, Neutro
+11:27016411:A:G	rs149580940	Missense	missense_variant	FIBIN	1	Height
+11:27016611:T:C	rs199891167	Missense	missense_variant	FIBIN	0.30885	Height
+11:27679916:C:T	rs6265	Missense	missense_variant	BDNF	0.21156	CRP
+11:2906196:ACCGCGACCGGAG:A	rs565544512	Missense	inframe_deletion	CDKN1C	0.12688	Height
+11:2924591:G:A	rs1048046	Missense	missense_variant	SLC22A18	0.12216	UA
+11:2943671:G:C	rs1129782	Missense	missense_variant	SLC22A18	0.23513	sCr
+11:299411:C:G	rs57285449	Missense	missense_variant	IFITM5	1	ALP
+11:308314:T:C	rs14408	Missense	missense_variant	IFITM2	0.99431	Neutro, WBC
+11:309127:A:G	rs1059091	Missense	missense_variant	IFITM2	0.99998	ALP, Eosino
+11:320805:G:T	rs1136853	Missense	missense_variant	IFITM3	0.20301	ALP
+11:3249984:C:T	rs12295710	Missense	missense_variant	MRGPRE	0.1298	Migraine
+11:32956492:C:T	rs62618693	Missense	missense_variant	QSER1	0.72459	CRP, SHBG, UA, eGFRcys
+11:33777334:C:T	rs1402954	Missense	missense_variant	FBXO3	0.17161	Morning_Person
+11:36248678:T:TG	rs767680853	pLoF	frameshift_variant	LDLRAD3	1	Height
+11:406483:T:C	rs3210908	Missense	missense_variant	SIGIRR	0.11979	eGFR
+11:408174:G:T	rs117739035	Missense	missense_variant	SIGIRR	0.97791	Lym, sCr
+11:428780:C:T	rs201493230	Missense	missense_variant	ANO9	0.23645	Statin
+11:4661285:A:G	rs905871	Missense	missense_variant	OR51D1	0.26273	Smoking_Ever_Never
+11:46880592:G:C	rs149082597	Missense	missense_variant	LRP4	0.38251	eBMD
+11:47290147:G:A	rs61731956	Missense	missense_variant	NR1H3	1	ApoA, HDLC
+11:47470345:G:A	rs34312154	Missense	missense_variant	RAPSN	0.34488	WHRadjBMI
+11:48511020:C:T	rs140340264	Missense	missense_variant	OR4A47	0.76966	AFib
+11:5246908:C:G	rs33946267	Missense	missense_variant	HBB	0.99947	MCV
+11:562219:C:G	rs2242183	Missense	missense_variant	RASSF7	0.36433	BrC
+11:5688940:C:T	rs11038628	Missense	missense_variant	TRIM5	0.17816	ApoB, LDLC
+11:5701074:C:A	rs11601507	Missense	missense_variant	TRIM5	1	ALP, ALT, AST, ApoA, ApoB, LDLC, Plt, SHBG, Statin, TBil
+11:57144356:G:T	rs115707133	Missense	stop_gained	PRG3	1	Eosino
+11:57146225:A:G	rs34108746	Missense	missense_variant	PRG3	0.97617	Eosino
+11:58919922:G:GGCAGATACTT	rs533676902	Missense	frameshift_variant	FAM111A	0.90393	Height
+11:58920492:C:G	rs116918730	Missense	missense_variant	FAM111A	0.5656	eBMD
+11:60152563:T:A	rs950803	Missense	splice_region_variant	MS4A7	0.10021	Mono
+11:61313525:C:T	rs77128898	Missense	missense_variant	SYT7	0.14587	EduYears
+11:61669946:G:A	rs3815045	Missense	missense_variant	RAB3IL1	0.13195	MCH
+11:63974995:C:G	rs142815441	Missense	missense_variant	FERMT3	0.98802	Lym, WBC
+11:64026639:G:A	rs12146487	Missense	missense_variant	PLCB3	0.12309	Alb
+11:64068310:C:T	rs2286614	Missense	missense_variant	TEX40	0.13194	BFP
+11:64323613:C:T	rs35008345	pLoF	stop_gained	SLC22A11	0.99999	Testosterone_F
+11:64359297:G:A	rs121907896	Missense	missense_variant	SLC22A12	1	UA
+11:64361124:G:A	rs201136391	Missense	missense_variant	SLC22A12	0.508	UA
+11:64361219:G:A	rs121907892	pLoF	stop_gained	SLC22A12	1	UA
+11:64367854:G:A	rs147647315	Missense	missense_variant	SLC22A12	0.99989	UA
+11:64367902:C:T	rs201423508	Missense	missense_variant	SLC22A12	1	UA
+11:64953448:G:A	rs199993600	Missense	missense_variant	CAPN1	1	UA
+11:65143892:G:A	rs34400381	Missense	missense_variant	SLC25A45	1	eGFR, sCr
+11:65147013:C:T	rs78829599	Missense	missense_variant	SLC25A45	0.31212	eGFR, sCr
+11:65349063:G:A	rs3741380	Missense	missense_variant	EHBP1L1	0.13142	Alb
+11:65367032:G:A	rs199769348	Missense	missense_variant	MAP3K11	1	UA
+11:66050712:G:A	rs4073582	Missense	splice_region_variant	CNIH2	0.21473	BW
+11:66083129:T:C	rs3741367	Missense	missense_variant	CD248	0.15435	VitD
+11:67200812:C:T	rs55987642	Missense	missense_variant	RPS6KB2	0.31787	MCH
+11:67809268:C:T	rs36027301	Missense	missense_variant	TCIRG1	0.74189	AG, AST, NAP, eGFRcys
+11:68174189:G:A	rs4988321	Missense	missense_variant	LRP5	1	eBMD
+11:68562328:C:T	rs2229738	Missense	missense_variant	CPT1A	0.94389	ALP, Height
+11:68855363:G:A	rs3829241	Missense	missense_variant	TPCN2	0.36482	Height
+11:70007770:T:C	rs2186797	Missense	missense_variant	ANO1	0.13119	sCr
+11:71146886:C:G	rs138659167	pLoF	splice_acceptor_variant	DHCR7	1	VitD
+11:72533536:C:T	rs11235604	Missense	missense_variant	ATG16L2	0.32473	AG, CAD, NAP
+11:72945341:C:T	rs2511241	Missense	missense_variant	P2RY2	0.99978	ALT, AST
+11:72946279:T:C	rs74472890	Missense	missense_variant	P2RY2	0.99435	Baso, Mono
+11:75509317:C:A	rs150303834	pLoF	stop_gained	DGAT2	0.96138	ApoA
+11:7982432:G:A	rs59039403	Missense	missense_variant	NLRP10	1	AD
+11:823586:C:G	rs140201358	Missense	missense_variant	PNPLA2	1	HDLC, WHRadjBMI
+11:85564380:G:A	rs531641885	Missense	missense_variant	AP000974.1	0.98101	eGFRcys
+11:89017961:G:A	rs1126809	Missense	missense_variant	TYR	0.99904	SkC, SkC
+11:89182686:T:C	rs56061986	Missense	missense_variant	NOX4	0.11307	PP
+11:93913036:A:G	rs12793348	Missense	missense_variant	PANX1	0.15938	AST
+11:94533444:G:A	rs138059525	Missense	missense_variant	AMOTL1	0.40664	Height
+11:9537904:G:C	rs10743108	Missense	missense_variant	ZNF143	0.97611	Height, Height
+11:9606879:A:C	rs140162029	Missense	missense_variant	WEE1	0.17729	BW
+11:9769562:C:G	rs415895	Missense	missense_variant	SWAP70	0.2073	DBP, MAP, SBP, TBil
+12:100708367:C:T	rs33968174	Missense	missense_variant	SCYL2	0.38669	eBMD
+12:100926308:T:C	rs61755050	Missense	missense_variant	NR1H4	1	ALP, SHBG, Testosterone_M
+12:104048454:C:A	rs1609860	Missense	missense_variant	STAB2	0.53589	Mono
+12:104136288:C:T	rs142351376	Missense	missense_variant	STAB2	0.45481	Blood_Clot_Lung, DVT, VTE
+12:104408832:T:C	rs117801489	Missense	missense_variant	GLT8D2	0.1528	Height
+12:105546172:G:A	rs1663564	Missense	missense_variant	KIAA1033	0.60894	LDLC
+12:107713511:G:C	rs961498	Missense	missense_variant	BTBD11	0.38452	BMI
+12:107713696:G:A	rs111260184	Missense	missense_variant	BTBD11	0.39296	BMI
+12:108618630:C:T	rs3764002	Missense	missense_variant	WSCD2	0.6144	T2D, WHRadjBMI, Worrier
+12:108985945:A:G	rs7975237	Missense	missense_variant	TMEM119	0.19936	P
+12:109661672:A:G	rs149793040	Missense	missense_variant	ACACB	1	ALP, ApoA, HDLC, HbA1c, LDLC, TG
+12:109690842:C:T	rs17848833	Missense	missense_variant	ACACB	0.99966	ALP, HDLC, TG
+12:110342598:G:A	rs74416240	pLoF	splice_region_variant	TCHP	0.12295	WBC
+12:110390979:T:C	rs925368	Missense	missense_variant	GIT2	0.21616	TP, WBC
+12:110819759:GA:G	rs35699984	Missense	splice_region_variant	ANAPC7	0.12258	BW
+12:111856181:G:A	rs754838420	Missense	missense_variant	SH2B3	0.12577	AID
+12:111856506:G:T	rs183913232	Missense	missense_variant	SH2B3	0.27242	Eosino
+12:111856673:C:T	rs78894077	Missense	missense_variant	SH2B3	0.96812	Lym
+12:111884608:T:C	rs3184504	Missense	missense_variant	SH2B3	1	AG, AID, AID, AST, Alb, Baso, DBP, Eosino, Hb, Ht, Hypothyroidism, Hypothyroidism, LDLC, Lym, MAP, MCV, Neutro, P, Plt, TBil, TC, TP, UA, WBC, eGFRcys
+12:111885310:G:A	rs72650673	Missense	missense_variant	SH2B3	0.45094	Alb, Eosino, Ht, Lym, Plt, RBC, UA, eGFRcys
+12:111886081:T:C	rs199803113	Missense	missense_variant	SH2B3	0.45328	Plt
+12:112241766:G:A	rs671	Missense	missense_variant	ALDH2	0.92267	AFib, BUN, CAD, COPD, CRC, Cirrhosis, DBP, EsC, GD, GGT, Glucose, HDLC, HbA1c, Height, IS, LDLC, MAP, MCH, MCHC, MCV, MI, Neutro, PP, Plt, RBC, SBP, Smoking_CPD, TBil, UA, WBC, eGFR, sCr
+12:114837349:C:A	rs77357563	Missense	missense_variant	TBX5	1	PP
+12:117160976:T:C	rs10507274	Missense	missense_variant	C12orf49	0.99994	ApoA
+12:118636987:C:T	rs61945174	Missense	missense_variant	TAOK3	0.99806	DBP, MAP
+12:120907309:T:A	rs145350287	Missense	missense_variant	SRSF9	0.56025	BFP, BW
+12:121151062:CTCTCTTG:C	rs3833788	Missense	splice_region_variant	UNC119B	0.28889	MCV, RBC
+12:121206182:T:C	rs150882911	Missense	missense_variant	SPPL3	0.98273	eGFRcys
+12:121416650:A:C	rs1169288	Missense	missense_variant	HNF1A	0.99978	ApoB, CAD, LDLC, Statin, UA, UA
+12:121416864:C:T	rs1800574	Missense	missense_variant	HNF1A	1	GGT, IGF1, P, UA, eGFR, sCr
+12:121435427:G:A	rs2464196	Missense	missense_variant	HNF1A	0.16621	Ht, Urea, eGFRcys
+12:121756084:G:A	rs13141	Missense	missense_variant	ANAPC5	0.76091	Height, LOY
+12:122186317:G:A	rs28655666	Missense	missense_variant	TMEM120B	0.18353	Mood_Swings
+12:12301898:C:T	rs2302685	Missense	missense_variant	LRP6	0.11824	eBMD
+12:123519112:G:A	rs17884869	Missense	missense_variant	PITPNM2	1	Ca, P
+12:124241506:C:T	rs17883456	Missense	missense_variant	ATP6V0A2	0.35948	MCV
+12:124826462:C:T	rs2229840	Missense	missense_variant	NCOR2	0.63035	BW, Mono
+12:125296457:T:C	rs10396213	Missense	missense_variant	SCARB1	0.99998	HDLC
+12:125299542:C:T	rs5891	Missense	missense_variant	SCARB1	0.87906	HDLC
+12:12871099:T:G	rs2066827	Missense	missense_variant	CDKN1B	1	Height, Height, TBil
+12:133245032:A:T	rs5744799	Missense	missense_variant	POLE	0.25051	MCH, MCV
+12:133393323:C:T	rs2291256	Missense	missense_variant	GOLGA3	0.17044	Height, Smoking_Ever_Never
+12:16510581:GAA:G	rs779999476	pLoF	frameshift_variant	MGST1	0.99911	HDLC
+12:20522252:G:A	rs12305038	Missense	missense_variant	PDE3A	0.19958	Height
+12:2064666:T:C	rs12423058	Missense	missense_variant	DCP1B	0.28138	eGFRcys
+12:21008080:T:TAATTG	rs558592800	pLoF	frameshift_variant	LST3	1	TBil
+12:21011481:C:A	rs145334570	Missense	missense_variant	LST3	1	TBil
+12:21331549:T:C	rs4149056	Missense	missense_variant	SLCO1B1	1	ALT, MCH, SHBG, TBil, TBil
+12:26275555:G:A	rs11048413	Missense	missense_variant	BHLHE41	0.10165	Alb
+12:26834804:T:TACTC	rs111626763	Missense	splice_region_variant	ITPR2	0.74579	Neutro, TC, WBC
+12:2908330:C:A	rs56196860	Missense	missense_variant	FKBP4	1	SHBG, Testosterone_F, Testosterone_M
+12:2973887:C:A	rs143532828	Missense	missense_variant	FOXM1	0.62168	Height
+12:32134638:T:C	rs2166807	Missense	missense_variant	KIAA1551	0.11604	Eosino, IGF1
+12:4388084:C:G	rs3217805	Missense	splice_region_variant	CCND2	0.36323	MCV
+12:48143315:A:G	rs145878042	Missense	missense_variant	RAPGEF3	0.99858	Height, WHRadjBMI
+12:48413875:G:A	rs17122567	Missense	missense_variant	RP1-228P16.5	0.22012	RBC
+12:49061511:T:C	rs17238800	Missense	missense_variant	KANSL2	0.13058	Ca
+12:49168798:C:A	rs3730071	Missense	missense_variant	ADCY6	0.90485	BW, eBMD
+12:49373410:T:A	rs61758378	Missense	missense_variant	WNT1	1	eBMD
+12:49399132:G:C	rs1126930	Missense	missense_variant	PRKAG1	0.12941	SBP
+12:49743142:G:A	rs146774114	Missense	missense_variant	DNAJC22	0.26521	ALT
+12:51693021:C:T	rs142121602	Missense	missense_variant	BIN2	0.76338	Baso, Plt
+12:52913668:C:T	rs11170164	Missense	missense_variant	KRT5	0.99879	SkC, SkC
+12:53442956:G:C	rs12369033	Missense	missense_variant	TENC1	0.10614	MAP, SBP
+12:53722361:G:A	rs199673881	Missense	missense_variant	SP7	0.98743	Height
+12:54332733:C:CTTA	rs34421542	Missense	inframe_insertion	HOXC13	1	Balding_Type4
+12:55356838:G:A	rs183884396	Missense	missense_variant	TESPA1	0.65988	AD
+12:55368291:C:T	rs62623446	Missense	missense_variant	TESPA1	0.99755	Asthma, DVT, NAP
+12:56567520:G:A	rs201829738	Missense	missense_variant	SMARCC2	0.37602	Inguinal_Hernia
+12:56865338:A:G	rs2657879	Missense	missense_variant	GLS2	0.17412	AG, TBil, UA, Urea, eGFR, sCr
+12:57146069:T:G	rs2277339	Missense	missense_variant	PRIM1	1	Age_at_Menopause, Age_at_Menopause, BW, Height, Height, MCH, MCV, Mono, Plt, RBC, UF, eGFR
+12:57539082:C:T	rs1800127	Missense	missense_variant	LRP1	0.99975	Height
+12:57577915:C:T	rs141826184	Missense	missense_variant	LRP1	0.99957	FEV1FVC
+12:57601891:C:T	rs142650905	Missense	missense_variant	LRP1	0.98053	IGF1
+12:57648644:C:T	rs78607331	Missense	missense_variant	R3HDM2	0.99706	ApoA, BW
+12:57843711:G:A	rs2229357	Missense	missense_variant	INHBC	0.5045	ApoA, HDLC, UA
+12:57867885:G:A	rs61758883	Missense	missense_variant	ARHGAP9	1	Mono
+12:58004070:G:A	rs113892147	Missense	missense_variant	ARHGEF25	0.60944	MAP
+12:6128443:T:C	rs216311	Missense	missense_variant	VWF	0.81803	Plt
+12:66698895:T:C	rs4430553	Missense	missense_variant	HELB	0.11975	Age_at_Menopause
+12:66704225:A:G	rs75770066	Missense	missense_variant	HELB	1	Age_at_Menopause
+12:670520:C:T	rs149363012	Missense	missense_variant	B4GALNT3	1	ALP
+12:6882498:C:A	rs149722682	Missense	missense_variant	LAG3	0.99824	AID, Hypothyroidism
+12:69140339:G:C	rs61743810	Missense	missense_variant	SLC35E3	0.11468	Height
+12:69158489:A:G	rs141445485	Missense	missense_variant	SLC35E3	0.73997	Height
+12:69744014:C:A	rs1800973	Missense	missense_variant	LYZ	1	AG, CRP, Mono, NAP, Neutro, WBC
+12:72179446:C:T	rs61754230	Missense	missense_variant	RAB21	0.99985	AST, LDLC
+12:7637769:G:A	rs61729512	Missense	missense_variant	CD163	0.99043	AG
+12:77439823:G:C	rs61754233	Missense	missense_variant	E2F7	1	Height
+12:9098995:G:GAAC	rs3217106	Missense	inframe_insertion	M6PR	0.66248	ApoA, HDLC
+12:91498031:G:A	rs191692991	Missense	missense_variant	LUM	0.99726	Fibroblastic_Disorders, Height
+12:96371731:C:T	rs61937878	Missense	missense_variant	HAL	0.14912	VitD
+12:96387621:A:G	rs2302629	Missense	splice_region_variant	HAL	0.6029	VitD
+13:110435231:C:T	rs1805097	Missense	missense_variant	IRS2	0.12086	eBMD
+13:113479820:A:G	rs368865	Missense	missense_variant	ATP11A	1	HbA1c, MCH
+13:113795286:G:A	rs61753266	Missense	missense_variant	F10	0.28024	VTE
+13:115091073:G:T	rs117710037	Missense	missense_variant	CHAMP1	0.1679	Glucose
+13:28626716:C:T	rs146030737	Missense	missense_variant	FLT3	0.99982	Mono
+13:28674628:T:C	rs12872889	Missense	missense_variant	FLT3	0.89048	AG, AG, BMI, NAP
+13:42873915:A:G	rs150533586	Missense	missense_variant	AKAP11	0.99768	Testosterone_M
+13:73319139:G:A	rs182782800	Missense	missense_variant	BORA	0.1387	MCH, MCV
+13:76055602:G:A	rs77685055	Missense	missense_variant	TBC1D4	0.16198	MCH
+13:95899354:A:G	rs4148437	Missense	splice_region_variant	ABCC4	0.198	Plt
+13:96511868:T:A	rs45473699	Missense	missense_variant	UGGT2	0.22298	Height
+14:100111672:C:T	rs759098931	Missense	missense_variant	HHIPL1	0.5101	CAD, MI
+14:100134609:G:A	rs201483470	Missense	missense_variant	HHIPL1	0.97446	Height
+14:100705787:GCCA:G	rs76675246	Missense	inframe_deletion	YY1	0.55251	TG, eGFRcys
+14:101348584:C:G	rs11623267	Missense	missense_variant	RTL1	0.50353	Height
+14:102798055:G:A	rs1543540	Missense	missense_variant	ZNF839	0.1106	Plt
+14:103342015:C:T	rs143813189	Missense	missense_variant	TRAF3	0.41406	AG, NAP, TP
+14:103566835:C:G	rs2297066	Missense	missense_variant	EXOC3L4	0.15488	ALP, Plt
+14:103568614:T:A	rs10131298	Missense	missense_variant	EXOC3L4	0.33681	GGT, Plt, Plt
+14:103573866:C:T	rs147895517	Missense	missense_variant	EXOC3L4	0.99907	GGT
+14:103576369:C:T	rs200884137	Missense	missense_variant	EXOC3L4	0.99964	GGT, Plt
+14:103576444:C:G	rs744153	Missense	missense_variant	EXOC3L4	0.98062	ALP, GGT, GGT, Plt
+14:103576526:C:T	rs57904317	Missense	missense_variant	EXOC3L4	1	GGT
+14:105715970:C:T	rs144271719	Missense	splice_region_variant	BTBD6	0.11184	Plt
+14:105930406:G:A	rs4983413	Missense	missense_variant	MTA1	0.78229	PP
+14:105954705:C:T	rs55633823	Missense	missense_variant	CRIP1	0.95529	Height, eBMD
+14:106236128:T:A	rs12890621	Missense	missense_variant	IGHG3	0.10771	AST
+14:21542766:A:G	rs12889267	Missense	missense_variant	ARHGEF40	0.87023	Hb, Ht, RBC
+14:23312594:G:A	rs1042704	Missense	missense_variant	MMP14	1	eBMD
+14:23313633:G:A	rs17880989	Missense	missense_variant	MMP14	0.99382	Height
+14:23744826:TTCC:T	rs35076736	Missense	inframe_deletion	HOMEZ	0.10429	CRP
+14:23861811:A:G	rs365990	Missense	missense_variant	MYH6	0.8922	AFib, PP, SBP
+14:24653523:G:C	rs11550452	Missense	missense_variant	IPO4	0.90621	IGF1
+14:33293122:A:G	rs1051695	Missense	missense_variant	AKAP6	0.11377	BW
+14:39556185:G:C	rs8018720	Missense	missense_variant	SEC23A	0.37497	VitD
+14:50655357:G:C	rs72681869	Missense	missense_variant	SOS2	1	AG, BFP, DBP, HbA1c, MAP, NAP, SBP, SHBG, UA, eGFR, sCr
+14:50901768:G:A	rs17780143	Missense	missense_variant	MAP4K5	0.10373	Height
+14:50923249:C:T	rs12881869	Missense	missense_variant	MAP4K5	0.83447	Alb, Hb, HbA1c, RBC
+14:60976501:G:A	rs146737847	Missense	missense_variant	SIX6	0.83557	IGF1
+14:60976537:C:A	rs33912345	Missense	missense_variant	SIX6	0.20657	BW, Glaucoma, Height, IGF1
+14:64604595:G:A	rs12881815	Missense	missense_variant	SYNE2	0.28887	Ca
+14:64676751:C:T	rs36215895	Missense	missense_variant	SYNE2	0.63942	IGF1
+14:67671483:A:C	rs56352800	Missense	missense_variant	FAM71D	0.11987	AID
+14:68029313:G:A	rs2236235	Missense	missense_variant	PLEKHH1	0.15243	UA
+14:70633411:C:T	rs41286548	Missense	missense_variant	SLC8A3	0.94587	Height
+14:73735366:C:T	rs4903104	Missense	missense_variant	PAPLN	0.22581	Height
+14:93118229:C:T	rs117068593	Missense	missense_variant	RIN3	0.8512	AG, ALP, Alb, Eosino, Mono, Neutro, TBil, sCr
+14:93142861:T:C	rs147042536	Missense	missense_variant	RIN3	0.32861	Mono
+14:94417531:T:C	rs11555542	Missense	missense_variant	ASB2	1	Eosino
+14:94844843:T:G	rs1303	Missense	missense_variant	SERPINA1	0.24782	Alb
+14:94844947:C:T	rs28929474	Missense	missense_variant	SERPINA1	1	AG, ALP, ALT, AST, Alb, BW, COPD, CRP, Ca, Cholelithiasis, Cholelithiasis, GGT, HbA1c, Height, Height, IGF1, MAP, SHBG, TP, Testosterone_M, Urea, eGFRcys
+14:94847262:T:A	rs17580	Missense	missense_variant	SERPINA1	1	AG, ALT, Alb, ApoB, Ca, LDLC, Plt, SHBG, TC, TP, Testosterone_M
+14:94847386:G:A	rs28929470	Missense	missense_variant	SERPINA1	0.99981	Alb, Ca, SHBG
+14:95053863:C:T	rs6118	Missense	missense_variant	SERPINA5	0.34573	Alb, Ca, SHBG, TP
+14:95054012:A:G	rs6119	Missense	missense_variant	SERPINA5	0.53539	Alb
+15:100533312:C:T	rs145482150	Missense	missense_variant	ADAMTS17	0.9946	Height
+15:100594247:G:A	rs143817747	Missense	missense_variant	ADAMTS17	0.41188	Height
+15:100692953:G:A	rs72755233	Missense	missense_variant	ADAMTS17	1	BFP, BW, Carpal_Tunnel_Syndrome, Height, Height
+15:101569374:C:T	rs41531245	Missense	missense_variant	LRRK1	0.9978	Fibroblastic_Disorders, Inguinal_Hernia
+15:101718239:C:G	rs62621400	Missense	missense_variant	CHSY1	1	Height, Height, PP
+15:101718927:G:A	rs3743193	Missense	missense_variant	CHSY1	0.10532	Neutro
+15:101845482:G:A	rs34631529	Missense	missense_variant	PCSK6	0.99535	ApoB, LDLC
+15:22969232:G:A	rs7170637	Missense	missense_variant	CYFIP1	0.99452	eBMD
+15:28228553:C:T	rs74653330	Missense	missense_variant	OCA2	1	Malignant_Neoplasms, SkC
+15:28230318:C:T	rs1800407	Missense	missense_variant	OCA2	0.99997	Cataract, SkC
+15:33260973:C:T	rs150962800	Missense	missense_variant	FMN1	0.53137	Balding_Type4
+15:40308859:G:T	rs35602605	Missense	missense_variant	EIF2AK4	0.17881	MCH, MCHC, MCV
+15:41488231:G:C	rs139947718	Missense	missense_variant	EXD1	0.34288	MCH, MCV
+15:41989091:C:A	rs61736074	Missense	missense_variant	MGA	0.389	Nervous_Feelings
+15:42618531:T:A	rs2578652	Missense	missense_variant	GANC	0.1168	Hb
+15:43820717:C:T	rs55707100	Missense	missense_variant	MAP1A	0.69493	ApoA, CRP, Lym, MCH, MCV, Testosterone_M
+15:48500263:G:A	rs34819316	Missense	missense_variant	SLC12A1	0.9992	Urea
+15:49293194:C:A	rs11854184	Missense	missense_variant	SECISBP2L	0.13652	Plt
+15:51217297:T:C	rs780286595	Missense	splice_region_variant	AP4E1	0.1328	Keloid
+15:52353498:C:G	rs35697691	Missense	missense_variant	MAPK6	0.52212	BFP
+15:53907948:G:A	rs17730281	Missense	missense_variant	WDR72	0.60994	Urea, eGFR, eGFRcys, sCr
+15:54003091:G:A	rs551225	Missense	missense_variant	WDR72	0.10584	eGFRcys
+15:58723028:G:A	rs139823028	Missense	splice_region_variant	LIPC	0.21165	TC
+15:58833993:G:A	rs6078	Missense	missense_variant	LIPC	0.63543	HDLC, TG
+15:58840586:C:T	rs121912502	Missense	missense_variant	LIPC	1	ApoA, HDLC
+15:58855748:C:T	rs113298164	Missense	missense_variant	LIPC	1	ApoA, HDLC
+15:67457698:A:G	rs35874463	Missense	missense_variant	SMAD3	1	BW, FEV1FVC, Height, Height
+15:68624396:A:C	rs7168069	Missense	missense_variant	ITGA11	0.12235	UF
+15:68628163:C:T	rs2306022	Missense	missense_variant	ITGA11	0.29061	UF
+15:74336633:T:C	rs5742915	Missense	missense_variant	PML	1	AG, Age_at_Menarche, Height, Height, IGF1, NAP, TP
+15:76225243:G:A	rs192172561	Missense	missense_variant	FBXO22	1	Height
+15:78310306:GA:G	rs35403054	Missense	splice_region_variant	TBC1D2B	0.13832	TP
+15:78562867:T:C	rs61752771	Missense	missense_variant	DNAJA4	0.28411	MCH, MCV
+15:79058951:T:C	rs28699256	Missense	missense_variant	ADAMTS7	0.34539	sCr
+15:80191280:T:A	rs184575290	Missense	missense_variant	ST20	1	Mono
+15:80191338:A:G	rs139874813	Missense	missense_variant	ST20	0.99859	Mono
+15:80263217:C:T	rs3826007	Missense	missense_variant	BCL2A1	0.74491	Mono
+15:80263345:A:C	rs1138358	Missense	missense_variant	BCL2A1	0.13095	Eosino
+15:80263406:C:T	rs1138357	Missense	missense_variant	BCL2A1	0.1168	Mono
+15:81241246:TGAA:T	rs200201338	Missense	inframe_deletion	KIAA1199	0.63196	eGFRcys
+15:85657252:T:C	rs200432446	Missense	missense_variant	PDE8A	0.42054	Height
+15:89386652:G:A	rs34949187	Missense	missense_variant	ACAN	1	FEV1FVC, Height
+15:89398605:G:T	rs938608	Missense	missense_variant	ACAN	0.21014	Height
+15:89402051:A:G	rs1042630	Missense	missense_variant	ACAN	0.99741	Height
+15:89415247:C:G	rs3817428	Missense	missense_variant	ACAN	0.99762	BFP, Height
+15:89424870:G:T	rs141308595	Missense	missense_variant	HAPLN3	1	Height
+15:89444933:C:CTGT	rs534125149	Missense	inframe_insertion	MFGE8	0.25112	CAD, MI
+15:91172567:G:A	rs140158187	Missense	missense_variant	CRTC3	0.99991	Alzheimer
+15:91543761:C:T	rs11073964	Missense	missense_variant	VPS33B	0.10167	MCP
+15:93588289:G:A	rs4778078	Missense	missense_variant	RGMA	0.33172	eBMD
+16:1129010:C:A	rs4988483	Missense	missense_variant	SSTR5	1	IGF1, eBMD
+16:1129586:C:T	rs121917877	Missense	missense_variant	SSTR5	1	IGF1
+16:12060097:G:A	rs150754620	Missense	missense_variant	TNFRSF17	1	AG, NAP, TP
+16:12061606:G:A	rs150352299	Missense	missense_variant	TNFRSF17	0.99961	AG, NAP
+16:1252441:T:C	rs4984636	Missense	missense_variant	CACNA1H	0.32958	Eosino
+16:15831403:C:T	rs200315340	Missense	missense_variant	MYH11	0.64626	UF
+16:15844182:C:T	rs201991156	Missense	missense_variant	MYH11	0.18378	UF
+16:16142079:G:T	rs60782127	Missense	missense_variant	ABCC1	0.99848	Height
+16:16259596:G:A	rs41278174	Missense	missense_variant	ABCC6	0.99456	Ca, Hb, HbA1c, Ht, P, RBC
+16:1828030:G:A	rs35816944	Missense	missense_variant	SPSB3	0.84642	CRP
+16:1840711:C:T	rs143070371	Missense	missense_variant	IGFALS	0.99944	IGF1
+16:1841559:G:A	rs35706152	Missense	missense_variant	IGFALS	1	IGF1
+16:1995499:C:T	rs140192228	pLoF	splice_donor_variant	RPL3L	0.99987	AFib
+16:1997004:C:T	rs113956264	Missense	missense_variant	RPL3L	1	eGFR, sCr
+16:1997064:G:A	rs147972626	Missense	missense_variant	RPL3L	0.75925	AFib
+16:2003016:G:A	rs140185678	Missense	missense_variant	RPL3L	0.94453	AFib
+16:20370810:C:T	rs9652588	Missense	missense_variant	PDILT	0.11203	Age_at_Menarche
+16:20370816:C:T	rs9652589	Missense	missense_variant	PDILT	0.14811	Age_at_Menarche
+16:2086421:C:T	rs139491786	Missense	missense_variant	SLC9A3R2	1	ALP, DBP, Hb, Ht, MAP, RBC, SBP
+16:2153765:G:A	rs144979397	Missense	missense_variant	PKD1	0.99983	ALP, GGT
+16:2154537:G:A	rs147350387	Missense	missense_variant	PKD1	1	ALT, GGT
+16:2158419:G:A	rs139971481	Missense	missense_variant	PKD1	0.22114	ALP
+16:2158680:C:T	rs145217118	Missense	missense_variant	PKD1	0.99844	ALP
+16:22193543:C:T	rs184248942	Missense	missense_variant	SDR42E2	0.99948	Alzheimer
+16:23646274:CA:C	rs180177102	pLoF	frameshift_variant	PALB2	0.33971	BrC, Malignant_Neoplasms
+16:2367764:T:A	rs149989682	Missense	missense_variant	ABCA3	0.79901	FEV1FVC
+16:24804954:A:T	rs113388806	Missense	missense_variant	TNRC6A	0.34721	Height
+16:2547034:C:G	rs72768728	Missense	missense_variant	RP11-20I23.1	0.47926	eGFRcys
+16:27356224:G:A	rs144651842	Missense	missense_variant	IL4R	0.98344	Asthma, Psoriasis
+16:27480797:C:T	rs61739285	Missense	missense_variant	GTF3C1	0.4153	Eosino
+16:2816627:G:C	rs117133016	Missense	missense_variant	SRRM2	0.1855	BFP, BMI
+16:28513403:A:G	rs181206	Missense	missense_variant	IL27	0.19688	HbA1c
+16:30536918:C:G	rs10871453	Missense	missense_variant	ZNF768	0.16745	GGT
+16:31418975:C:T	rs45625038	Missense	missense_variant	ITGAD	0.99997	HbA1c
+16:336898:G:A	rs199589252	Missense	missense_variant	PDIA2	0.99845	MCH, MCV, RBC
+16:3586230:C:T	rs9790	Missense	missense_variant	CLUAP1	0.2821	eGFRcys, sCr
+16:3598190:C:T	rs200989243	Missense	missense_variant	NLRC3	0.31611	Lym
+16:424277:G:A	rs3743887	Missense	missense_variant	TMEM8A	0.61827	GGT
+16:4431315:C:T	rs144719357	Missense	missense_variant	VASN	0.69078	ALP
+16:47684830:C:A	rs34667348	Missense	missense_variant	PHKB	0.15644	Height
+16:48577065:C:T	rs148110587	Missense	missense_variant	N4BP1	0.18481	Height
+16:49671177:T:C	rs34214571	Missense	missense_variant	ZNF423	0.23322	Height
+16:50259156:T:TGTC	rs151171253	Missense	inframe_insertion	PAPD5	0.13901	RBC
+16:50335074:C:A	rs78534766	Missense	missense_variant	ADCY7	0.56265	AID, Hypothyroidism, Hypothyroidism
+16:50338341:C:T	rs61731915	Missense	missense_variant	ADCY7	0.84854	Height
+16:50745926:C:T	rs2066844	Missense	missense_variant	NOD2	0.16249	DVT
+16:50756540:G:C	rs2066845	Missense	missense_variant	NOD2	0.51243	DVT
+16:50763778:G:GC	rs2066847	pLoF	frameshift_variant	NOD2	0.99999	CD, CD
+16:51171126:T:C	rs74499562	Missense	missense_variant	SALL1	0.99999	CRP
+16:57007361:T:C	rs369941536	Missense	missense_variant	CETP	0.96823	ApoB
+16:57015091:G:C	rs5880	Missense	missense_variant	CETP	0.97336	ApoB, TG
+16:57016150:G:A	rs5742907	pLoF	splice_donor_variant	CETP	1	HDLC, TC
+16:57017292:A:G	rs2303790	Missense	missense_variant	CETP	1	HDLC, TC
+16:57060353:T:C	rs28438857	Missense	missense_variant	NLRC5	0.12243	Mono
+16:58743401:T:C	rs150122367	Missense	missense_variant	GOT2	0.17337	AST
+16:67221444:G:C	rs34746889	Missense	missense_variant	EXOC3L1	0.39357	Mono, WBC
+16:67235651:C:T	rs79736950	Missense	missense_variant	ELMO3	0.15476	HDLC
+16:67241930:C:T	rs34595673	Missense	missense_variant	LRRC29	0.13886	RBC
+16:67680806:G:A	rs117556162	Missense	missense_variant	RLTPR	0.92035	AG, Chronic_Tonsillitis, Lym, NAP, TP
+16:67976320:A:T	rs4986970	Missense	missense_variant	LCAT	1	ApoA, HDLC
+16:68719251:A:G	rs191805535	Missense	missense_variant	CDH3	0.15965	Chronic_Tonsillitis
+16:70548297:G:A	rs3931036	Missense	missense_variant	COG4	0.73005	ALP
+16:78062057:G:C	rs150149068	Missense	missense_variant	CLEC3A	0.99884	Height
+16:78064682:G:A	rs375192134	Missense	missense_variant	CLEC3A	0.39628	Height
+16:82033810:G:A	rs11542462	pLoF	stop_gained	SDR42E1	0.99941	VitD
+16:83992895:A:G	rs150635654	Missense	missense_variant	OSGIN1	0.7186	ALP
+16:83998995:G:A	rs150791768	Missense	missense_variant	OSGIN1	0.92613	ALP
+16:83999565:G:A	rs147251034	Missense	missense_variant	OSGIN1	0.57682	ALP
+16:84872195:G:C	rs965984074	Missense	missense_variant	CRISPLD2	0.98952	Height
+16:85696635:A:T	rs61751198	Missense	missense_variant	GSE1	1	Eosino
+16:88780634:AGGTGTG:A	NA	pLoF	splice_donor_variant	CTU2	0.99982	Height
+16:88781091:G:C	rs142662688	Missense	missense_variant	CTU2	0.33021	Hb, Ht, MCHC, RBC, TBil
+16:88782050:G:A	rs61745086	Missense	missense_variant	PIEZO1	1	Hb, HbA1c, Ht, RBC
+16:88782159:C:T	rs200243384	Missense	missense_variant	PIEZO1	0.7059	HbA1c
+16:88782205:G:C	rs202127176	Missense	missense_variant	PIEZO1	0.96345	Hb, HbA1c, Ht, MCHC, RBC, TBil
+16:88788037:G:A	rs202099525	Missense	missense_variant	PIEZO1	0.99785	Lym
+16:88791441:G:A	rs188966111	Missense	missense_variant	PIEZO1	0.99996	MCHC
+16:88793220:G:A	rs372935580	Missense	missense_variant	PIEZO1	0.97497	HbA1c
+16:88802726:C:T	rs768658743	Missense	missense_variant	PIEZO1	1	HbA1c
+16:88964557:C:G	rs61734177	Missense	missense_variant	CBFA2T3	0.99973	AG
+16:89704365:G:C	rs1126464	Missense	missense_variant	DPEP1	0.99999	Height
+16:89777078:G:A	rs56288641	Missense	missense_variant	VPS9D1	0.1559	SkC
+16:89985844:G:T	rs1805005	Missense	missense_variant	MC1R	0.99997	SkC, SkC
+16:89985918:C:A	rs1805006	Missense	missense_variant	MC1R	0.99111	SkC
+16:89986117:C:T	rs1805007	Missense	missense_variant	MC1R	0.99977	SkC, SkC
+16:89986144:C:T	rs1805008	Missense	missense_variant	TUBB3	0.15236	SkC
+16:89986546:G:C	rs1805009	Missense	missense_variant	MC1R	0.52022	SkC, SkC
+17:1372839:C:T	rs61753655	Missense	missense_variant	MYO1C	0.99893	Alb
+17:1373518:T:C	rs9905106	Missense	missense_variant	MYO1C	0.95172	Alb, Neutro
+17:1637174:G:A	rs143688446	Missense	missense_variant	WDR81	0.96883	Alb
+17:16842991:G:A	rs34562254	Missense	missense_variant	TNFRSF13B	1	AG, AG, Alb, Alb, NAP, NAP, TP, TP
+17:16843037:CAG:C	rs749017984	Missense	frameshift_variant	TNFRSF13B	0.55435	NAP
+17:16843729:G:T	rs72553883	Missense	missense_variant	TNFRSF13B	0.47937	Chronic_Tonsillitis
+17:16843759:A:C	rs143027621	Missense	missense_variant	TNFRSF13B	1	AG, NAP
+17:16852186:C:T	rs72553879	Missense	missense_variant	TNFRSF13B	0.99662	AG, NAP
+17:16852187:A:G	rs34557412	Missense	missense_variant	TNFRSF13B	1	AG, Alb, Lym, MCV, Mono, NAP, Plt, RBC, TP, WBC
+17:17425639:G:C	rs114310588	Missense	missense_variant	PEMT	0.99997	Alzheimer
+17:17720319:C:T	rs36215896	Missense	missense_variant	SREBF1	0.58054	Height
+17:1782952:A:G	rs5030755	Missense	missense_variant	RPA1	1	Age_at_Menopause, MCH, MCV
+17:19437280:G:T	rs555657341	Missense	missense_variant	SLC47A1	0.99996	eGFR, sCr
+17:19445761:G:A	rs77630697	Missense	missense_variant	SLC47A1	0.53011	eGFR, sCr
+17:19459205:T:A	rs141572615	Missense	missense_variant	SLC47A1	1	eGFR, sCr
+17:19474875:C:T	rs111653425	Missense	missense_variant	SLC47A1	1	eGFR, sCr
+17:19642885:G:A	rs141508989	Missense	missense_variant	ALDH3A1	0.11736	sCr
+17:26694861:G:A	rs704	Missense	missense_variant	CTB-96E2.2	0.99864	Height, LDLC, TG
+17:27210253:T:C	rs6505095	Missense	splice_region_variant	FLOT2	0.15419	GGT
+17:27889643:C:T	rs62070804	Missense	missense_variant	ABHD15	0.43936	TG, WHRadjBMI
+17:27889986:T:C	rs542939	Missense	missense_variant	ABHD15	1	Height
+17:27893545:C:T	rs141385558	Missense	missense_variant	ABHD15	0.48354	WHRadjBMI
+17:2883588:C:A	rs17762452	Missense	missense_variant	RAP1GAP2	0.38138	Eosino, Lym, Mono, WBC
+17:32506103:T:C	rs574759916	Missense	splice_region_variant	RP11-215E13.1	0.99938	Alzheimer
+17:33814758:T:C	rs4796089	Missense	start_lost	SLFN12L	0.1671	Neutro
+17:33875262:T:A	rs8073060	Missense	missense_variant	SLFN14	1	Plt
+17:33884804:T:C	rs10512472	Missense	missense_variant	SLFN14	0.26884	Plt
+17:37814080:G:A	rs1877031	Missense	missense_variant	STARD3	0.2045	HDLC
+17:37815304:G:C	rs11556624	Missense	missense_variant	STARD3	1	ApoA, HDLC
+17:37879588:A:G	rs1136201	Missense	missense_variant	ERBB2	0.99996	Hb, sCr
+17:38172820:T:C	rs142286142	Missense	missense_variant	CSF3	0.99992	Neutro, WBC
+17:38519893:G:T	rs201955556	Missense	missense_variant	GJD3	0.34175	Varicose_Veins
+17:39913771:C:T	rs143043662	Missense	missense_variant	JUP	0.89824	eBMD
+17:40274873:A:C	rs1122326	Missense	missense_variant	HSPB9	0.12141	Hypothyroidism
+17:40948560:C:G	rs569324622	Missense	missense_variant	WNK4	0.12589	MCHC
+17:41004637:G:A	rs33986943	Missense	missense_variant	AOC3	0.2069	PP
+17:41062979:G:T	rs201961848	Missense	missense_variant	G6PC	0.78729	Statin
+17:41926126:C:T	rs72836561	Missense	missense_variant	CD300LG	1	ApoA, Eosino, HDLC, Lym, TC, TG
+17:42164885:G:C	rs228757	Missense	missense_variant	HDAC5	0.13151	eBMD
+17:42328621:G:A	rs2285644	Missense	missense_variant	SLC4A1	0.9956	Ht, MCV
+17:42338945:T:C	rs5036	Missense	missense_variant	SLC4A1	0.2958	Ht
+17:42449789:G:A	rs5910	Missense	splice_region_variant	ITGA2B	0.12303	Plt
+17:42457494:C:T	rs139770734	Missense	missense_variant	ITGA2B	0.15487	Plt
+17:44625928:C:A	rs1863115	Missense	missense_variant	LRRC37A2	0.19715	HbA1c, MCHC
+17:4535314:G:A	rs34210653	Missense	missense_variant	ALOX15	0.33949	DVT
+17:45361953:G:A	rs5917	Missense	missense_variant	ITGB3	0.40442	Plt
+17:4542349:T:C	rs113604586	Missense	missense_variant	ALOX15	0.99998	Eosino
+17:45438886:CAGTG:C	rs10538163	pLoF	splice_donor_variant	EFCAB13	0.10035	UA
+17:46805561:C:T	rs1286034091	Missense	missense_variant	HOXB13	0.20993	PrC
+17:46805705:C:T	rs138213197	Missense	missense_variant	HOXB13	0.99942	Malignant_Neoplasms, PrC, PrC
+17:46926615:G:A	rs550510	Missense	missense_variant	CALCOCO2	0.11033	ALP
+17:4836381:C:T	rs6065	Missense	missense_variant	GP1BA	0.36486	Plt
+17:48545926:C:A	rs201158957	Missense	missense_variant	CHAD	0.99967	Height
+17:48625928:C:G	rs8076632	Missense	missense_variant	SPATA20	0.1762	TG
+17:48628470:T:A	rs9913430	Missense	missense_variant	SPATA20	0.17212	eGFR, sCr
+17:56274420:T:C	rs149610649	Missense	missense_variant	EPX	0.4189	Eosino
+17:56350196:G:A	rs119468010	Missense	missense_variant	MPO	0.80898	Baso, Neutro, WBC
+17:56355397:G:A	rs28730837	Missense	missense_variant	MPO	0.21203	Neutro
+17:56356502:A:G	rs56378716	Missense	missense_variant	MPO	0.91465	Baso, Neutro, WBC
+17:56386607:G:GTCCTCCTCT	rs200436316	Missense	inframe_insertion	BZRAP1	1	Mono
+17:56436130:C:T	rs199598395	Missense	missense_variant	RNF43	0.99561	Iron_Deficiency_Anaemia
+17:59489893:T:C	rs9907379	Missense	missense_variant	C17orf82	0.16339	MAP
+17:60493445:C:T	rs552441218	pLoF	stop_gained	EFCAB3	0.98403	Depression_medications
+17:61995170:C:T	rs5388	Missense	missense_variant	GH1	1	IGF1
+17:64210580:A:C	rs1801689	Missense	missense_variant	APOH	0.5244	ALP, AST, ApoB, CRP, GGT, IGF1, LDLC, LipoA, Plt, TC, TG
+17:65052304:G:A	rs1799938	Missense	missense_variant	CACNG1	0.39543	AST
+17:66449122:G:A	rs883541	Missense	missense_variant	WIPI1	0.16957	Glucose
+17:66879927:C:T	rs34931250	Missense	splice_region_variant	ABCA8	0.96309	ApoA, HDLC, LDLC, SHBG, Statin, TG, Testosterone_F
+17:67081278:A:G	rs77542162	Missense	missense_variant	ABCA6	1	AG, ALP, Alb, ApoA, ApoB, Ca, Hb, Ht, IGF1, LDLC, MCH, MCV, Plt, TC, TP, UA
+17:67249711:C:T	rs77262773	Missense	splice_region_variant	ABCA5	0.33615	ApoA
+17:6945483:C:T	rs75418188	Missense	missense_variant	SLC16A11	0.15485	T2D
+17:6946287:T:C	rs13342692	Missense	missense_variant	SLC16A11	0.14602	T2D
+17:6946330:C:T	rs117767867	Missense	missense_variant	SLC16A11	0.14582	T2D
+17:7129898:G:A	rs72839768	Missense	missense_variant	DVL2	0.21429	Urea
+17:7154582:T:C	rs3744399	Missense	missense_variant	CTDNEP1	0.29968	Eosino
+17:72700943:A:G	rs35489971	Missense	missense_variant	CD300LF	0.13813	NAP
+17:7339347:G:A	rs201641665	Missense	missense_variant	TMEM102	0.23165	LOY
+17:7340751:C:T	rs146078823	Missense	missense_variant	TMEM102	0.20045	Malignant_Neoplasms
+17:73512653:G:T	rs7216673	Missense	missense_variant	TSEN54	0.15437	FEV1FVC
+17:73518203:G:C	rs9911502	Missense	missense_variant	TSEN54	0.1399	FEV1FVC
+17:73519413:C:T	rs8064529	Missense	missense_variant	TSEN54	0.2134	FEV1FVC
+17:7366619:T:C	rs34914463	Missense	missense_variant	ZBTB4	0.96044	Hb, Neutro, WBC
+17:74381555:G:A	rs2247856	Missense	missense_variant	SPHK1	0.14612	WBC
+17:7462468:G:T	rs201860460	Missense	missense_variant	TNFSF13	0.99997	AG, NAP
+17:7462969:A:G	rs3803800	Missense	missense_variant	TNFSF12	1	AG, AG, Alb, NAP, NAP, TP, TP
+17:7468277:C:T	rs35596387	Missense	splice_region_variant	SENP3	0.24241	SHBG
+17:7484101:C:A	rs9901673	Missense	missense_variant	CD68	0.34927	eGFRcys
+17:7490810:G:A	rs10852891	Missense	missense_variant	MPDU1	0.2363	eGFRcys
+17:7536527:G:A	rs6259	Missense	missense_variant	SHBG	1	SHBG
+17:75398498:C:T	rs34587622	Missense	missense_variant	SEPT9	0.98686	GGT, eBMD
+17:7579472:G:C	rs1042522	Missense	missense_variant	TP53	0.11618	BW
+17:7579705:C:T	rs201753350	Missense	missense_variant	TP53	0.44279	LOY
+17:76121318:G:A	rs12449858	Missense	missense_variant	TMC6	0.66473	MCV, RBC
+17:76121864:A:G	rs2748427	Missense	missense_variant	TMC6	0.67575	RBC
+17:76130987:G:T	rs112802399	Missense	missense_variant	TMC8	1	HbA1c
+17:76134467:C:T	rs144120533	Missense	missense_variant	TMC8	1	HbA1c, MCV, RBC
+17:76799795:G:A	rs1057040	Missense	missense_variant	USP36	0.1737	SBP
+17:78272294:C:T	rs72849841	Missense	missense_variant	RNF213	0.59907	AST
+17:78298926:G:A	rs61359568	Missense	missense_variant	RNF213	0.12337	AST
+17:78358945:G:A	rs112735431	Missense	missense_variant	RNF213	1	CAD, MAP, PP, SBP
+17:78449948:C:T	rs144443274	Missense	missense_variant	NPTX1	0.92112	Irritability
+17:78896587:G:A	rs144632265	Missense	missense_variant	RPTOR	0.6382	AST
+17:79219500:AATG:A	rs3833102	Missense	inframe_deletion	SLC38A10	0.31252	Age_at_Menarche
+17:79220224:G:C	rs2725405	Missense	missense_variant	SLC38A10	0.10321	Age_at_Menarche
+17:79419025:G:A	rs35572189	Missense	missense_variant	RP11-1055B8.7	0.1916	Height
+17:80699238:A:G	rs145500346	Missense	missense_variant	FN3K	0.99998	HbA1c
+17:8157310:C:T	rs9891699	Missense	missense_variant	PFAS	0.11728	MCHC
+17:8161149:C:T	rs4791641	Missense	missense_variant	PFAS	0.29961	HbA1c, Ht, Mono
+17:8216468:T:C	rs871841	Missense	missense_variant	ARHGEF15	0.35657	GGT
+18:28714687:G:C	rs200047736	Missense	missense_variant	DSC1	0.18006	AD
+18:34289285:G:T	rs61735998	Missense	missense_variant	FHOD3	0.99201	PP, eBMD
+18:3457606:C:T	rs4468717	Missense	missense_variant	TGIF1	1	ALP, IGF1, UA
+18:43206985:A:G	rs1484873	Missense	missense_variant	SLC14A2	0.98085	BUN
+18:43246156:G:A	rs9960464	Missense	missense_variant	SLC14A2	0.17956	Urea
+18:43262408:G:A	rs41301139	Missense	missense_variant	SLC14A2	0.53694	Urea
+18:43310415:G:A	rs2298720	Missense	missense_variant	SLC14A1	0.22367	MCHC
+18:44773382:A:T	rs9956387	Missense	missense_variant	SKOR2	0.72338	Height
+18:47109955:A:G	rs77960347	Missense	missense_variant	LIPG	1	ApoA, HDLC, LDLC, TC
+18:47113165:C:T	rs117623631	Missense	missense_variant	LIPG	1	ApoA, HDLC, TC
+18:51681686:TA:T	rs11344752	Missense	splice_region_variant	MBD2	0.55528	Neutro
+18:55322502:C:T	rs12968116	Missense	missense_variant	ATP8B1	0.16818	ALT, AST, Alb, Cholelithiasis, GGT, Hb, Ht, LDLC, RBC
+18:60052034:A:G	rs117028614	Missense	missense_variant	TNFRSF11A	0.95048	ALP
+18:61471862:G:A	rs201208667	Missense	missense_variant	SERPINB7	0.17047	AD
+18:67687966:C:A	rs145976466	Missense	missense_variant	RTTN	0.93072	MCV
+18:67755229:C:T	rs75356692	Missense	missense_variant	RTTN	0.99513	MCH, MCV
+19:10334725:A:G	rs117064827	Missense	missense_variant	S1PR2	0.7894	Lym
+19:10463118:G:C	rs34536443	Missense	missense_variant	TYK2	1	AID, AID, AST, Hypothyroidism, IGF1, Lym, Plt, RA, eGFRcys
+19:10464843:G:A	rs35018800	Missense	missense_variant	TYK2	0.9976	Lym, Plt
+19:10469975:A:C	rs12720356	Missense	missense_variant	TYK2	0.99959	AID, IGF1
+19:1049396:G:A	rs201347186	Missense	missense_variant	ABCA7	0.12294	Neutro
+19:1056492:G:C	rs3752246	Missense	missense_variant	ABCA7	0.50044	Hb, HbA1c, MCV, RBC
+19:1079959:G:A	rs36084354	Missense	missense_variant	HMHA1	0.93211	AST, Eosino, LOY, TP
+19:1084345:GGTGA:G	rs564447691	pLoF	splice_donor_variant	HMHA1	0.53436	Lym, Mono, Neutro, WBC
+19:1109215:G:A	rs11669443	Missense	splice_region_variant	SBNO2	0.12052	ALP
+19:11226885:C:G	rs746959386	Missense	missense_variant	LDLR	0.10441	LDLC
+19:11231203:G:A	rs72658867	Missense	splice_region_variant	LDLR	1	ApoB, LDLC, TC
+19:11241988:C:T	rs13306505	Missense	missense_variant	LDLR	1	LDLC, TC
+19:11333787:G:A	rs3810309	Missense	splice_region_variant	DOCK6	0.12665	Height
+19:11350488:C:T	rs2278426	Missense	missense_variant	C19orf80	0.99395	ApoA, HDLC, LDLC, TC, TC, TG
+19:11350874:C:T	rs145464906	pLoF	stop_gained	C19orf80	1	ApoA, HDLC, TG
+19:11488725:G:A	rs142094773	Missense	missense_variant	EPOR	0.77017	Hb
+19:11491837:C:A	rs185740642	Missense	missense_variant	EPOR	0.42093	MCH, MCV, RBC
+19:11508177:G:A	rs2291516	Missense	missense_variant	RGL3	0.85033	Hypertension
+19:11526765:G:T	rs167479	Missense	missense_variant	RGL3	1	DBP, DBP, Hypertension, MAP, MAP, PP, SBP, SBP
+19:11943225:C:T	rs200705543	Missense	stop_gained	ZNF440	0.15647	VitD
+19:12429782:G:A	rs112896133	Missense	stop_gained	ZNF563	0.99939	TBil
+19:12996500:A:G	rs2072596	Missense	missense_variant	KLF1	0.2539	MCH, MCV, RBC
+19:12996740:A:G	rs2072597	Missense	missense_variant	KLF1	0.16026	TBil
+19:13211570:G:A	rs142613662	Missense	splice_region_variant	LYL1	0.39902	MCH
+19:13264398:C:T	rs1042164	Missense	missense_variant	IER2	0.22689	Height
+19:14153293:T:C	rs35026308	Missense	missense_variant	IL27RA	0.9993	Lym
+19:14499616:C:T	rs139113505	Missense	missense_variant	CD97	0.34582	Lym, WBC
+19:17346854:G:C	rs202200760	Missense	missense_variant	AC010646.3	0.99296	Testosterone_M
+19:17451981:G:A	rs3745193	Missense	missense_variant	GTPBP3	0.11425	TC
+19:17476153:T:G	rs142500391	Missense	missense_variant	PLVAP	0.92473	Mono
+19:17660300:G:A	rs11666267	Missense	missense_variant	FAM129C	0.25517	Lym
+19:18304700:A:G	rs874628	Missense	missense_variant	MPV17L2	0.17583	AG, Mono
+19:19379549:C:T	rs58542926	Missense	missense_variant	TM6SF2	0.99956	AST, ApoB, Cirrhosis, Hb, Ht, LDLC, Statin, TBil, TC, TG, TG, VitD, eGFR, eGFRcys
+19:19380513:A:G	rs187429064	Missense	missense_variant	TM6SF2	0.42145	ALT, AST, ApoB, Cirrhosis, LDLC, Plt, Statin, TG, VitD
+19:19765499:C:T	rs45522544	Missense	missense_variant	ATP13A1	1	Plt
+19:19789528:A:G	rs2304130	Missense	splice_region_variant	ZNF101	0.11658	WBC
+19:2116281:T:C	rs2240656	Missense	splice_region_variant	AP3D1	0.12534	Mono
+19:2226772:G:C	rs2302061	Missense	missense_variant	DOT1L	0.10467	WBC
+19:30935704:C:A	rs61744158	Missense	missense_variant	ZNF536	0.11864	IGF1
+19:3179517:C:T	rs61731111	Missense	missense_variant	S1PR4	1	AG, Eosino, Mono
+19:3179884:G:T	rs3746072	Missense	missense_variant	S1PR4	0.99904	Eosino, Mono
+19:33149861:G:A	rs147502994	Missense	missense_variant	ANKRD27	0.32784	BW
+19:33517515:C:T	rs28626308	Missense	missense_variant	RHPN2	0.1378	ALP, eGFRcys
+19:3382176:C:T	rs138699938	Missense	missense_variant	NFIC	0.42095	ApoA
+19:3546264:C:T	rs34878396	Missense	missense_variant	MFSD12	0.70485	AST
+19:35655151:T:C	rs1672994	Missense	splice_region_variant	FXYD5	0.16514	NAP
+19:36342212:C:T	rs3814995	Missense	missense_variant	NPHS1	0.61931	eGFR, sCr
+19:36342510:CAG:C	rs386833873	pLoF	frameshift_variant	NPHS1	0.99947	Nephrotic_Syndrome
+19:3728609:G:A	rs2067019	Missense	missense_variant	TJP3	0.24497	GGT
+19:3750615:T:C	rs1046268	Missense	missense_variant	TJP3	0.17524	ALT, AST
+19:38229926:G:A	rs11666245	Missense	missense_variant	ZNF573	0.96975	CRP, SHBG
+19:38810744:C:G	rs142888784	Missense	missense_variant	KCNK6	0.99977	Ca
+19:38817628:G:A	rs35496032	Missense	missense_variant	KCNK6	1	Ca, P
+19:38901633:C:T	rs34377632	Missense	missense_variant	RASGRP4	0.16425	Baso
+19:38976655:C:T	rs34934920	Missense	missense_variant	RYR1	0.14271	BFP
+19:40225031:G:C	rs146776010	Missense	missense_variant	CLC	0.95166	Eosino
+19:4054702:C:T	rs3745985	Missense	missense_variant	ZBTB7A	0.33752	BW
+19:40762860:G:T	rs184042322	Missense	missense_variant	AKT2	0.56683	T2D
+19:41111069:G:A	rs2303729	Missense	missense_variant	LTBP4	0.36459	FEV1FVC
+19:41117300:G:A	rs34093919	Missense	missense_variant	LTBP4	0.99997	FEV1FVC
+19:41306650:C:T	rs61750953	Missense	missense_variant	EGLN2	1	Hb, Ht, RBC
+19:41307024:G:A	rs117916638	Missense	missense_variant	EGLN2	0.9999	Hb, Ht
+19:41354533:A:T	rs1801272	Missense	missense_variant	CYP2A6	0.56106	ALP, Alb, CRP
+19:41754430:G:A	rs35538872	Missense	missense_variant	AXL	0.60562	HbA1c, TG
+19:41858921:G:A	rs1800470	Missense	missense_variant	TGFB1	0.16585	PP
+19:42855705:G:A	rs200485103	Missense	missense_variant	MEGF8	0.94917	Glucose
+19:44153100:A:G	rs4760	Missense	missense_variant	PLAUR	1	Lym, Neutro, WBC
+19:44278779:T:G	rs649540	Missense	splice_region_variant	KCNN4	0.10591	MCHC, WBC
+19:45411941:T:C	rs429358	Missense	missense_variant	APOE	1	ALP, ALT, AMD, Alzheimer, Alzheimer, ApoA, ApoB, BMI, BMI, CRP, CRP, HDLC, HDLC, HbA1c, LDLC, PP, Plt, Statin, T2D, T2D, TBil, TC, TC, UA, Urea, WHRadjBMI, eGFR, sCr
+19:45412079:C:T	rs7412	Missense	missense_variant	APOE	1	ALP, Alzheimer, Alzheimer, ApoA, CAD, CAD, Cholelithiasis, LDLC, MCH, MI, MI, Statin, TC, TG, VitD
+19:45448465:T:G	rs5167	Missense	missense_variant	APOC4	1	ApoA, HDLC, HDLC, LDLC
+19:45811692:C:G	rs149354459	Missense	missense_variant	CKM	0.98479	AST
+19:46178043:G:T	rs13306398	Missense	missense_variant	GIPR	0.9997	BMI, BW
+19:46180223:G:T	rs200485112	Missense	missense_variant	GIPR	0.15973	BW
+19:46180976:A:G	rs143430880	Missense	missense_variant	GIPR	0.13648	BW
+19:46181392:G:C	rs1800437	Missense	missense_variant	GIPR	0.34553	BMI, BMI, BUN, BW, BW, Testosterone_F, Urea, eGFR, sCr
+19:46376312:C:T	rs201921681	Missense	missense_variant	FOXA3	0.93677	SHBG
+19:49132867:G:C	rs61751862	Missense	missense_variant	SPHK2	1	Lym
+19:49206625:C:T	rs1800022	Missense	missense_variant	FUT2	0.75643	ALP
+19:49206631:A:T	rs1047781	Missense	missense_variant	FUT2	1	ALP, Cholelithiasis, Gastric_Ulcer
+19:49206674:G:A	rs601338	pLoF	stop_gained	FUT2	0.67815	AG, ALP, CRP, GGT, NAP
+19:49232226:G:A	rs2287922	Missense	missense_variant	RASIP1	0.11794	Plt
+19:49376582:G:A	rs564196	Missense	missense_variant	PPP1R15A	0.1166	GGT
+19:49377436:G:C	rs556052	Missense	missense_variant	PPP1R15A	0.26721	MCH
+19:49969006:C:G	rs150414818	Missense	missense_variant	ALDH16A1	0.80832	Gout
+19:49979398:G:A	rs17272847	Missense	splice_region_variant	CTD-3148I10.15	0.52916	NAP
+19:49979789:C:T	rs79058858	Missense	missense_variant	FLT3LG	0.72043	MCH, MCV
+19:50017538:G:C	rs150420714	Missense	missense_variant	FCGRT	1	Alb, Ca, Hb, Ht, NAP, RBC, TP
+19:50027872:G:A	rs147601685	Missense	missense_variant	FCGRT	0.99998	Alb, Ca, TP
+19:50028731:T:A	rs111846329	Missense	missense_variant	FCGRT	0.12229	Alb
+19:50161091:A:G	rs61743199	Missense	missense_variant	SCAF1	0.95354	MCH, MCV
+19:50455180:C:T	rs45438992	Missense	missense_variant	SIGLEC11	0.12171	Plt
+19:50779420:G:A	rs371254530	Missense	missense_variant	MYH14	0.49019	Sensorineural_Hearing_Loss
+19:50804981:C:T	rs199600574	Missense	missense_variant	MYH14	0.31811	Sensorineural_Hearing_Loss
+19:51361757:T:C	rs17632542	Missense	missense_variant	KLK3	0.21336	PrC, PrC
+19:51527970:C:T	rs117268623	Missense	missense_variant	KLK11	0.98861	VitD
+19:51628529:A:G	rs2075803	Missense	missense_variant	SIGLEC9	0.28479	CRP
+19:51630482:C:A	rs2258983	Missense	missense_variant	SIGLEC9	0.10219	CRP
+19:51728477:C:T	rs12459419	Missense	missense_variant	CD33	0.71695	CRP, Eosino, HbA1c, Lym, Neutro, Plt, TBil, WBC
+19:51729103:CCCGG:C	rs201074739	pLoF	frameshift_variant	CD33	0.99994	HbA1c, Lym, WBC
+19:54675643:G:A	rs77215230	Missense	missense_variant	TMC4	0.1802	ALP
+19:54676763:C:T	rs641738	Missense	missense_variant	TMC4	0.25478	Plt, UA
+19:54759361:T:C	rs12975366	Missense	missense_variant	LILRB5	1	AST
+19:55175009:G:T	rs11540761	Missense	missense_variant	LILRB4	1	ApoA
+19:55333023:C:T	rs680891	Missense	missense_variant	KIR3DL1	0.14358	TP
+19:55536595:G:A	rs1613662	Missense	missense_variant	GP6	0.24709	Plt
+19:55697712:G:A	rs147881000	pLoF	stop_gained	PTPRH	0.99995	Plt
+19:55879672:C:T	rs4252548	Missense	missense_variant	IL11	1	Coxarthrosis, Height, Height
+19:55993436:G:T	rs147110934	Missense	missense_variant	ZNF628	1	Height
+19:56320663:G:A	rs12461110	Missense	missense_variant	NLRP11	0.98775	Age_at_Menopause
+19:56599405:C:G	rs4077285	Missense	missense_variant	ZNF787	0.38161	SHBG
+19:5827765:G:A	rs79744308	Missense	missense_variant	NRTN	0.16549	AST
+19:5831840:C:T	rs17855739	Missense	missense_variant	FUT6	0.36223	AST
+19:58421417:ACT:A	rs774674736	Missense	frameshift_variant	ZNF417	0.9284	Chronic_Tonsillitis
+19:6466477:C:T	rs141345495	Missense	missense_variant	CRB3	0.11938	T2D
+19:6468331:T:C	rs62107586	Missense	missense_variant	DENND1C	0.95479	Mono
+19:651684:C:T	rs61754469	Missense	missense_variant	RNF126	0.17052	Age_at_Menarche
+19:6665020:T:C	rs344560	Missense	missense_variant	TNFSF14	0.99318	GGT
+19:6718387:G:C	rs2230199	Missense	missense_variant	C3	0.72742	AMD, AST
+19:7125518:C:T	rs1799816	Missense	missense_variant	INSR	0.43938	TG
+19:7831628:G:A	rs2277998	Missense	missense_variant	CLEC4M	0.22143	AST
+19:815086:A:G	rs351988	Missense	splice_region_variant	LPPR3	0.26742	HbA1c
+19:8429323:G:A	rs116843064	Missense	missense_variant	ANGPTL4	1	ApoA, HDLC, Statin, TG
+19:8670147:C:T	rs62621197	Missense	missense_variant	ADAMTS10	1	BFP, BW, Carpal_Tunnel_Syndrome, Height, Height
+2:102027176:C:G	rs139287885	pLoF	splice_acceptor_variant	RFX8	0.99694	Alzheimer
+2:110332292:C:T	rs56280142	Missense	missense_variant	SEPT10	0.40162	AST
+2:112856165:C:A	rs4849007	Missense	splice_region_variant	TMEM87B	0.12072	Varicose_Veins
+2:113496453:G:A	rs76036957	Missense	missense_variant	CKAP2L	0.99298	Plt
+2:113539246:C:T	rs3783531	Missense	missense_variant	IL1A	0.99849	Neutro, WBC
+2:11706693:T:C	rs4669751	Missense	missense_variant	GREB1	0.17488	Age_at_Menarche
+2:120231070:C:G	rs3731600	Missense	missense_variant	SCTR	0.99394	T2D
+2:120776742:C:T	rs141466977	Missense	missense_variant	EPB41L5	0.99906	eGFRcys
+2:120848049:C:T	rs28930677	Missense	missense_variant	EPB41L5	0.99262	Hb, Ht, RBC, Urea, eGFR, eGFRcys, sCr
+2:122038783:G:A	rs36096257	Missense	missense_variant	TFCP2L1	0.61457	BUN, eGFR, sCr
+2:127451514:G:A	rs111631066	Missense	missense_variant	GYPC	0.99815	Hb, HbA1c
+2:133174764:C:T	rs2241764	Missense	missense_variant	GPR39	0.10515	GGT
+2:158152917:T:C	rs79766504	Missense	missense_variant	GALNT5	0.99997	P
+2:158406865:A:G	rs56188432	Missense	missense_variant	ACVR1C	0.99976	WHRadjBMI
+2:158412701:T:G	rs55920843	Missense	missense_variant	ACVR1C	0.99963	WHRadjBMI
+2:160604514:C:T	rs76774368	Missense	missense_variant	MARCH7	0.51198	LOY, MCH, MCV, eGFRcys
+2:160676427:C:A	rs12692566	Missense	missense_variant	LY75	0.10594	WBC
+2:160706544:A:G	rs78685880	Missense	missense_variant	LY75	0.99726	Plt
+2:160729005:C:T	rs1397706	Missense	missense_variant	LY75	0.11326	WBC
+2:160761136:A:G	rs35284483	Missense	missense_variant	LY75	0.71966	Plt
+2:163124051:C:T	rs1990760	Missense	missense_variant	IFIH1	0.93738	AID, ApoA, HDLC, Hypothyroidism
+2:163124637:T:C	rs35667974	Missense	missense_variant	IFIH1	0.52089	AID
+2:165381518:A:G	rs75536691	Missense	missense_variant	GRB14	0.11354	T2D
+2:165551201:T:C	rs7607980	Missense	missense_variant	COBLL1	0.13638	ApoA, HDLC, TG
+2:169707428:C:T	rs540652	Missense	missense_variant	NOSTRIN	0.22295	Height
+2:169763262:C:T	rs138726309	Missense	missense_variant	G6PC2	1	Glucose, HbA1c
+2:169764141:A:C	rs2232323	Missense	missense_variant	G6PC2	1	Glucose, HbA1c
+2:169764368:C:T	rs146779637	pLoF	stop_gained	G6PC2	1	Glucose
+2:169764491:T:C	rs2232326	Missense	missense_variant	G6PC2	1	Glucose, Glucose
+2:169801131:G:A	rs118109635	Missense	missense_variant	ABCB11	1	GGT
+2:169820801:C:T	rs138642043	Missense	missense_variant	ABCB11	1	GGT
+2:170010985:T:C	rs2075252	Missense	missense_variant	LRP2	0.22559	UA, UA, eGFR, sCr
+2:170029657:C:T	rs34355135	Missense	missense_variant	LRP2	1	UA, eGFR, eGFRcys, sCr
+2:173339808:G:A	rs11895564	Missense	missense_variant	ITGA6	0.36192	Eosino
+2:175265912:T:C	rs6716400	Missense	missense_variant	SCRN3	0.94937	BFP
+2:178545566:C:T	rs75127279	Missense	missense_variant	PDE11A	0.99652	Height, IGF1
+2:178565913:T:C	rs17400325	Missense	missense_variant	PDE11A	1	Height, IGF1
+2:179432185:A:G	rs12463674	Missense	missense_variant	TTN	0.59501	AST
+2:179545859:C:T	rs36051007	Missense	missense_variant	TTN	0.26385	Height
+2:179554305:C:T	rs2244492	Missense	missense_variant	TTN	0.14437	AST
+2:179721046:G:A	rs17362588	Missense	missense_variant	CCDC141	0.30594	DBP
+2:179770175:C:A	rs34883828	Missense	missense_variant	CCDC141	0.11388	PP
+2:183699584:G:C	rs7775	Missense	missense_variant	FRZB	0.13319	Height
+2:183703336:G:A	rs288326	Missense	missense_variant	FRZB	0.44941	Height, Height
+2:187498107:T:C	rs9333289	Missense	splice_region_variant	ITGAV	0.25188	P
+2:188245439:A:G	rs61739909	Missense	missense_variant	CALCRL	0.69323	WHRadjBMI
+2:189932764:G:A	rs35830636	Missense	missense_variant	COL5A2	0.36774	Height
+2:191937906:T:A	rs140675301	Missense	missense_variant	STAT4	0.48257	RA
+2:20205541:C:T	rs52826764	Missense	missense_variant	MATN3	0.99524	Height, Height, WHRadjBMI
+2:204154552:C:T	rs1048013	Missense	missense_variant	CYP20A1	0.11545	ALP
+2:204732714:A:G	rs231775	Missense	missense_variant	CTLA4	0.10668	AID
+2:211540507:C:A	rs1047891	Missense	missense_variant	CPS1	1	AG, ALP, ALT, ApoA, BW, Eosino, HDLC, LipoA, MCH, MCH, MCV, MCV, NAP, Neutro, Plt, SHBG, TBil, TP, UA, Urea, VitD, WBC, eGFR, eGFR, eGFRcys, sCr, sCr
+2:21225281:C:T	rs1042034	Missense	missense_variant	APOB	0.34005	ApoA, HbA1c, VitD
+2:21225485:C:G	rs1801702	Missense	missense_variant	APOB	0.12453	TC
+2:21228827:C:T	rs1801701	Missense	missense_variant	APOB	0.99796	TG
+2:21229068:G:A	rs12713559	Missense	missense_variant	APOB	1	ApoB, LDLC, TC
+2:21229160:C:T	rs5742904	Missense	missense_variant	APOB	1	ApoA, ApoB, LDLC, TC
+2:21231524:G:A	rs676210	Missense	missense_variant	APOB	0.61031	ApoA, ApoB, HDLC, HbA1c, VitD
+2:21233972:T:C	rs533617	Missense	missense_variant	APOB	1	ApoB, HDLC, LDLC, TC, TG
+2:21233999:T:C	rs1801699	Missense	missense_variant	APOB	0.99999	ApoA
+2:21238413:C:G	rs12713844	Missense	missense_variant	APOB	0.98079	ApoB
+2:21242731:G:A	rs13306206	Missense	missense_variant	APOB	1	CAD, HDLC, Hb, LDLC, MI, TC
+2:21252534:G:A	rs13306194	Missense	missense_variant	APOB	0.48346	LDLC, MI, TC
+2:21263900:G:A	rs1367117	Missense	missense_variant	APOB	0.54202	Statin
+2:21266774:GGCAGCGCCA:G	rs17240441	Missense	inframe_deletion	APOB	0.99997	ApoB, LDLC, TC
+2:216300482:T:A	rs1250259	Missense	missense_variant	FN1	0.48209	LDLC, PP, SBP, WHRadjBMI
+2:218683154:A:G	rs2571445	Missense	missense_variant	TNS1	0.4221	MAP, Plt, SBP
+2:218999762:C:T	rs138773569	Missense	missense_variant	CXCR2	0.9999	Neutro, WBC
+2:218999982:G:A	rs55799208	Missense	missense_variant	CXCR2	0.99988	Baso, Neutro, WBC
+2:219919943:C:T	rs200216644	Missense	missense_variant	IHH	0.98852	Height
+2:219924961:G:T	rs142036701	Missense	missense_variant	IHH	0.99035	Height
+2:220166851:C:T	rs189995183	Missense	splice_region_variant	PTPRN	0.25394	ApoA, HDLC
+2:234113301:C:T	rs9247	Missense	missense_variant	INPP5D	0.40712	DVT, HbA1c
+2:234959642:C:T	rs34347825	Missense	missense_variant	SPP2	0.99916	P
+2:239072994:C:T	rs114568419	Missense	missense_variant	FAM132B	0.99825	MCH
+2:242135265:G:A	rs77559646	Missense	splice_region_variant	ANO7	0.18352	Hypertension
+2:242139600:G:A	rs77482050	Missense	missense_variant	ANO7	0.38277	PrC
+2:25141538:A:G	rs11676272	Missense	missense_variant	ADCY3	0.13989	Height, IGF1
+2:25384048:G:C	rs28932472	Missense	missense_variant	POMC	0.63575	IGF1
+2:27260469:G:A	rs1124649	Missense	missense_variant	TMEM214	0.20517	Neutro
+2:27590038:G:C	rs78599355	Missense	missense_variant	EIF2B4	0.11108	RBC
+2:27721143:G:A	rs146175795	Missense	missense_variant	GCKR	0.99991	Alb, GGT, TG
+2:27730169:C:CA	rs573498430	pLoF	frameshift_variant	GCKR	0.99795	TG
+2:27730940:T:C	rs1260326	Missense	missense_variant	GCKR	1	AG, AG, ALP, Alb, Alb, ApoA, ApoB, BW, CRP, Ca, Ca, Cholelithiasis, Cholelithiasis, GGT, GGT, Glucose, Glucose, Hb, Height, Ht, IGF1, LDLC, Lym, Mono, Neutro, Neutro, Plt, SHBG, Statin, T2D, T2D, TC, TG, TG, TP, TP, Testosterone_F, Testosterone_M, UA, UA, Urolithiasis, VitD, WBC, WBC, eGFR, eGFRcys, sCr
+2:28634790:G:A	rs12624279	Missense	splice_region_variant	FOSL2	0.10002	GGT
+2:31564244:A:G	rs139515054	Missense	missense_variant	XDH	0.98589	UA
+2:38809221:T:C	rs117385826	Missense	missense_variant	HNRNPLL	0.1058	BMI
+2:39241107:G:A	rs56219475	Missense	missense_variant	SOS1	0.32175	eGFRcys
+2:42510018:A:G	rs6736913	Missense	missense_variant	EML4	0.99569	SHBG
+2:43231070:G:C	rs62137468	Missense	splice_region_variant	AC016735.1	0.37474	Alb
+2:43451957:G:A	rs149290349	Missense	missense_variant	ZFP36L2	0.62281	AST, Lym, MCH, MCV, RBC
+2:44051573:T:TA	rs142037828	Missense	splice_region_variant	ABCG5	0.99999	Cholelithiasis
+2:44055163:C:T	rs141828689	Missense	missense_variant	ABCG5	0.98797	LDLC
+2:44065090:G:A	rs6756629	Missense	missense_variant	ABCG5	0.13699	Cholelithiasis
+2:44065739:C:G	rs56204478	Missense	missense_variant	ABCG5	0.93813	LDLC, TC
+2:44066247:G:C	rs11887534	Missense	missense_variant	ABCG8	0.34872	ALT, Cholelithiasis
+2:44071743:A:G	rs4148211	Missense	missense_variant	ABCG8	0.13073	ICP
+2:44099233:G:A	rs137852987	pLoF	stop_gained	ABCG8	0.98131	Cholelithiasis, LDLC
+2:44100999:A:G	rs147194762	Missense	missense_variant	ABCG8	0.43763	Cholelithiasis, LDLC, TC
+2:44104925:T:C	rs6544718	Missense	missense_variant	ABCG8	0.7845	Cholelithiasis
+2:44116923:C:T	rs147302249	Missense	missense_variant	LRPPRC	0.18162	TC
+2:54482432:C:A	rs553424940	Missense	missense_variant	TSPYL6	1	Alzheimer
+2:68615546:A:C	rs34338164	Missense	missense_variant	PLEK	0.99856	HbA1c, Lym, Mono
+2:69040504:G:A	rs61758703	Missense	missense_variant	ARHGAP25	0.99996	Mono
+2:70488470:C:T	rs2706762	Missense	missense_variant	PCYOX1	0.97011	ALP
+2:71163086:T:C	rs11681642	Missense	start_lost	ATP6V1B1	0.46644	eGFR, eGFRcys, sCr
+2:72360160:C:T	rs2286965	Missense	missense_variant	CYP26B1	1	Height
+2:75720372:C:T	rs11126472	Missense	missense_variant	EVA1A	0.31612	GGT
+2:75720568:CGCTGTCGCT:C	rs148155576	Missense	inframe_deletion	EVA1A	0.68317	ALT, GGT
+2:88424066:T:C	rs2241883	Missense	missense_variant	FABP1	0.46633	ALT
+2:88895123:T:C	rs13045	Missense	missense_variant	EIF2AK3	0.14543	AG
+2:88913273:G:C	rs867529	Missense	missense_variant	EIF2AK3	0.15056	Height, Height
+2:98341616:C:T	rs145955907	Missense	missense_variant	ZAP70	0.20012	AID, Hypothyroidism
+20:10622501:G:C	rs35761929	Missense	missense_variant	JAG1	0.47796	DBP, PP
+20:1552430:T:C	rs2253427	Missense	missense_variant	SIRPB1	0.10986	Mono
+20:17596155:C:A	rs1132274	Missense	missense_variant	RRBP1	0.29312	ALP, ApoA, HDLC
+20:17617260:G:A	rs137981542	Missense	missense_variant	RRBP1	0.23015	Height
+20:17617297:C:G	rs144713154	Missense	missense_variant	RRBP1	0.49324	Height
+20:20620529:T:C	rs61761203	Missense	missense_variant	RALGAPA2	0.15381	Lym
+20:2290333:C:A	rs214803	Missense	missense_variant	TGM3	0.14413	SkC
+20:2321105:G:C	rs214830	Missense	missense_variant	TGM3	0.15968	SkC
+20:25282967:C:T	rs746748	Missense	missense_variant	ABHD12	0.29562	Age_at_Menopause
+20:35675512:G:A	rs149999468	Missense	missense_variant	RBL1	0.99964	MCH, MCV
+20:3673296:A:G	rs200137244	Missense	missense_variant	SIGLEC1	0.98022	GGT
+20:3673643:G:A	rs146007898	Missense	missense_variant	SIGLEC1	0.26626	GGT
+20:36841914:G:A	rs3746471	Missense	missense_variant	KIAA1755	0.3011	NAP, TP
+20:39832628:T:C	rs17265513	Missense	missense_variant	ZHX3	0.99999	ALP, Balding_Type4, Height, IGF1, P, eBMD
+20:42331457:A:G	rs2070235	Missense	missense_variant	MYBL2	0.34705	MCH, MCV
+20:43042364:C:T	rs1800961	Missense	missense_variant	HNF4A	1	ALP, ApoA, ApoB, CRP, Cholelithiasis, Cholelithiasis, GGT, HDLC, Hb, Ht, ICP, LDLC, Neutro, RBC, T2D, TBil, TC, UA, WBC, eGFRcys
+20:44507112:G:A	rs139396693	Missense	missense_variant	ZSWIM3	0.99603	MCV
+20:44640959:G:A	rs3918256	Missense	splice_region_variant	MMP9	0.15836	ALP
+20:46365636:C:T	rs56218501	Missense	missense_variant	SULF2	0.52079	BFP
+20:52774635:A:G	rs6068812	Missense	missense_variant	CYP24A1	0.12266	eGFRcys
+20:52788189:C:T	rs35051736	Missense	missense_variant	CYP24A1	0.99999	Ca, eGFRcys
+20:54963739:T:G	rs6024846	Missense	splice_region_variant	AURKA	0.12964	MCH
+20:5547384:C:T	rs73078112	Missense	missense_variant	GPCPD1	0.20728	ApoB, Ca, LDLC
+20:57290347:C:G	rs6026468	Missense	missense_variant	NPEPL1	0.16787	ALP, Alb, CRP
+20:57564695:C:T	rs17851253	Missense	splice_region_variant	NELFCD	0.10652	Hb
+20:57597970:A:C	rs463312	Missense	missense_variant	TUBB1	0.26679	Hb, Ht, Plt, RBC
+20:57597971:G:C	rs415064	Missense	missense_variant	TUBB1	0.2051	Hb, Ht, Plt, RBC
+20:57598808:G:A	rs41303899	Missense	missense_variant	TUBB1	1	Plt
+20:5948227:G:A	rs16991615	Missense	missense_variant	MCM8	1	Age_at_Menopause
+20:60903041:G:A	rs80097864	Missense	missense_variant	LAMA5	0.42135	sCr
+20:60982118:G:C	rs184691263	Missense	missense_variant	CABLES2	0.20278	AG, NAP
+20:61265219:T:C	rs151248728	Missense	splice_region_variant	RP13-30A9.2	0.16605	Age_at_Menopause
+20:61451332:C:T	rs61734651	Missense	missense_variant	COL9A3	0.29538	Height
+20:62321128:G:A	rs35640778	Missense	missense_variant	RTEL1	0.97016	Age_at_Menopause, MCV
+21:16339172:G:C	rs2229742	Missense	missense_variant	NRIP1	0.96194	ALT, Hb, Ht, RBC, VitD
+21:16339348:A:G	rs77402452	Missense	missense_variant	NRIP1	0.75026	Eosino
+21:31587793:A:G	rs686364	Missense	missense_variant	CLDN8	0.93875	UA
+21:36259324:A:G	rs111527738	Missense	missense_variant	RUNX1	1	Plt
+21:38528987:G:A	rs62223645	Missense	missense_variant	TTC3	0.95635	IGF1
+21:40604429:C:G	rs2836950	Missense	splice_region_variant	BRWD1	0.37447	Age_at_Menarche
+21:43855067:A:C	rs1893592	Missense	splice_region_variant	UBASH3A	0.54455	Lym
+21:45742889:G:A	rs148438309	Missense	missense_variant	PFKL	0.99968	HbA1c
+21:45745065:C:A	rs141250471	Missense	missense_variant	PFKL	0.93732	HbA1c
+21:45746102:T:C	rs17850433	Missense	missense_variant	PFKL	1	Hb, HbA1c
+21:46308800:C:T	rs2230531	Missense	missense_variant	ITGB2	0.10971	Lym
+21:46930092:G:A	rs144147445	Missense	missense_variant	COL18A1	0.19634	eGFRcys
+21:46931109:G:A	rs12483377	Missense	missense_variant	COL18A1	0.60434	eGFR, sCr
+21:47423509:C:T	rs13051496	Missense	missense_variant	COL6A1	0.43717	Diverticulosis, Height, Height
+21:47552209:G:A	rs35548026	Missense	missense_variant	COL6A2	0.12082	Height
+22:17566001:C:T	rs143652002	Missense	missense_variant	IL17RA	0.99888	Mono
+22:17581378:G:T	rs771078832	Missense	splice_region_variant	IL17RA	0.78032	Height
+22:17586757:T:C	rs140221307	Missense	missense_variant	IL17RA	1	Eosino, Mono, Neutro, WBC
+22:17589209:C:T	rs879577	Missense	missense_variant	IL17RA	0.18473	Mono
+22:17590180:G:A	rs41323645	Missense	missense_variant	IL17RA	0.11962	Eosino
+22:17625915:G:A	rs35665085	Missense	missense_variant	CECR5	1	ALP, Height
+22:18905964:C:T	rs2904552	Missense	missense_variant	PRODH	0.76418	eGFR, sCr
+22:19754091:A:C	rs72646967	Missense	missense_variant	TBX1	0.1975	FEV1FVC
+22:19969106:A:G	rs2240717	Missense	missense_variant	ARVCF	0.1108	WBC
+22:20779822:G:C	rs874100	Missense	missense_variant	SCARF2	0.23066	Height
+22:20785639:G:A	rs361566	Missense	missense_variant	SCARF2	0.11845	FEV1FVC
+22:24087185:T:C	rs145952310	Missense	missense_variant	ZNF70	0.8432	Height
+22:24179922:G:C	rs3177243	Missense	missense_variant	DERL3	0.44963	AG, NAP
+22:24622648:T:C	rs2275984	Missense	missense_variant	GGT5	0.21149	Eosino, Lym
+22:25010855:A:G	rs186765281	Missense	missense_variant	GGT1	1	GGT
+22:29091856:AG:A	rs555607708	pLoF	frameshift_variant	CHEK2	0.1301	PrC
+22:29121087:A:G	rs17879961	Missense	missense_variant	CHEK2	0.5055	Benign_Neoplasms, Malignant_Neoplasms, UF
+22:29130389:A:T	rs587782401	pLoF	splice_donor_variant	CHEK2	0.217	BrC, Malignant_Neoplasms
+22:30639993:C:T	rs41281637	Missense	missense_variant	LIF	0.98295	eBMD
+22:30662763:G:A	rs5763919	Missense	missense_variant	OSM	0.96894	WBC
+22:30887555:C:T	rs76073588	pLoF	splice_region_variant	SEC14L4	0.44579	ApoA, HbA1c
+22:30891300:G:A	rs77679347	Missense	missense_variant	SEC14L4	0.7786	HbA1c
+22:31533796:G:C	rs2072193	Missense	missense_variant	PLA2G3	0.32677	VitD
+22:31535872:G:C	rs2074735	Missense	missense_variant	PLA2G3	0.60366	VitD
+22:37462936:A:G	rs855791	Missense	missense_variant	TMPRSS6	1	Hb, Hb, HbA1c, Ht, Ht, MCH, MCH, MCHC, MCHC, MCV, MCV, P, Plt, TBil, TBil, TG
+22:37469593:C:T	rs137853120	Missense	missense_variant	TMPRSS6	1	Hb, MCH, MCV
+22:37471208:G:A	rs117576908	Missense	missense_variant	TMPRSS6	1	Hb, Ht, MCH, MCV
+22:38204089:C:T	rs710187	Missense	missense_variant	GCAT	0.16351	eGFRcys
+22:38328597:A:G	rs34834842	Missense	missense_variant	MICALL1	0.20038	Plt
+22:39262740:G:C	rs200121092	Missense	missense_variant	CBX6	0.12333	BMI, BW
+22:39493356:C:T	rs60093835	Missense	splice_region_variant	APOBEC3H	0.11704	Mono
+22:44324727:C:G	rs738409	Missense	missense_variant	PNPLA3	0.664	ALT, ALT, AST, AST, ApoA, Cirrhosis, Cirrhosis, HDLC, Hb, Ht, MCH, Plt, SHBG, Statin, TBil, Testosterone_M, UA
+22:45996298:A:G	rs13268	Missense	missense_variant	FBLN1	0.97904	Height, LDLC
+22:46614274:C:G	rs1800206	Missense	missense_variant	PPARA	0.97593	Height
+22:47095235:C:A	rs13057352	Missense	missense_variant	CERK	0.82788	Height
+22:50439194:C:T	rs9617090	Missense	missense_variant	IL17REL	0.95912	IBD
+3:121980630:G:A	rs62269092	Missense	missense_variant	CASR	0.9999	Ca
+3:122003757:G:T	rs1801725	Missense	missense_variant	CASR	0.92962	Ca, P
+3:122003769:A:G	rs1042636	Missense	missense_variant	CASR	1	Ca
+3:12393125:C:G	rs1801282	Missense	missense_variant	PPARG	0.26922	Alb, Ca, GGT
+3:125879755:C:T	rs143122118	Missense	missense_variant	ALDH1L1	0.21101	eGFR
+3:127336910:G:A	rs2307311	Missense	missense_variant	MCM2	0.2256	MCH, MCV
+3:12848822:T:C	rs11718898	Missense	missense_variant	CAND2	0.12832	AST, Glucose
+3:12859004:A:C	rs3732678	Missense	missense_variant	CAND2	0.10506	Height
+3:128627887:G:A	rs4494951	Missense	missense_variant	ACAD9	0.28252	Mono
+3:128987359:G:A	rs200370770	Missense	missense_variant	COPG1	0.41497	Height
+3:129034615:T:G	rs780145325	Missense	missense_variant	H1FX	0.52399	Height
+3:129289978:G:A	rs144843366	Missense	missense_variant	PLXND1	0.50059	WHRadjBMI
+3:12962074:G:A	rs35319679	Missense	missense_variant	IQSEC1	0.29279	Neutro, WBC
+3:132226100:A:G	rs79953286	Missense	missense_variant	DNAJC13	0.99904	Hb, MCH, MCV
+3:132235344:A:T	rs80120242	Missense	splice_region_variant	DNAJC13	0.28586	ALP, AST, Alb, ApoB, LDLC, TC, UA, eGFR, sCr
+3:133476769:C:T	rs150854910	Missense	missense_variant	TF	1	MCH, MCV, RBC
+3:133476778:C:T	rs143019827	Missense	missense_variant	TF	0.47542	MCH, MCV
+3:134077470:C:G	rs1353776	Missense	missense_variant	AMOTL2	0.13237	DBP, MAP
+3:141162128:C:G	rs62282002	Missense	missense_variant	ZBTB38	0.13836	Height, TP
+3:141162185:T:G	rs16851435	Missense	missense_variant	ZBTB38	0.18163	NAP
+3:145794588:T:C	rs148051196	Missense	missense_variant	PLOD2	0.99997	Height
+3:145828077:G:C	rs201501322	pLoF	stop_gained	PLOD2	0.58087	Height
+3:145924454:C:A	rs143201630	Missense	missense_variant	PLSCR4	0.10476	Lym
+3:148714249:G:C	rs143137713	Missense	missense_variant	GYG1	0.99997	Height
+3:149374873:G:T	rs1055153	Missense	missense_variant	WWTR1	0.16356	Height
+3:154801978:A:G	rs61762319	Missense	missense_variant	MME	0.88213	Testosterone_M
+3:155546124:C:T	rs76440173	Missense	missense_variant	SLC33A1	0.99979	LDLC, TC
+3:165548529:T:C	rs1799807	Missense	missense_variant	BCHE	0.99455	FEV1FVC
+3:169526527:G:A	rs9820986	Missense	missense_variant	LRRC34	0.98777	Alzheimer
+3:169831268:T:C	rs73181210	Missense	missense_variant	PHC3	0.9993	BW, Height, IGF1, SBP
+3:170727739:T:A	rs5402	Missense	splice_region_variant	SLC2A2	0.5965	GGT
+3:171417570:G:A	rs143845082	Missense	missense_variant	PLD1	0.99144	HbA1c
+3:171969077:C:G	rs7652177	Missense	missense_variant	FNDC3B	0.99999	Height
+3:172046841:G:T	rs35409041	Missense	missense_variant	FNDC3B	0.74436	Height
+3:179336257:T:C	rs4147793	Missense	missense_variant	NDUFB5	0.9898	MCH, MCV
+3:184020542:G:T	rs11545169	Missense	missense_variant	PSMD2	0.99669	Height
+3:184039666:A:G	rs2178403	Missense	missense_variant	EIF4G1	0.14741	RBC
+3:184046450:A:G	rs112809828	Missense	missense_variant	EIF4G1	0.20679	Plt
+3:185990096:C:T	rs2193587	Missense	missense_variant	DGKG	0.11969	Morning_Person, eBMD
+3:194061826:C:T	rs11711157	Missense	missense_variant	CPN2	0.42139	Height
+3:194061907:G:A	rs4974539	Missense	stop_gained	CPN2	0.21472	Height
+3:194062519:C:T	rs3732477	Missense	missense_variant	CPN2	0.1777	Height
+3:195798320:G:C	rs41301381	Missense	missense_variant	TFRC	0.35053	MCH, MCHC
+3:3139957:T:C	rs2290610	Missense	missense_variant	IL5RA	0.96158	Eosino
+3:3216933:C:T	rs78564552	Missense	missense_variant	CRBN	0.99785	AST
+3:33063050:A:G	rs13093698	Missense	splice_region_variant	GLB1	0.19281	AG, NAP
+3:33194990:C:A	rs6810039	Missense	missense_variant	SUSD5	0.99176	Height
+3:33467112:G:A	rs61751640	Missense	missense_variant	UBP1	0.46669	Height, eBMD
+3:37725349:G:T	rs372970747	Missense	splice_region_variant	ITGA9	0.99026	VitD
+3:38103776:G:A	rs116202356	Missense	missense_variant	DLEC1	0.18649	RBC
+3:38317479:C:T	rs117371763	Missense	missense_variant	SLC22A13	0.21197	UA
+3:39307162:G:A	rs3732378	Missense	missense_variant	CX3CR1	1	Lym, Mono, WBC
+3:42305131:C:G	rs754635	Missense	splice_region_variant	CCK	0.1115	BMI
+3:42906116:T:C	rs2228467	Missense	missense_variant	ACKR2	1	Eosino, Mono, WBC
+3:45565502:G:C	rs551442373	Missense	missense_variant	LARS2	0.99206	Alzheimer
+3:46003735:C:T	rs41289620	Missense	missense_variant	FYCO1	0.31945	AST
+3:46307313:A:G	rs138346219	Missense	missense_variant	CCR3	0.84211	Eosino
+3:47045846:C:T	rs2305637	Missense	missense_variant	NBEAL2	0.10832	HDLC
+3:48229366:C:A	rs146179438	Missense	missense_variant	CDC25A	0.18259	eGFR, sCr
+3:48638801:C:T	rs62618742	Missense	missense_variant	UQCRC1	0.99918	LOY
+3:49162284:C:T	rs34759087	Missense	missense_variant	LAMB2	0.10386	Mood_Swings
+3:49721532:G:A	rs3197999	Missense	missense_variant	MST1	0.10063	IBD
+3:49832788:G:A	rs73079003	Missense	missense_variant	CDHR4	0.19719	Glucose
+3:50332697:G:A	rs13100173	Missense	missense_variant	HYAL3	0.54447	Baso
+3:50645081:C:T	rs138916184	Missense	missense_variant	CISH	0.1028	Eosino
+3:52022837:C:T	rs121912698	Missense	missense_variant	ABHD14A-ACY1	1	IGF1
+3:52325759:A:G	rs2276834	Missense	splice_region_variant	GLYCTK	0.11416	TP
+3:52567617:A:G	rs66782572	Missense	missense_variant	NT5DC2	0.33834	GGT, Hb, Ht
+3:53842691:CCTT:C	rs72556363	Missense	inframe_deletion	CACNA1D	0.11202	MAP
+3:58395891:C:G	rs4681851	Missense	splice_region_variant	PXK	0.22486	AID
+3:70014091:G:A	rs149617956	Missense	missense_variant	MITF	0.96091	Hb, Ht, eGFRcys, sCr
+3:9517369:C:T	rs11542009	Missense	missense_variant	SETD5	0.11361	eGFRcys
+4:100201295:A:G	rs28364331	Missense	splice_region_variant	ADH1A	0.29797	VitD
+4:100229016:C:T	rs75967634	Missense	missense_variant	ADH1B	0.94642	ALP
+4:100239319:T:C	rs1229984	Missense	missense_variant	ADH1B	1	ALP, Alb, BFP, BMI, BMI, Ca, GGT, IGF1, LDLC, MCH, MCV, PP, RBC, SBP, TP, UA, Urea
+4:103184239:G:A	rs112519623	Missense	missense_variant	SLC39A8	0.96159	ApoA
+4:103188709:C:T	rs13107325	Missense	missense_variant	SLC39A8	1	AST, Alb, ApoA, BFP, BMI, BW, Ca, DBP, DVT, GGT, HDLC, Hb, Height, Ht, LDLC, MAP, MCP, RBC, SBP, TC, TG, UA, WHRadjBMI
+4:106156187:C:T	rs17253672	Missense	missense_variant	TET2	0.27817	Height
+4:106196829:T:G	rs34402524	Missense	missense_variant	TET2	0.14512	Age_at_Menarche, Glucose
+4:106197000:A:G	rs62621450	Missense	missense_variant	TET2	0.11989	MCV
+4:106819053:G:A	rs34712979	Missense	splice_region_variant	NPNT	1	FEV1FVC, eGFR
+4:110638764:A:G	rs41278045	Missense	missense_variant	PLA2G12A	0.9996	ApoA, SHBG, TG
+4:110638824:C:T	rs114816312	Missense	missense_variant	PLA2G12A	0.99782	HbA1c, Plt, SHBG
+4:110932389:G:GC	rs11569144	Missense	frameshift_variant	EGF	0.12489	Plt
+4:120528397:C:T	rs202226125	Missense	missense_variant	PDE5A	0.99928	Height
+4:122742217:T:C	rs769242	Missense	missense_variant	CCNA2	0.17796	Eosino
+4:123179900:C:T	rs45510500	Missense	missense_variant	KIAA1109	0.16309	FedUp_Feelings, Miserableness
+4:123192240:A:C	rs45608936	Missense	missense_variant	KIAA1109	0.33612	Plt
+4:129099709:A:G	rs147888193	Missense	missense_variant	LARP1B	0.98953	Plt
+4:144359490:C:T	rs28925904	Missense	missense_variant	GAB1	0.99934	SHBG
+4:151199080:G:A	rs2290846	Missense	missense_variant	LRBA	0.45478	Cholelithiasis, Cholelithiasis, eGFRcys
+4:154557616:C:T	rs34343821	Missense	missense_variant	KIAA0922	0.99432	Height
+4:155489608:C:T	rs6054	Missense	missense_variant	FGB	1	IGF1, LDLC, Neutro, TC, TG
+4:155507590:T:C	rs6050	Missense	missense_variant	FGA	0.10618	Blood_Clot_Lung
+4:169343044:A:G	rs61740705	Missense	missense_variant	DDX60L	0.39027	AST
+4:169348476:G:A	rs74346802	Missense	splice_region_variant	DDX60L	0.12123	IGF1
+4:177650866:C:T	rs41278571	Missense	missense_variant	VEGFC	0.10683	TP
+4:187004074:C:T	rs3775291	Missense	missense_variant	TLR3	0.39524	Hypothyroidism
+4:24801834:C:G	rs1799895	Missense	missense_variant	SOD3	1	eGFR, sCr
+4:25408838:G:A	rs34811474	Missense	missense_variant	ANAPC4	0.99993	ALP, BMI, BMI, BW, DBP, HbA1c, Height, MCP, UA, WBC
+4:3180021:T:C	rs363096	Missense	splice_region_variant	HTT	0.99748	Plt
+4:3230410:AGAG:A	rs149109767	Missense	inframe_deletion	HTT	0.11263	Worry_Too_Long
+4:3443769:C:T	rs150750289	Missense	missense_variant	HGFAC	1	SHBG
+4:3446091:G:T	rs3748034	Missense	missense_variant	HGFAC	0.99996	SHBG
+4:3449652:G:A	rs16844401	Missense	missense_variant	HGFAC	0.73871	Ca, SHBG
+4:3449915:A:G	rs114303452	Missense	missense_variant	HGFAC	0.99889	Alb, Ca, IGF1, Plt, SHBG
+4:3451109:G:A	rs2498323	Missense	missense_variant	HGFAC	0.99974	Alb, PP, SBP
+4:38798648:C:A	rs5743618	Missense	missense_variant	TLR1	0.99999	Asthma, DVT, NAP
+4:40428010:T:C	rs278981	Missense	missense_variant	RBM47	0.997	LDLC, Mono, Mono, NAP
+4:40428091:C:T	rs35529250	Missense	missense_variant	RBM47	1	Urea, eGFR, sCr
+4:4276210:G:A	rs558808091	Missense	missense_variant	LYAR	0.99786	MCP
+4:5016883:G:A	rs11722554	Missense	missense_variant	CYTL1	0.93929	WHRadjBMI
+4:57797414:C:T	rs3796529	Missense	missense_variant	REST	0.10544	Height
+4:5800494:G:A	rs2279252	Missense	missense_variant	EVC	0.78582	sCr
+4:6303731:G:A	rs147834269	Missense	missense_variant	WFS1	1	T2D
+4:69536084:A:C	rs1902023	Missense	missense_variant	UGT2B15	0.17316	MCH, MCV, TBil
+4:69962375:T:C	rs61361928	Missense	missense_variant	UGT2B7	0.11375	Testosterone_F
+4:7044380:C:T	rs871134	Missense	missense_variant	CCDC96	0.35492	LOY, Mono
+4:72618323:G:T	rs4588	Missense	missense_variant	GC	0.14271	Neutro, WBC
+4:74274363:A:G	rs142714816	Missense	missense_variant	ALB	1	Ca
+4:74275120:A:T	rs149432908	Missense	missense_variant	ALB	1	AG, Alb, NAP
+4:74442349:G:C	rs17804499	Missense	missense_variant	RASSF6	0.18901	Urea
+4:74702809:G:GT	rs564244632	pLoF	frameshift_variant	CXCL6	0.99701	Neutro
+4:77228143:G:C	rs775507048	pLoF	splice_donor_variant	FAM47E-STBD1	0.47868	Plt
+4:79697870:C:A	rs149914551	Missense	missense_variant	BMP2K	0.90446	AG, NAP, RBC, TP
+4:81952637:T:A	rs74764079	Missense	missense_variant	BMP3	0.44266	Cataract
+4:8235220:C:A	rs111285143	Missense	missense_variant	SH3TC1	0.99997	AST
+4:88231392:T:TA	rs72613567	pLoF	splice_region_variant	HSD17B13	0.2276	Cirrhosis, Plt
+4:88231429:G:A	rs62305723	Missense	missense_variant	HSD17B13	0.46387	ALT, AST
+4:88732692:G:A	rs1054627	Missense	missense_variant	IBSP	0.14511	Height
+4:88767008:G:A	rs17013285	Missense	missense_variant	MEPE	1	eBMD
+4:89013496:C:T	rs34783571	Missense	missense_variant	ABCG2	0.85768	UA
+4:89018670:C:T	rs45605536	Missense	missense_variant	ABCG2	0.79822	UA
+4:89020503:A:G	rs192169063	Missense	missense_variant	ABCG2	0.70735	UA
+4:89052323:G:T	rs2231142	Missense	missense_variant	ABCG2	0.50691	Gout, UA, Urolithiasis
+4:89052957:G:A	rs72552713	pLoF	stop_gained	ABCG2	0.99449	UA
+4:951947:T:C	rs34311866	Missense	missense_variant	TMEM175	0.13718	TG
+4:9922170:C:G	rs73225891	Missense	missense_variant	SLC2A9	1	UA
+5:102338739:C:G	rs78408340	Missense	missense_variant	PAM	0.99964	Height
+5:108171409:G:T	rs35150210	Missense	missense_variant	FER	0.99977	Height
+5:1212453:G:A	rs121434346	Missense	missense_variant	SLC6A19	0.97454	eGFR, sCr
+5:1272362:G:A	rs770066110	pLoF	stop_gained	TERT	0.99918	Benign_Neoplasms, IPF
+5:127668685:G:T	rs78727187	Missense	missense_variant	FBN2	1	Height
+5:1279485:T:C	rs776981958	Missense	missense_variant	TERT	0.96403	IPF
+5:131008584:C:T	rs115209326	Missense	missense_variant	FNIP1	0.85101	SHBG, sCr
+5:131321159:G:C	rs11740791	Missense	splice_region_variant	ACSL6	0.29938	Neutro
+5:131411460:T:C	rs25882	Missense	missense_variant	CSF2	0.14998	Eosino, Eosino
+5:131995964:A:G	rs20541	Missense	missense_variant	IL13	0.23426	AD, AD
+5:133451683:C:A	rs5742913	Missense	missense_variant	TCF7	0.90417	Eosino
+5:134364518:C:G	rs479632	Missense	missense_variant	PITX1	0.15073	Height
+5:135288632:A:G	rs62623707	Missense	missense_variant	LECT2	0.50944	Height
+5:137486426:T:C	rs217272	Missense	splice_region_variant	BRD8	0.10062	DVT
+5:138715502:C:T	rs33972313	Missense	missense_variant	SLC23A1	0.17525	eGFR, sCr
+5:145895394:G:A	rs114285050	pLoF	stop_gained	GPR151	0.9998	BFP, BMI, BW
+5:14610309:C:G	rs16903574	Missense	missense_variant	FAM105A	0.21057	Asthma
+5:14751305:C:T	rs146886108	Missense	missense_variant	ANKH	0.98071	Glucose, HbA1c, P
+5:148206885:C:T	rs1800888	Missense	missense_variant	ADRB2	1	Eosino, FEV1FVC
+5:150567017:A:G	rs61745454	Missense	missense_variant	CCDC69	0.49972	Lym, Mono, WBC
+5:151169881:C:T	rs2053062	Missense	splice_region_variant	G3BP1	0.38383	sCr
+5:156381639:C:T	rs139287852	Missense	missense_variant	TIMD4	0.47459	TC
+5:169015479:G:A	rs116483731	Missense	missense_variant	SPDL1	1	LOY, Malignant_Neoplasms, PrC, SHBG, SkC
+5:170883681:C:T	rs556878675	Missense	missense_variant	FGF18	0.11299	Height
+5:172755066:C:A	rs148833559	Missense	missense_variant	STC2	1	BW, Height, Height
+5:172990492:T:C	rs13183901	Missense	splice_region_variant	CTB-33O18.1	0.17796	Height
+5:175958540:C:G	rs150789349	Missense	missense_variant	RNF44	0.10253	P
+5:176409574:G:A	rs13167812	Missense	missense_variant	UIMC1	0.93275	Age_at_Menopause
+5:176516631:G:A	rs1966265	Missense	missense_variant	FGFR4	0.94265	Height, Height
+5:176798040:T:G	rs56235845	Missense	splice_region_variant	RGS14	0.25915	Urolithiasis
+5:176813232:GGTCCCCAAGCTGCGCCAGGCT:G	rs876661296	Missense	inframe_deletion	SLC34A1	0.92874	UA, eGFR, sCr
+5:180477253:AC:A	rs367635312	pLoF	frameshift_variant	BTNL9	0.57644	ApoA, HDLC
+5:32784907:G:A	rs146301345	Missense	missense_variant	NPR3	1	Height
+5:32786413:C:T	rs142228984	Missense	missense_variant	NPR3	1	Height
+5:33951693:C:G	rs16891982	Missense	missense_variant	SLC45A2	0.99862	SkC
+5:35876274:A:G	rs3194051	Missense	missense_variant	IL7R	0.10752	Lym
+5:39376988:C:T	rs3733801	Missense	missense_variant	DAB2	0.65995	AG
+5:54830395:C:A	rs191221714	Missense	splice_region_variant	PPAP2A	0.17176	Height
+5:57751982:C:T	rs201061688	Missense	missense_variant	PLK2	0.10571	Height
+5:60628181:A:AGCG	rs528020839	Missense	inframe_insertion	ZSWIM6	0.10044	Plt
+5:64020316:T:G	rs80170948	Missense	missense_variant	SREK1IP1	0.95729	IGF1
+5:64766798:G:A	rs61736454	Missense	missense_variant	ADAMTS6	0.99809	Height
+5:68616331:C:T	rs10471774	Missense	missense_variant	CCDC125	0.34235	WBC
+5:70798541:A:G	rs36009281	Missense	missense_variant	BDP1	0.34817	AST
+5:72419456:C:G	rs637450	Missense	missense_variant	TMEM171	0.3664	UA
+5:72419617:C:A	rs636926	Missense	missense_variant	TMEM171	0.23644	UA
+5:73153552:G:A	rs115243197	Missense	missense_variant	ARHGEF28	0.99053	FEV1FVC
+5:74646765:A:C	rs191835914	Missense	missense_variant	HMGCR	0.14542	TC
+5:75003678:T:C	rs2307111	Missense	missense_variant	POC5	0.9943	BMI, BMI, BW, HDLC, eGFRcys
+5:75591710:C:G	rs2270927	Missense	missense_variant	SV2C	0.14462	HbA1c
+5:75960968:G:C	rs34968964	Missense	missense_variant	IQGAP2	1	Plt
+5:75964507:C:T	rs34950321	Missense	missense_variant	IQGAP2	1	Alb, Plt
+5:75996909:G:A	rs34592828	Missense	missense_variant	IQGAP2	1	MCH, MCV, Plt, TP, WHRadjBMI
+5:78181477:C:T	rs1065757	Missense	missense_variant	ARSB	0.11096	Mono
+5:78421959:G:A	rs3733890	Missense	missense_variant	BHMT	0.20259	HDLC
+5:79336091:C:T	rs200373343	Missense	missense_variant	THBS4	0.28846	Height
+5:82815170:A:G	rs61749613	Missense	missense_variant	VCAN	0.28874	BFP, HDLC, TG
+5:86695274:A:G	rs2230641	Missense	missense_variant	CCNH	0.12813	Height
+5:94206202:C:T	rs159032	Missense	splice_region_variant	MCTP1	0.13478	BFP, BMI
+6:100868721:G:A	rs3734355	Missense	missense_variant	SIM1	0.21505	Balding_Type4
+6:100868779:G:T	rs3734354	Missense	missense_variant	SIM1	0.15092	Balding_Type4
+6:10874905:A:C	rs61734277	Missense	missense_variant	GCM2	0.2461	Ca
+6:10877397:C:T	rs61741855	Missense	missense_variant	GCM2	1	Ca
+6:110760008:A:G	rs12210538	Missense	missense_variant	SLC22A16	0.57428	HbA1c, MCH, MCV
+6:111913262:C:T	rs33980500	Missense	missense_variant	TRAF3IP2	0.53895	Psoriasis
+6:116325142:C:T	rs3756772	Missense	missense_variant	FRK	0.13402	TC, TP
+6:116720514:C:T	rs35548455	Missense	missense_variant	DSE	1	Plt
+6:117237380:TAC:T	rs762966411	pLoF	frameshift_variant	RFX6	0.84991	T2D
+6:125379202:A:G	rs142610684	Missense	missense_variant	RNF217	0.51889	Ca
+6:131897807:G:A	rs144994895	Missense	missense_variant	ARG1	0.34603	eGFR, sCr
+6:132181533:T:C	rs17847050	Missense	missense_variant	ENPP1	0.22042	P
+6:132193216:A:G	rs148462924	Missense	missense_variant	ENPP1	0.52652	P
+6:133789728:G:A	rs9493627	Missense	missense_variant	EYA4	0.10598	eGFR, sCr
+6:143091263:A:G	rs109836	Missense	missense_variant	HIVEP2	0.94191	Height
+6:153043035:G:A	rs17710008	Missense	missense_variant	MYCT1	0.87148	GGT, Lym, Mono, Neutro, WBC
+6:155450779:A:G	rs148543891	Missense	missense_variant	TIAM2	1	Height
+6:158484904:G:C	rs141160611	Missense	missense_variant	SYNJ2	0.96092	GGT
+6:158492660:C:T	rs146694394	Missense	missense_variant	SYNJ2	0.99764	ALP, GGT
+6:158910698:G:A	rs12206717	Missense	missense_variant	TULP4	0.16033	Height
+6:160543148:C:T	rs12208357	Missense	missense_variant	SLC22A1	0.99972	ALP, ApoB, LDLC, TBil
+6:160560845:A:G	rs628031	Missense	missense_variant	SLC22A1	0.30718	ApoB, IGF1, LDLC
+6:160560880:CATG:C	rs72552763	Missense	inframe_deletion	SLC22A1	0.74283	AST, ApoB, GGT, LDLC, TBil
+6:160560897:CTGGTAAGT:C	NA	Missense	splice_donor_variant	SLC22A1	0.72428	ApoB, IGF1, LDLC
+6:160575837:G:A	rs34059508	Missense	missense_variant	SLC22A1	0.20578	GGT
+6:160671657:G:A	rs201919874	Missense	missense_variant	SLC22A2	0.59667	eGFR, sCr
+6:160831796:G:A	rs151135411	Missense	missense_variant	SLC22A3	0.99468	ApoB, LDLC
+6:160998199:G:A	rs41267813	Missense	missense_variant	LPA	1	LipoA
+6:161134124:A:G	rs145535174	Missense	missense_variant	PLG	0.99993	Plt
+6:16286061:C:A	rs146771786	Missense	missense_variant	GMPR	1	Hb, MCH, MCHC, MCV
+6:16290761:T:A	rs1042391	Missense	missense_variant	GMPR	0.24492	Hb, MCH, MCH, MCHC, MCV
+6:16295347:A:AACTC	rs142002554	pLoF	frameshift_variant	GMPR	0.92626	MCH, MCV, RBC
+6:166579270:C:T	rs2305089	Missense	missense_variant	T	0.25687	Height
+6:24436901:T:C	rs200438724	Missense	missense_variant	GPLD1	0.99999	ALP
+6:24437398:G:A	rs553287827	Missense	missense_variant	GPLD1	0.4386	ALP
+6:24437509:A:T	rs61733146	Missense	missense_variant	GPLD1	0.10922	Testosterone_F
+6:24466917:T:C	rs145408627	Missense	missense_variant	GPLD1	0.97244	ALP
+6:24503597:C:T	rs3765310	Missense	missense_variant	ALDH5A1	1	UA
+6:39033595:G:A	rs3765467	Missense	missense_variant	GLP1R	0.32584	T2D
+6:39046794:G:A	rs10305492	Missense	missense_variant	GLP1R	1	Glucose, HbA1c
+6:39282036:T:C	rs10947804	Missense	missense_variant	KCNK17	0.11514	T2D
+6:394867:C:A	rs202124383	Missense	missense_variant	IRF4	0.42295	AID, Hypothyroidism
+6:40998167:T:C	rs742493	Missense	missense_variant	UNC5CL	0.80921	eGFR
+6:41903798:C:A	rs33966734	Missense	missense_variant	CCND3	1	BW, Height, MCH, MCV
+6:42891022:G:A	rs9471966	Missense	missense_variant	PTCRA	0.10991	Eosino
+6:43006408:A:G	rs41274912	Missense	missense_variant	CUL7	0.15083	Height
+6:43018765:TCTC:T	rs372224208	Missense	inframe_deletion	CUL7	0.1427	Height
+6:43267663:G:A	rs80308492	Missense	missense_variant	SLC22A7	1	eGFR, sCr
+6:43307399:G:A	rs145629243	Missense	missense_variant	ZNF318	0.99975	Height
+6:50791584:CACAA:C	rs368226832	Missense	splice_region_variant	TFAP2B	0.99903	eGFRcys
+6:51497503:C:A	rs76572975	Missense	missense_variant	PKHD1	0.99986	eGFR, eGFRcys, sCr
+6:51947999:G:A	rs137852944	Missense	missense_variant	PKHD1	0.99889	GGT
+6:52357071:A:C	rs17851770	Missense	missense_variant	EFHC1	0.12487	Ht
+6:55142337:A:G	rs2653349	Missense	missense_variant	HCRTR2	0.10276	Morning_Person
+6:55924005:C:T	rs115079907	Missense	missense_variant	COL21A1	1	PP, SBP
+6:55935568:C:A	rs200999181	Missense	missense_variant	COL21A1	0.99961	PP, SBP
+6:56035643:A:G	rs2764043	Missense	missense_variant	COL21A1	0.12154	PP
+6:7231843:G:A	rs9379084	Missense	missense_variant	RREB1	1	GGT, Glucose, HbA1c, Height, Height, Height, NAP, SHBG, T2D, T2D, TP, eBMD, eGFR, sCr
+6:7727271:G:A	rs111588693	Missense	missense_variant	BMP6	0.16425	PP
+7:100218631:C:T	rs41295942	Missense	missense_variant	TFR2	1	HbA1c, MCH, MCHC, MCV
+7:100225193:G:A	rs41295912	Missense	splice_region_variant	TFR2	0.74905	Hb, RBC
+7:100225847:C:T	rs139178017	pLoF	splice_region_variant	TFR2	0.50454	Hb, Ht, MCH
+7:100226902:C:T	rs41303501	Missense	missense_variant	TFR2	0.78572	Hb, Ht
+7:100228655:G:T	rs41303495	Missense	missense_variant	TFR2	0.27459	HbA1c
+7:100230864:G:C	rs34242818	Missense	missense_variant	TFR2	0.29427	MCH, MCV
+7:100231063:T:C	rs187119131	Missense	missense_variant	TFR2	1	MCH, MCHC, MCV, RBC
+7:100275444:G:A	rs62482253	Missense	splice_region_variant	GNB2	0.53754	TBil
+7:100319633:G:A	rs62483572	Missense	missense_variant	EPO	0.99998	Hb, Ht, RBC, TBil
+7:117375374:A:C	rs62617115	Missense	missense_variant	CTTNBP2	0.8159	FEV1FVC
+7:124481168:C:G	rs79314063	Missense	missense_variant	POT1	0.73265	UF
+7:12610578:C:T	rs116907627	pLoF	stop_gained	SCIN	0.95516	Height
+7:127014438:T:C	rs139681633	Missense	missense_variant	ZNF800	1	ALP
+7:127015083:G:A	rs62621812	Missense	missense_variant	ZNF800	1	ALP, Cataract, Lym, eBMD
+7:127253550:C:T	rs2233580	Missense	missense_variant	PAX4	0.97008	HbA1c, T1D, T2D, TG
+7:127253551:G:T	rs3824004	Missense	missense_variant	PAX4	0.94556	T2D
+7:127729628:G:A	rs150524780	Missense	missense_variant	SND1	0.22141	HDLC
+7:129663496:C:T	rs11556924	Missense	missense_variant	ZC3HC1	0.97404	DBP, Eosino, Hb, Height, Ht, MAP, RBC, SHBG, sCr
+7:129710488:C:T	rs3734928	Missense	missense_variant	KLHDC10	0.52633	LDLC
+7:130025713:G:A	rs77792157	Missense	missense_variant	CPA1	0.82766	T2D
+7:135123060:G:C	rs17480616	Missense	missense_variant	CNOT4	0.19115	Height
+7:137600690:C:T	rs273957	Missense	missense_variant	CREB3L2	0.31836	IGF1, Mono
+7:140158851:C:G	rs2272095	Missense	missense_variant	MKRN1	0.1596	eGFRcys
+7:142570236:G:A	rs114531481	Missense	splice_region_variant	TRPV6	0.98742	Testosterone_M
+7:142651354:G:A	rs8176059	Missense	missense_variant	KEL	0.84889	HbA1c
+7:143092269:G:A	rs34372369	Missense	missense_variant	EPHA1	0.99999	Ca, GGT, SHBG
+7:143095153:C:T	rs11768549	Missense	missense_variant	EPHA1	0.9996	GGT
+7:143097100:A:G	rs4725617	Missense	missense_variant	EPHA1	0.11671	GGT
+7:144096158:C:T	rs112190116	Missense	missense_variant	NOBOX	0.99977	Age_at_Menopause
+7:148525904:C:G	rs2302427	Missense	missense_variant	EZH2	0.20519	Neutro
+7:150327195:C:A	rs117935084	Missense	missense_variant	GIMAP6	0.98609	Alzheimer
+7:150490238:G:A	rs17256042	Missense	missense_variant	TMEM176B	1	SHBG
+7:1976457:C:T	rs1801368	Missense	missense_variant	MAD1L1	0.2605	LOY, LOY
+7:2296552:A:G	rs144787122	Missense	missense_variant	SNX8	1	AST, Alb, ApoB, Height, LDLC, NAP, RBC, TC, TP
+7:27204653:C:T	rs147261225	Missense	missense_variant	HOXA9	0.64862	LOY
+7:27239201:G:T	rs34398255	Missense	missense_variant	HOXA13	0.36287	eGFR, sCr
+7:29132279:A:G	rs117744081	Missense	missense_variant	CPVL	0.98707	SkC, SkC
+7:30706883:C:A	rs148406223	Missense	missense_variant	CRHR2	0.99742	Alzheimer
+7:31018852:T:C	rs2228078	Missense	missense_variant	GHRHR	0.33397	IGF1
+7:42187851:C:T	rs146458902	Missense	missense_variant	GLI3	0.97683	Height
+7:44178626:A:G	rs1008384	Missense	splice_region_variant	MYL7	0.78377	Glucose, HbA1c
+7:44266184:C:T	rs35452727	Missense	missense_variant	CAMK2B	0.98954	T2D
+7:44578500:G:A	rs35803101	Missense	missense_variant	NPC1L1	1	LDLC
+7:44579661:C:T	rs759592756	Missense	missense_variant	NPC1L1	0.47679	LDLC, TC
+7:45009341:A:G	rs3735485	Missense	missense_variant	MYO1G	0.85484	LOY, Lym, Neutro, WBC
+7:45124008:T:C	rs7777835	Missense	missense_variant	NACAD	0.18546	DBP
+7:45954465:G:A	rs145188037	Missense	missense_variant	IGFBP3	0.54732	IGF1
+7:45954540:C:T	rs17847676	Missense	missense_variant	IGFBP3	0.9999	Height
+7:45960645:G:C	rs2854746	Missense	missense_variant	IGFBP3	1	Height, IGF1
+7:6731803:G:A	rs199761265	Missense	missense_variant	ZNF12	0.37989	IGF1
+7:73020337:C:G	rs3812316	Missense	missense_variant	MLXIPL	0.18952	HbA1c
+7:73020439:C:T	rs12539160	Missense	splice_region_variant	MLXIPL	0.61289	HbA1c, TG
+7:73097654:C:T	rs1128349	Missense	missense_variant	DNAJC30	0.11972	Height
+7:73470714:G:A	rs2071307	Missense	missense_variant	ELN	0.11221	Inguinal_Hernia
+7:73474825:G:C	rs17855988	Missense	missense_variant	ELN	0.99109	Height, Inguinal_Hernia, eGFRcys
+7:73631177:C:G	rs144269935	Missense	missense_variant	LAT2	0.99992	AG, NAP
+7:74212036:C:G	rs707394	Missense	missense_variant	GTF2IRD2	0.21387	P, sCr
+7:75610876:C:T	rs17853284	Missense	missense_variant	POR	0.98012	TG, Testosterone_F
+7:75615006:C:T	rs1057868	Missense	missense_variant	POR	0.34551	Plt, Testosterone_F, eGFR, sCr
+7:80286003:C:T	rs75326924	Missense	missense_variant	CD36	0.99998	ALP, AST, Alb, HDLC, Plt
+7:80302697:ATATTGTGCCTAT:A	rs550565800	Missense	inframe_deletion	CD36	0.17746	MCHC
+7:87060844:C:T	rs45575636	Missense	missense_variant	ABCB4	0.99891	ALT, AST, Cholelithiasis
+7:92764489:C:T	rs10488532	Missense	missense_variant	SAMD9L	0.30798	Urea
+7:99935895:A:T	rs538387346	Missense	splice_region_variant	PILRB	0.32201	HbA1c
+7:99971834:A:G	rs1859788	Missense	missense_variant	PILRA	0.15749	Alzheimer
+8:118184783:C:T	rs13266634	Missense	missense_variant	SLC30A8	1	Glucose, HbA1c, HbA1c, T2D, T2D, T2D, TG
+8:118184855:A:T	rs770224130	Missense	missense_variant	SLC30A8	0.96694	T2D
+8:120596023:A:G	rs10283100	Missense	missense_variant	ENPP2	1	Height, IGF1
+8:121468789:A:G	rs189854594	Missense	splice_region_variant	MTBP	0.48425	MCP
+8:124382184:C:T	rs117211505	Missense	missense_variant	ATAD2	0.61407	Height
+8:133899580:C:T	rs771807370	pLoF	stop_gained	TG	0.29117	Hypothyroidism
+8:135614310:G:T	rs199682848	Missense	missense_variant	ZFAT	0.14118	Height
+8:135614553:G:C	rs112892337	Missense	missense_variant	ZFAT	0.30801	BW, PP, SBP
+8:135622851:G:A	rs75596750	Missense	missense_variant	ZFAT	1	Height
+8:135649848:G:A	rs12541381	Missense	missense_variant	ZFAT	1	BW, Height
+8:142222445:T:C	rs3739238	Missense	missense_variant	SLC45A4	0.11807	Height
+8:144643169:C:T	rs1545536	Missense	splice_region_variant	GSDMD	0.99791	CRP
+8:144654594:G:T	rs4873803	Missense	missense_variant	MROH6	0.10257	HbA1c
+8:144874078:C:T	rs117338714	Missense	missense_variant	SCRIB	0.19644	MCH
+8:144996029:A:G	rs7833924	Missense	missense_variant	PLEC	0.39869	Plt
+8:145001031:T:C	rs55895668	Missense	missense_variant	PLEC	0.17327	Plt
+8:145058986:A:G	rs11136343	Missense	missense_variant	PARP10	0.14804	MCV
+8:145094849:G:A	rs184131268	Missense	missense_variant	SPATC1	0.99999	ALT
+8:145158607:G:A	rs34173062	Missense	missense_variant	SHARPIN	1	AG, Asthma, Eosino, NAP
+8:145639726:T:C	rs2272662	Missense	missense_variant	SLC39A4	1	ALP
+8:145729793:G:A	rs145331563	Missense	missense_variant	GPT	1	ALT
+8:145730221:G:A	rs112574791	Missense	missense_variant	GPT	0.97801	ALT
+8:145732114:G:C	rs141505249	Missense	missense_variant	GPT	0.99768	ALT
+8:15967628:T:C	rs138749399	Missense	missense_variant	MSR1	0.97091	IGF1
+8:16012594:G:A	rs41341748	pLoF	stop_gained	MSR1	1	IGF1
+8:19363306:G:A	rs117494579	Missense	missense_variant	CSGALNACT1	0.7131	Height
+8:19811733:G:A	rs118204057	Missense	missense_variant	LPL	1	ApoA, HDLC, TG
+8:19813529:A:G	rs268	Missense	missense_variant	LPL	1	ApoA, HDLC, TG
+8:19819724:C:G	rs328	pLoF	stop_gained	LPL	0.49333	HDLC, TG
+8:21767240:G:A	rs34215892	Missense	missense_variant	DOK2	0.98995	Eosino, TP
+8:21769432:A:G	rs56094005	Missense	missense_variant	DOK2	0.50481	Alb, Lym, Plt
+8:22926313:G:A	rs1129424	Missense	missense_variant	TNFRSF10B	0.12015	MCH
+8:22972271:GT:G	rs537005361	pLoF	frameshift_variant	TNFRSF10C	0.66882	Neutro, WBC
+8:22974450:T:C	rs9644063	Missense	missense_variant	TNFRSF10C	0.40217	Baso, Neutro
+8:24197044:C:T	rs147269596	Missense	missense_variant	ADAM28	0.12369	MCH
+8:25280800:C:G	rs6185	Missense	missense_variant	GNRH1	0.24397	UF
+8:29024943:G:A	rs117139027	Missense	missense_variant	KIF13B	1	ApoB, LDLC, TC
+8:41543675:G:A	rs34664882	Missense	missense_variant	ANK1	0.20059	HbA1c, MCHC, MCV, TBil, TC
+8:41575677:G:A	rs142626656	Missense	missense_variant	ANK1	1	HbA1c, MCHC, TBil
+8:41582031:G:T	rs61735313	Missense	missense_variant	ANK1	0.53286	HbA1c
+8:42552742:G:A	rs147306385	pLoF	splice_donor_variant	CHRNB3	0.44397	Smoking_CPD
+8:48885436:T:A	rs762679	Missense	missense_variant	MCM4	0.99969	Baso, Eosino, MCH, MCV
+8:53852871:A:T	rs33977775	Missense	missense_variant	NPBWR1	0.1259	Age_at_Menarche
+8:66692011:C:T	rs11557049	Missense	missense_variant	PDE7A	0.99995	eGFR, eGFRcys, sCr
+8:73958364:G:A	rs145702999	Missense	missense_variant	TERF1	0.99239	Benign_Neoplasms
+8:77761919:C:T	rs61729527	Missense	missense_variant	ZFHX4	0.99954	Height
+8:79650733:G:A	rs56222538	Missense	splice_region_variant	IL7	0.24008	Lym
+8:82665476:TGTGA:T	rs137960856	pLoF	splice_donor_variant	CHMP4C	0.13393	P
+8:82670771:G:A	rs35094336	Missense	missense_variant	CHMP4C	0.14965	P
+8:8560536:G:A	rs12548737	Missense	missense_variant	CLDN23	0.98516	GGT
+8:90983460:G:A	rs34767364	Missense	missense_variant	NBN	0.32433	Lym
+8:95264265:G:A	rs138582164	pLoF	stop_gained	GEM	0.99982	PP
+8:95272605:G:C	rs2170363	Missense	missense_variant	GEM	0.77579	PP
+9:100437812:T:C	rs144725456	Missense	missense_variant	XPA	0.56746	SkC
+9:100437861:G:A	rs104894132	pLoF	stop_gained	XPA	0.5257	SkC
+9:101748356:A:G	rs2075663	Missense	missense_variant	COL15A1	0.13459	PP
+9:104188842:C:G	rs3739721	Missense	missense_variant	ALDOB	0.99504	ALT
+9:104189856:C:G	rs1800546	Missense	missense_variant	ALDOB	0.99161	eGFR, sCr
+9:107560784:C:T	rs150125857	Missense	missense_variant	ABCA1	1	ApoA, HDLC
+9:107562804:T:C	rs2230808	Missense	missense_variant	ABCA1	0.48578	HDLC
+9:107579632:C:G	rs33918808	Missense	missense_variant	ABCA1	1	ApoA, HDLC, TC
+9:107593923:C:G	rs754040394	Missense	missense_variant	ABCA1	1	HDLC, TC
+9:107599376:A:G	rs9282543	Missense	missense_variant	ABCA1	0.45022	CRP
+9:107620797:A:G	rs188308962	Missense	splice_region_variant	ABCA1	1	ApoA, HDLC, LDLC, TC
+9:109689752:C:T	rs3814541	Missense	missense_variant	ZNF462	0.13133	Height
+9:113312231:G:C	rs61751937	Missense	missense_variant	SVEP1	0.99918	Alb, TP
+9:113341700:C:T	rs575727065	Missense	missense_variant	SVEP1	0.99517	WHRadjBMI
+9:116082647:C:G	rs41307479	Missense	missense_variant	WDR31	0.13947	BFP
+9:117103973:A:G	rs2250242	Missense	missense_variant	AKNA	0.14212	ALT
+9:123675895:A:G	rs113495277	Missense	missense_variant	TRAF1	0.51114	AG, NAP
+9:124103523:A:G	rs41273438	Missense	missense_variant	STOM	0.24975	HbA1c
+9:130536717:G:A	rs10760500	Missense	missense_variant	SH2D3C	0.1308	AG, Mono, NAP
+9:131483551:T:A	rs11539209	Missense	missense_variant	ZDHHC12	0.97022	Asthma, DVT
+9:131671142:G:A	rs143836544	Missense	missense_variant	LRRC8A	0.14629	Height
+9:133924451:C:T	rs869457	Missense	missense_variant	LAMC3	0.85544	Balding_Type4
+9:135863638:C:T	rs143926538	Missense	missense_variant	GFI1B	0.9909	Eosino, Plt
+9:136270538:T:G	rs41302673	Missense	missense_variant	C9orf96	0.19679	Cholelithiasis
+9:136501728:C:T	rs77273740	Missense	missense_variant	DBH	0.99998	Hypertension
+9:136501756:G:C	rs3025380	Missense	missense_variant	DBH	0.99994	DBP, MAP, SBP
+9:136522274:C:T	rs6271	Missense	missense_variant	DBH	0.94582	DBP, Hypertension, MAP, SBP
+9:139110654:C:T	rs12684650	Missense	splice_region_variant	QSOX2	0.98592	Height, NAP
+9:139259592:C:G	rs141992399	pLoF	splice_donor_variant	CARD9	0.30089	CRP
+9:139925983:G:A	rs117125309	Missense	missense_variant	FUT7	0.61663	Lym
+9:140100317:C:G	rs113809617	Missense	missense_variant	NDOR1	1	HbA1c, MCH, MCH, MCV, MCV, RBC
+9:140127380:G:A	rs150841256	pLoF	splice_donor_variant	SLC34A3	0.99776	P, eGFR
+9:140130606:A:T	rs28542318	Missense	missense_variant	SLC34A3	0.97165	P, eGFR, eGFRcys
+9:140130653:A:T	rs140639805	Missense	missense_variant	SLC34A3	0.13508	sCr
+9:140243968:C:T	rs79140116	Missense	missense_variant	EXD3	0.12617	BW
+9:2622278:G:A	rs2219143	Missense	splice_region_variant	VLDLR	0.13495	Eosino, Neutro
+9:27011904:G:C	rs562804818	Missense	missense_variant	IFT74	1	Alzheimer
+9:32418353:C:T	rs41305321	Missense	missense_variant	ACO1	0.99989	Hb, Ht, RBC
+9:34107505:C:T	rs11557154	Missense	missense_variant	DCAF12	0.37743	AG, ALT, HbA1c, Lym, MCH, MCV, Mono, NAP, TP, sCr
+9:34660864:C:T	rs11575580	Missense	missense_variant	IL11RA	0.99894	Height
+9:34723935:C:T	rs2297134	Missense	missense_variant	FAM205A	0.11992	Eosino
+9:35609378:C:T	rs777777413	Missense	missense_variant	TESK1	0.99896	Height
+9:37498141:G:A	rs112460184	Missense	missense_variant	POLR1E	0.99987	Alzheimer
+9:4118111:G:T	rs6415788	Missense	missense_variant	GLIS3	1	Hb, Ht, RBC, UA
+9:5081828:G:C	rs150221602	Missense	missense_variant	JAK2	1	Eosino, Plt, RBC
+9:5089770:G:A	rs202237966	Missense	missense_variant	JAK2	0.53351	Height
+9:5126343:G:A	rs41316003	Missense	missense_variant	JAK2	1	IGF1, Plt
+9:6255967:G:C	rs146597587	pLoF	splice_acceptor_variant	IL33	0.11195	Asthma
+9:71152343:C:G	rs117451470	Missense	missense_variant	TMEM252	0.40204	eGFR
+9:7174673:G:A	rs913588	Missense	missense_variant	KDM4C	0.99944	Age_at_Menarche
+9:86595070:C:T	rs296887	Missense	splice_region_variant	HNRNPK	0.10155	SHBG
+9:88940359:C:T	rs41310053	Missense	missense_variant	ZCCHC6	0.41492	SHBG
+9:92504661:G:T	rs9802603	Missense	splice_donor_variant	RP5-1050E16.2	0.10119	Age_at_Menarche
+9:95840256:A:G	rs1131773	Missense	missense_variant	SUSD3	0.21355	GGT
+9:95887320:G:T	rs2275848	Missense	missense_variant	NINJ1	0.4747	sCr
+X:105167411:A:G	rs35334892	Missense	missense_variant	NRK	0.55519	Height
+X:106016268:A:T	rs56121637	Missense	missense_variant	RNF128	0.99874	eGFR, eGFRcys, sCr
+X:109697443:T:C	rs41306249	Missense	missense_variant	RGAG1	0.58111	LDLC, eGFR, sCr
+X:118603844:T:G	rs371749	Missense	missense_variant	SLC25A5	0.19379	Height
+X:129147373:G:A	rs5932715	Missense	missense_variant	BCORL1	0.51317	IGF1, SHBG
+X:136113464:C:A	rs1190736	Missense	missense_variant	GPR101	0.74656	RBC
+X:150869273:C:T	rs142444421	Missense	missense_variant	PRRG3	0.47062	Height
+X:153284192:A:G	rs1059702	Missense	missense_variant	IRAK1	0.13409	AG, NAP
+X:19379640:G:C	rs15943	Missense	missense_variant	MAP3K15	0.9969	Glucose, HbA1c
+X:19443722:T:C	rs56212339	Missense	missense_variant	MAP3K15	0.9903	HbA1c
+X:2856155:C:T	rs35143646	Missense	missense_variant	ARSE	0.5913	SHBG
+X:38009032:C:T	rs200219563	Missense	missense_variant	SRPX	0.43657	Height
+X:38009121:G:A	rs35318931	Missense	missense_variant	SRPX	0.98587	Height, Height, Inguinal_Hernia, Varicose_Veins, WHRadjBMI, eBMD
+X:48759204:C:T	rs741932	Missense	splice_region_variant	PQBP1	0.18892	DBP, MAP
+X:55039960:G:A	rs201062903	Missense	missense_variant	ALAS2	0.69701	MCH, MCV, RBC
+X:66931318:G:A	rs200737258	Missense	missense_variant	AR	0.23609	PrC
+X:67652748:C:T	rs41303733	Missense	missense_variant	OPHN1	0.29685	BFP
+X:68381264:C:A	rs11539157	Missense	missense_variant	PJA1	0.38767	Age_at_Menarche, BMI, FEV1FVC, MCV, Plt
+X:68381787:C:T	rs5937160	Missense	missense_variant	PJA1	0.30302	Age_at_Menarche, BMI, MCV, Plt
+X:84563165:G:A	rs200939713	Missense	missense_variant	POF1B	0.98505	Varicose_Veins
+X:9621684:G:T	rs200509173	Missense	missense_variant	TBL1X	0.16201	Height
+X:99890204:C:T	rs1802288	Missense	missense_variant	TSPAN6	1	FEV1FVC, Height, LDLC, UA, eGFR, eGFRcys, sCr
