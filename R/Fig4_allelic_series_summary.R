@@ -186,6 +186,7 @@ plt.b <-
     values = c(
       cohort_colors,
       `BBJ,UKBB` = PNWColors::pnw_palette("Bay")[3],
+      `BBJ,FG` = PNWColors::pnw_palette("Bay")[4],
       `FG,UKBB` = BuenColors::jdb_palette("samba_night")[2],
       All = "#777788"
     )
@@ -297,12 +298,12 @@ hits <-
   ))
 
 count.total.coding <-
-  dplyr::distinct(df.in_cs.coding, cohort, trait, gene_most_severe) %>%
+  dplyr::distinct(df.in_cs.coding, cohort, gene_most_severe) %>%
   dplyr::group_by(cohort) %>%
   dplyr::summarize(count = n())
 
 count.any.total.coding <-
-  dplyr::distinct(df.in_cs.coding, trait, gene_most_severe) %>%
+  dplyr::distinct(df.in_cs.coding, gene_most_severe) %>%
   dplyr::summarize(count = n()) %>%
   dplyr::mutate(cohort = "Any")
 
@@ -368,21 +369,23 @@ xpop.coding <-
 
 count.coding <-
   dplyr::group_by(xpop.coding, cohort1, cohort2, consequence) %>%
-  dplyr::summarize(count = sum(count)) %>%
+  dplyr::filter(count) %>%
+  dplyr::summarize(count = length(unique(gene_most_severe))) %>%
   dplyr::mutate(frac = count / total_vec[cohort1])
 
 count.non_coding <-
   dplyr::group_by(hits, cohort1, trait1, gene_most_severe, cohort2) %>%
   dplyr::summarize(count = n() > 0) %>%
   dplyr::group_by(cohort1, cohort2) %>%
-  dplyr::summarize(count = sum(count)) %>%
+  dplyr::summarize(count = length(unique(gene_most_severe))) %>%
   dplyr::mutate(frac = count / total_vec[cohort1])
 
 count.any.coding <-
   dplyr::group_by(xpop.coding, trait, gene_most_severe, consequence) %>%
   dplyr::summarize(count = any(count)) %>%
   dplyr::group_by(consequence) %>%
-  dplyr::summarize(count = sum(count)) %>%
+  dplyr::filter(count) %>%
+  dplyr::summarize(count = length(unique(gene_most_severe))) %>%
   dplyr::mutate(
     cohort1 = "Any",
     cohort2 = "Any",
@@ -393,7 +396,7 @@ count.any.non_coding <-
   dplyr::group_by(hits, trait1, gene_most_severe) %>%
   dplyr::summarize(count = n() > 0) %>%
   dplyr::ungroup() %>%
-  dplyr::summarize(count = sum(count)) %>%
+  dplyr::summarize(count = length(unique(gene_most_severe))) %>%
   dplyr::mutate(
     cohort1 = "Any",
     cohort2 = "Any",
@@ -436,6 +439,7 @@ dplyr::filter(xpop.coding, consequence == "Nonsynonymous" &
     is_xpop,
     variants
   ) %>%
+  dplyr::arrange(gene, trait) %>%
   write.table(
     "./tables/STable_allelic_series_coding.tsv",
     quote = F,
@@ -471,6 +475,7 @@ dplyr::group_by(hits, trait1, gene_most_severe) %>%
     closest_pair_coding,
     closest_pair_non_coding
   ) %>%
+  dplyr::arrange(gene, trait) %>%
   write.table(
     "./tables/STable_allelic_series_coding_non_coding.tsv",
     quote = F,
@@ -554,7 +559,7 @@ p1 <-
     axis.title.y = element_text(vjust = 0),
     legend.position = "none"
   ) +
-  labs(x = "Total\n# gene-trait", y = "pLoF/missense variant (PIP > 0.1)") +
+  labs(x = "Total\n# genes", y = "pLoF/missense variant (PIP > 0.1)") +
   scale_fill_manual(values = cohort_colors)
 
 p2.nonsyn <-
@@ -610,7 +615,7 @@ q1 <- ggplot(count.any.total.coding, aes(factor(""), cohort)) +
     axis.title.y = element_blank(),
     legend.position = "none"
   ) +
-  labs(x = "Total\n# gene-trait", y = "pLoF/missense variant (PIP > 0.1)")
+  labs(x = "Total\n# genes", y = "pLoF/missense variant (PIP > 0.1)")
 
 q2.nonsyn <-
   dplyr::filter(count.any.coding, consequence == "Nonsynonymous") %>%
