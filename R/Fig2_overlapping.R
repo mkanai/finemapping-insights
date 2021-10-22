@@ -107,50 +107,28 @@ assign_status <- function(df,
       pvalue_base = !!as.symbol(paste0("pvalue.", cohort1)),
       pvalue_cohort = !!as.symbol(paste0("pvalue.", cohort2)),
       pip_bin = cut(pip_base, pip_bin_breaks),
-      status = factor(
-        dplyr::case_when(
-          pvalue_cohort < 5e-8 ~ as.character(cut(pip_cohort, pip_bin_breaks2)),
-          pvalue_cohort < 5e-8 ~ "P < 5e-8",
-          pvalue_cohort < 1e-4 ~ "P < 1e-4",
-          pvalue_cohort >= 1e-4 ~ "P >= 1e-4",
-          is.na(pvalue_cohort) ~ "NA",
-          TRUE ~ "ERROR"
-        ),
-        levels = c(
-          "(0.9,1]",
-          "(0.5,0.9]",
-          "(0.1,0.5]",
-          "(0.01,0.1]",
-          "(-Inf,0.01]",
-          "P < 5e-8",
-          "P < 1e-4",
-          "P >= 1e-4",
-          "NA"
-        )
-      ),
-      status = forcats::fct_recode(status, "[0,0.01]" = "(-Inf,0.01]"),
       gw_sig = pvalue_cohort < pvalue_threshold &
         !is.na(pvalue_cohort),
-      category = factor(
+      status = factor(
         dplyr::case_when(
           pip_base <= 0.9 | is.na(pip_base) ~ "EXCLUDE",
           (pvalue_cohort < pvalue_threshold) &
             (pip_cohort <= pip_threshold |
-              is.na(pip_cohort)) ~ "Fine-mapping uncertainity",
-          pip_cohort > pip_threshold ~ "Replication",
-          # pvalue_cohort < 5e-8 ~ "Fine-mapping uncertainity",
+              is.na(pip_cohort)) ~ "Fine-mapping non-replication",
+          pip_cohort > pip_threshold ~ "Fine-mapping replication",
           pvalue_cohort < 0.01 ~ "Replicated association",
-          power_cohort > 0.9 ~ "Heterogeneity", !is.na(pvalue_cohort) ~ "Low power",
-          is.na(pvalue_cohort) ~ "Population-specific",
+          power_cohort > 0.9 ~ "Non-replicated association",
+          !is.na(pvalue_cohort) ~ "Low power",
+          is.na(pvalue_cohort) ~ "Missing variants",
           TRUE ~ "ERROR"
         ),
         levels = c(
-          "Replication",
-          "Fine-mapping uncertainity",
+          "Fine-mapping replication",
+          "Fine-mapping non-replication",
           "Replicated association",
-          "Heterogeneity",
+          "Non-replicated association",
           "Low power",
-          "Population-specific",
+          "Missing variants",
           "EXCLUDE",
           "ERROR"
         )
@@ -169,8 +147,7 @@ assign_status_any <- function(df.in_cs, df.traits,
         other_cohort,
         pip_threshold = pip_threshold
       ) %>%
-        dplyr::filter(category != "EXCLUDE") %>%
-        dplyr::mutate(status = category)
+        dplyr::filter(status != "EXCLUDE")
     })
   }) %>%
     dplyr::group_by(variant, trait) %>%
@@ -191,21 +168,21 @@ assign_status_any <- function(df.in_cs, df.traits,
       gw_sig = any(gw_sig, na.rm = TRUE),
       status = factor(
         dplyr::case_when(
-          any(status == "Replication") ~ "Replication",
-          any(status == "Fine-mapping uncertainity") ~ "Fine-mapping uncertainity",
+          any(status == "Fine-mapping replication") ~ "Fine-mapping replication",
+          any(status == "Fine-mapping non-replication") ~ "Fine-mapping non-replication",
           any(status == "Replicated association") ~ "Replicated association",
-          any(status == "Heterogeneity") ~ "Heterogeneity",
+          any(status == "Non-replicated association") ~ "Non-replicated association",
           any(status == "Low power") ~ "Low power",
-          any(status == "Population-specific") ~ "Population-specific",
+          any(status == "Missing variants") ~ "Missing variants",
           TRUE ~ "ERROR"
         ),
         levels = c(
-          "Replication",
-          "Fine-mapping uncertainity",
+          "Fine-mapping replication",
+          "Fine-mapping non-replication",
           "Replicated association",
-          "Heterogeneity",
+          "Non-replicated association",
           "Low power",
-          "Population-specific",
+          "Missing variants",
           "ERROR"
         )
       )
@@ -225,10 +202,9 @@ plot_status_bar <- function(df,
       tibble::as_tibble() %>%
       purrr::pmap_dfr(function(cohort, other_cohort) {
         assign_status(df, df.traits, cohort, other_cohort) %>%
-          dplyr::filter(category != "EXCLUDE") %>%
-          dplyr::mutate(status = category)
+          dplyr::filter(status != "EXCLUDE")
       })
-    print(dplyr::group_by(data, base, cohort, category) %>% dplyr::count())
+    print(dplyr::group_by(data, base, cohort, status) %>% dplyr::count())
   }
 
   data <- dplyr::mutate(data,
@@ -237,7 +213,7 @@ plot_status_bar <- function(df,
 
   cohort.levels <-
     dplyr::group_by(data, cohort) %>%
-    dplyr::summarize(frac = sum(status == "Replication" &
+    dplyr::summarize(frac = sum(status == "Fine-mapping replication" &
       gw_sig) / sum(gw_sig)) %>%
     dplyr::arrange(frac) %>%
     dplyr::pull(cohort)
@@ -294,24 +270,22 @@ plot_status_bar <- function(df,
       labs(y = "% variant", fill = "Replication status") +
       scale_fill_manual(
         values = c(
-          `Replication` = PNWColors::pnw_palette("Bay")[1],
-          `Fine-mapping uncertainity` = BuenColors::jdb_palette("brewer_blue")[2],
-          # `Replicated association` = "#A3BDCC",
+          `Fine-mapping replication` = PNWColors::pnw_palette("Bay")[1],
+          `Fine-mapping non-replication` = BuenColors::jdb_palette("brewer_blue")[2],
           `Replicated association` = PNWColors::pnw_palette("Bay", 9)[6],
-          `Heterogeneity` = PNWColors::pnw_palette("Bay", 9)[5],
-          # `Low power` = shades::opacity(PNWColors::pnw_palette("Bay")[3], 0.5),
+          `Non-replicated association` = PNWColors::pnw_palette("Bay", 9)[5],
           `Low power` = "grey90",
-          `Population-specific` = "grey70"
+          `Missing variants` = "grey70"
         )
       ) +
       scale_color_manual(
         values = c(
-          `Replication` = ifelse(any(data2$gw_sig), "white", NA),
-          `Fine-mapping uncertainity` = "black",
+          `Fine-mapping replication` = ifelse(any(data2$gw_sig), "white", NA),
+          `Fine-mapping non-replication` = "black",
           `Replicated association` = "black",
-          `Heterogeneity` = "black",
+          `Non-replicated association` = "black",
           `Low power` = "black",
-          `Population-specific` = "black"
+          `Missing variants` = "black"
         ),
         guide = FALSE,
         na.translate = FALSE
@@ -365,10 +339,9 @@ plot_status_bar_ext <- function(df,
       tibble::as_tibble() %>%
       purrr::pmap_dfr(function(cohort, other_cohort) {
         assign_status(df, df.traits, cohort, other_cohort, pip_threshold = pip_threshold) %>%
-          dplyr::filter(category != "EXCLUDE") %>%
-          dplyr::mutate(status = category)
+          dplyr::filter(status != "EXCLUDE")
       })
-    print(dplyr::group_by(data, base, cohort, category) %>% dplyr::count())
+    print(dplyr::group_by(data, base, cohort, status) %>% dplyr::count())
 
     cohort.levels <-
       gtools::permutations(length(cohorts), 2, cohorts) %>%
@@ -376,12 +349,11 @@ plot_status_bar_ext <- function(df,
       tibble::as_tibble() %>%
       purrr::pmap_dfr(function(cohort, other_cohort) {
         assign_status(df, df.traits, cohort, other_cohort, pip_threshold = 0.1) %>%
-          dplyr::filter(category != "EXCLUDE") %>%
-          dplyr::mutate(status = category)
+          dplyr::filter(status != "EXCLUDE")
       }) %>%
       dplyr::mutate(cohort = stringr::str_c(base, cohort, sep = " ")) %>%
       dplyr::group_by(cohort) %>%
-      dplyr::summarize(frac = sum(status == "Replication" &
+      dplyr::summarize(frac = sum(status == "Fine-mapping replication" &
         gw_sig) / sum(gw_sig)) %>%
       dplyr::arrange(frac) %>%
       dplyr::pull(cohort)
@@ -444,24 +416,22 @@ plot_status_bar_ext <- function(df,
       labs(y = "% variant", fill = "Replication status") +
       scale_fill_manual(
         values = c(
-          `Replication` = PNWColors::pnw_palette("Bay")[1],
-          `Fine-mapping uncertainity` = BuenColors::jdb_palette("brewer_blue")[2],
-          # `Replicated association` = "#A3BDCC",
+          `Fine-mapping replication` = PNWColors::pnw_palette("Bay")[1],
+          `Fine-mapping non-replication` = BuenColors::jdb_palette("brewer_blue")[2],
           `Replicated association` = PNWColors::pnw_palette("Bay", 9)[6],
-          `Heterogeneity` = PNWColors::pnw_palette("Bay", 9)[5],
-          # `Low power` = shades::opacity(PNWColors::pnw_palette("Bay")[3], 0.5),
+          `Non-replicated association` = PNWColors::pnw_palette("Bay", 9)[5],
           `Low power` = "grey90",
-          `Population-specific` = "grey70"
+          `Missing variants` = "grey70"
         )
       ) +
       scale_color_manual(
         values = c(
-          `Replication` = ifelse(any(data2$gw_sig), "white", NA),
-          `Fine-mapping uncertainity` = "black",
+          `Fine-mapping replication` = ifelse(any(data2$gw_sig), "white", NA),
+          `Fine-mapping non-replication` = "black",
           `Replicated association` = "black",
-          `Heterogeneity` = "black",
+          `Non-replicated association` = "black",
           `Low power` = "black",
-          `Population-specific` = "black"
+          `Missing variants` = "black"
         ),
         guide = FALSE,
         na.translate = FALSE
@@ -513,8 +483,7 @@ plot_summary <- function(df,
   require(GGally)
   other_cohorts <- setdiff(cohorts, cohort)
   data <- purrr::map_dfr(other_cohorts, function(other_cohort) {
-    assign_status(df, df.traits, cohort, other_cohort) %>%
-      dplyr::mutate(status = category)
+    assign_status(df, df.traits, cohort, other_cohort)
   })
 
   data2 <-
@@ -690,3 +659,4 @@ cowplot::save_plot(
   base_width = 7.02,
   device = cairo_pdf
 )
+
