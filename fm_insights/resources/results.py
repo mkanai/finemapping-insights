@@ -1,29 +1,32 @@
 from .generic import bucket
 
 
-def get_raw_sumstats_path(pop, trait="*"):
+def get_raw_sumstats_path(pop, trait="*", sim=False):
+    suffix = "_prs_pheno" if sim else ""
     raw_sumstats_path = {
-        "BBJ": f"gs://{bucket}/bbj/sumstats_formatted/BBJ.{trait}.sumstats.txt.bgz",
-        "UKBB": f"gs://{bucket}/ukbb/sumstats_formatted/UKBB.{trait}.sumstats.txt.bgz",
-        "FG": f"gs://{bucket}/fg_r6/sumstats_formatted/FG.{trait}.sumstats.txt.bgz",
+        "BBJ": f"gs://{bucket}/bbj{suffix}/sumstats_formatted/BBJ.{trait}.sumstats.txt.bgz",
+        "UKBB": f"gs://{bucket}/ukbb{suffix}/sumstats_formatted/UKBB.{trait}.sumstats.txt.bgz",
+        "FG": f"gs://{bucket}/fg_r6{suffix}/sumstats_formatted/FG.{trait}.sumstats.txt.bgz",
     }
     return raw_sumstats_path[pop]
 
 
-def get_raw_susie_path(pop, trait="*"):
+def get_raw_susie_path(pop, trait="*", sim=False):
+    suffix = "_prs_pheno" if sim else ""
     raw_susie_path = {
-        "BBJ": f"gs://{bucket}/bbj/results/BBJ.{trait}.SuSiE.snp.bgz",
-        "UKBB": f"gs://{bucket}/ukbb/results/UKBB.{trait}.SuSiE.snp.bgz",
-        "FG": f"gs://{bucket}/fg_r6/results/FG.{trait}.SUSIE.snp.bgz",
+        "BBJ": f"gs://{bucket}/bbj{suffix}/results/BBJ.{trait}.SuSiE.snp.bgz",
+        "UKBB": f"gs://{bucket}/ukbb{suffix}/results/UKBB.{trait}.SuSiE.snp.bgz",
+        "FG": f"gs://{bucket}/fg_r6{suffix}/results/FG.{trait}.SUSIE.snp.bgz",
     }
     return raw_susie_path[pop]
 
 
-def get_raw_finemap_path(pop, trait="*"):
+def get_raw_finemap_path(pop, trait="*", sim=False):
+    suffix = "_prs_pheno" if sim else ""
     raw_finemap_path = {
-        "BBJ": f"gs://{bucket}/bbj/results/BBJ.{trait}.FINEMAP.snp.bgz",
-        "UKBB": f"gs://{bucket}/ukbb/results/UKBB.{trait}.FINEMAP.snp.bgz",
-        "FG": f"gs://{bucket}/fg_r6/results/FG.{trait}.FINEMAP.snp.bgz",
+        "BBJ": f"gs://{bucket}/bbj{suffix}/results/BBJ.{trait}.FINEMAP.snp.bgz",
+        "UKBB": f"gs://{bucket}/ukbb{suffix}/results/UKBB.{trait}.FINEMAP.snp.bgz",
+        "FG": f"gs://{bucket}/fg_r6{suffix}/results/FG.{trait}.FINEMAP.snp.bgz",
     }
     return raw_finemap_path[pop]
 
@@ -38,13 +41,14 @@ def get_latest_analysis_ver():
     return latest_analysis_ver
 
 
-def get_results_path(pop, release_ver=None):
+def get_results_path(pop, release_ver=None, sim=False):
+    suffix = "_prs_pheno" if sim else ""
     if release_ver is None:
         release_ver = get_latest_release_ver(pop)
     results_path = {
-        "BBJ": f"gs://{bucket}/bbj/release/release{release_ver}/BBJ_release{release_ver}.ht",
-        "UKBB": f"gs://{bucket}/ukbb/release/release{release_ver}/UKBB_release{release_ver}.ht",
-        "FG": f"gs://{bucket}/fg_r6/release/release{release_ver}/FG_release{release_ver}.ht",
+        "BBJ": f"gs://{bucket}/bbj{suffix}/release/release{release_ver}/BBJ_release{release_ver}.ht",
+        "UKBB": f"gs://{bucket}/ukbb{suffix}/release/release{release_ver}/UKBB_release{release_ver}.ht",
+        "FG": f"gs://{bucket}/fg_r6{suffix}/release/release{release_ver}/FG_release{release_ver}.ht",
     }
     return results_path[pop]
 

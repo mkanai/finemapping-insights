@@ -107,19 +107,35 @@ def read_snp(path, method, trait_dict, filter_f=None, select_f=None, liftover=Fa
     return ht
 
 
-def munge_results(pop, trait="*", filter_f=None, select_f=None, liftover=False, overwrite=False):
-    trait_dict = get_trait_mapping_dict(pop)
+def munge_results(pop, trait="*", filter_f=None, select_f=None, liftover=False, sim=False, overwrite=False):
+    if not sim:
+        trait_dict = get_trait_mapping_dict(pop)
+    else:
+        ht_trait = get_trait_summary(pop="ALL", min_n_pop=3)
+        trait_dict = (
+            ht_trait.select("trait_cohort", "trait").to_pandas().set_index("trait_cohort").T.to_dict("records")[0]
+        )
+        trait_dict = hl.literal({f"{v}_from_{pop}": v for _, v in trait_dict.items() for pop in POPS})
 
-    ht_sumstats = read_sumstats(get_raw_sumstats_path(pop, trait), trait_dict, filter_f=filter_f, liftover=liftover,)
+    ht_sumstats = read_sumstats(
+        get_raw_sumstats_path(pop, trait, sim=sim), trait_dict, filter_f=filter_f, liftover=liftover,
+    )
+    if sim:
+        ht_sumstats = ht_sumstats.annotate(cohort=ht_sumstats.cohort.split("_")[0])
     ht_sumstats = checkpoint_tmp(ht_sumstats)
 
     ht_susie = read_snp(
-        get_raw_susie_path(pop, trait), "SUSIE", trait_dict, filter_f=filter_f, select_f=select_f, liftover=liftover,
+        get_raw_susie_path(pop, trait, sim=sim),
+        "SUSIE",
+        trait_dict,
+        filter_f=filter_f,
+        select_f=select_f,
+        liftover=liftover,
     )
-
     ht_susie = checkpoint_tmp(ht_susie)
+
     ht_finemap = read_snp(
-        get_raw_finemap_path(pop, trait),
+        get_raw_finemap_path(pop, trait, sim=sim),
         "FINEMAP",
         trait_dict,
         filter_f=filter_f,
@@ -160,7 +176,7 @@ def munge_results(pop, trait="*", filter_f=None, select_f=None, liftover=False, 
     ht = checkpoint_tmp(ht)
 
     ht_sumstats = ht_sumstats.join(ht, "left")
-    ht_sumstats = ht_sumstats.checkpoint(get_results_path(pop), overwrite=overwrite)
+    ht_sumstats = ht_sumstats.checkpoint(get_results_path(pop, sim=sim), overwrite=overwrite)
 
 
 def get_cs_max_regions(ht, L=10):
@@ -189,10 +205,8 @@ def merge_results(overwrite: bool = False):
         "finemap",
     ]
 
-    ht_trait = get_trait_summary(pop="ALL")
-    ht_agg = ht_trait.group_by(ht_trait.trait).aggregate(n_pop=hl.agg.count())
-    ht_agg = ht_agg.filter(ht_agg.n_pop > 1)
-    traits = ht_agg.aggregate(hl.agg.collect_as_set(ht_agg.trait), _localize=False)
+    ht_trait = get_trait_summary(pop="ALL", min_n_pop=2)
+    traits = ht_trait.aggregate(hl.agg.collect_as_set(ht_trait.trait), _localize=False)
 
     hts = []
     hts2 = []
@@ -222,6 +236,38 @@ def merge_results(overwrite: bool = False):
     ht = ht.checkpoint(get_merged_results_path("shard_trait"), overwrite=overwrite)
 
     return ht
+
+
+def merge_sim_results(overwrite: bool = False):
+    ht_trait = get_trait_summary(pop="ALL", min_n_pop=3)
+    traits = ht_trait.aggregate(hl.agg.collect_as_set(ht_trait.trait), _localize=False)
+
+    ht_fm = hl.read_table(get_merged_results_path("fm_only"))
+    ht_fm = ht_fm.filter(traits.contains(ht_fm.trait))
+    ht_fm = ht_fm.select("cohort", "chisq_marginal", "pip")
+    ht_fm = ht_fm.key_by("locus", "alleles", "trait", "cohort")
+    ht_fm = checkpoint_tmp(ht_fm)
+
+    hts = []
+    for pop in POPS:
+        ht = hl.read_table(get_results_path(pop, sim=True))
+        ht = ht.annotate(
+            # to merge with the original results -- for each variant-trait in discovert cohort
+            cohort=ht.trait_cohort.split("_")[-1],
+            sim=hl.struct(cohort=ht.cohort, chisq_marginal=ht.chisq_marginal, pip=ht.pip),
+        )
+        ht = ht.select("cohort", "sim")
+        ht = ht.key_by("locus", "alleles", "trait", "cohort")
+        hts.append(ht)
+    ht_sim = hl.Table.union(*hts)
+    ht_sim = checkpoint_tmp(ht_sim)
+
+    ht = ht_fm.join(ht_sim, "left")
+    ht = ht.filter((ht.pip > 0.01) | (ht.sim.pip > 0.01))
+    ht = ht.checkpoint(get_merged_results_path("sim.fm_only.pip001"), overwrite=overwrite)
+
+    ht = ht.filter((ht.pip > 0.9) | (ht.sim.pip > 0.9))
+    ht.flatten().export(get_merged_results_path("sim.fm_only.pip09", "tsv.bgz"))
 
 
 def compute_max_pip(overwrite: bool = False):
@@ -494,15 +540,18 @@ def annotate_power(overwrite: bool = False):
 
 def main(args):
     if args.bbj:
-        munge_results("BBJ", trait=args.trait, filter_f=bbj_filter_f, overwrite=args.overwrite)
+        munge_results("BBJ", trait=args.trait, filter_f=bbj_filter_f, sim=args.sim, overwrite=args.overwrite)
     if args.ukbb:
-        munge_results("UKBB", trait=args.trait, overwrite=args.overwrite)
+        munge_results("UKBB", trait=args.trait, sim=args.sim, overwrite=args.overwrite)
     if args.fg:
         munge_results(
-            "FG", trait=args.trait, select_f=fg_select_f, liftover=True, overwrite=args.overwrite,
+            "FG", trait=args.trait, select_f=fg_select_f, liftover=True, sim=args.sim, overwrite=args.overwrite,
         )
     if args.merge:
-        merge_results(overwrite=args.overwrite)
+        if not args.sim:
+            merge_results(overwrite=args.overwrite)
+        else:
+            merge_sim_results(overwrite=args.overwrite)
     if args.compute_max_pip:
         compute_max_pip(overwrite=args.overwrite)
     if args.annotate:
@@ -518,6 +567,7 @@ if __name__ == "__main__":
     parser.add_argument("--bbj", action="store_true")
     parser.add_argument("--ukbb", action="store_true")
     parser.add_argument("--fg", action="store_true")
+    parser.add_argument("--sim", action="store_true")
     parser.add_argument("--merge", action="store_true")
     parser.add_argument("--compute-max-pip", action="store_true")
     parser.add_argument("--annotate", action="store_true")

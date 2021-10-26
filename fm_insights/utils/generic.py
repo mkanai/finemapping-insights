@@ -13,7 +13,7 @@ def checkpoint_tmp(hail_obj, tmppath=f"gs://{bucket_tmp}/", tmpname=None, overwr
         tmpname = str(uuid.uuid4())
     if isinstance(hail_obj, BlockMatrix) and "force_row_major" not in kwargs:
         kwargs.update({"force_row_major": False})
-    return hail_obj.checkpoint(tmppath + tmpname, overwrite=overwrite, **kwargs)
+    return hail_obj.checkpoint(os.path.join(tmppath, tmpname), overwrite=overwrite, **kwargs)
 
 
 def register_log(name: str = None):

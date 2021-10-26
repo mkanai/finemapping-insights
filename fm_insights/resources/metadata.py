@@ -2,8 +2,12 @@ import hail as hl
 from .generic import bucket
 
 
-def get_trait_summary(pop="ALL"):
+def get_trait_summary(pop="ALL", min_n_pop=1):
     ht = hl.import_table(f"gs://{bucket}/metadata/trait_summary.txt", impute=True)
+    if min_n_pop > 1:
+        ht2 = ht.group_by("trait").aggregate(n_pop=hl.agg.count())
+        ht2 = ht2.filter(ht2.n_pop >= min_n_pop)
+        ht = ht.filter(hl.is_defined(ht2[ht.trait]))
     if pop != "ALL":
         ht = ht.filter(ht.cohort == pop)
     return ht
