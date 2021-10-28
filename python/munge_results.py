@@ -41,6 +41,8 @@ def fg_select_f(ht):
     }
     if "low_purity" in ht.row:
         expr["low_purity"] = ht.low_purity
+    if "alpha1" in ht.row:
+        expr = {**expr, **{f"alpha{i}": ht[f"alpha{i}"] for i in range(1, 11)}}
     return expr
 
 
@@ -93,7 +95,12 @@ def read_snp(path, method, trait_dict, filter_f=None, select_f=None, liftover=Fa
     if "alpha1" in ht.row:
         susie_alpha_expr = {"alpha": hl.array([ht[f"alpha{i}"] for i in range(1, 11)])}
     else:
-        susie_alpha_expr = {"alpha": hl.null(hl.tarray(hl.tfloat64))}
+        susie_alpha_expr = {"alpha": hl.missing(hl.tarray(hl.tfloat64))}
+
+    if "lbf_variable1" in ht.row:
+        susie_lbf_variable_expr = {"lbf_variable": hl.array([ht[f"lbf_variable{i}"] for i in range(1, 11)])}
+    else:
+        susie_lbf_variable_expr = {"lbf_variable": hl.missing(hl.tarray(hl.tfloat64))}
 
     ht = ht.select(
         method=method,
@@ -103,6 +110,7 @@ def read_snp(path, method, trait_dict, filter_f=None, select_f=None, liftover=Fa
         beta_posterior=ht.mean,
         sd_posterior=ht.sd,
         **susie_alpha_expr,
+        **susie_lbf_variable_expr,
     )
     return ht
 
@@ -171,8 +179,10 @@ def munge_results(pop, trait="*", filter_f=None, select_f=None, liftover=False, 
             beta_posterior=ht.values.beta_posterior[ht.values.method.index("SUSIE")],
             sd_posterior=ht.values.sd_posterior[ht.values.method.index("SUSIE")],
             alpha=ht.values.alpha[ht.values.method.index("SUSIE")],
+            lbf_variable=ht.values.lbf_variable[ht.values.method.index("SUSIE")],
         ),
     )
+    ht.describe()
     ht = checkpoint_tmp(ht)
 
     ht_sumstats = ht_sumstats.join(ht, "left")
