@@ -16,14 +16,14 @@ def import_annot_bed(path, skip_invalid_intervals=True, reference_genome="GRCh37
     return bed.cache()
 
 
-def annotate_bed(ht, bed_files=None):
+def annotate_bed(ht, bed_files=None, reference_genome="GRCh37"):
     if bed_files is None:
         bed_files = get_baseline_annotations()
 
     bed_names = [os.path.basename(x).replace(".bed", "") for x in bed_files]
     annot_expr = {
         fname: hl.rbind(
-            import_annot_bed(path)[ht.locus].target,
+            import_annot_bed(path, reference_genome=reference_genome)[ht.locus].target,
             lambda x: hl.or_else(x, hl.missing(hl.tfloat64))
             if x.dtype == hl.tfloat64
             else hl.or_else(x, 0),
