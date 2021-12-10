@@ -15,7 +15,7 @@ n_samples <-
                 n_samples = ifelse(
                   is.na(n_cases),
                   n_samples,
-                  n_samples * (n_cases / n_controls) * (1 - (n_cases / n_controls))
+                  n_samples * (n_cases / n_samples) * (1 - (n_cases / n_samples))
                 )) %>%
   dplyr::select(cohort, trait, n_samples) %>%
   tidyr::pivot_wider(

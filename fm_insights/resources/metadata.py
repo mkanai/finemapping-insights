@@ -20,7 +20,7 @@ def get_sample_size_dict(pop, neff=False):
             n_samples=hl.if_else(
                 hl.is_missing(ht.n_cases),
                 ht.n_samples,
-                ht.n_samples * (ht.n_cases / ht.n_controls) * (1 - ht.n_cases / ht.n_controls),
+                ht.n_samples * (ht.n_cases / ht.n_samples) * (1 - ht.n_cases / ht.n_samples),
             )
         )
     d = ht.select("trait", "n_samples").to_pandas().set_index("trait").T.to_dict("records")[0]
